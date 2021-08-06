@@ -1,0 +1,83 @@
+{
+	"metaDataVersion": "1.0.0",
+	"category": "com.microchip.ide.project",
+	"content": {
+		"metaDataVersion": "1.0.0",
+		"name": "com.microchip.mcu32.mplabx.project.azure_rtos_basic_threadx_sam_e54_xpro",
+		"version": "3.0.0",
+		"displayName": "Azure RTOS ThreadX basic example for SAM D5x/E5x Family",
+		"projectName": "basic_threadx_sam_e54_xpro",
+		"shortDescription": "This example application blinks an LED to show the Azure RTOS ThreadX threads that are running and to indicate status",
+		"ide": {
+			"name": "MPLABX",
+			"semverRange": ">=5.50.0"
+		},
+		"compiler": [
+			{
+				"name": "XC32",
+				"semverRange": ">=3.01.0"
+			}
+		],
+		"dfp": {
+			"name": "SAME54_DFP",
+			"semverRange": "^3.5.87"
+		},
+		"configurator": {
+			"name": "MHC",
+			"semverRange": ">=3.8.0"
+		},
+		"device": {
+			"metaDataVersion": "1.0.0",
+			"category": "com.microchip.portal.contentRef",
+			"content": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.device",
+				"name": "ATSAME54P20A",
+				"versionRange": "*"
+			}
+		},
+		"author": "Microchip",
+		"subcategories": [
+			[
+				"Development Kit",
+				"SAM E54 Xplained Pro Evaluation Kit"
+			],
+			[
+				"Harmony",
+				"RTOS",
+				"Azure RTOS",
+				"ThreadX",
+				"Basic_ThreadX"
+			],
+			[
+				"RTOS",
+				"AZURE RTOS",
+				"THREADX",
+				"BASIC_THREADX"
+			]
+		],
+		"peripherals": [
+			"BASIC_THREADX"
+		],
+		"keywords": [
+			"MHC",
+			"Harmony",
+			"RTOS",
+			"Azure RTOS",
+			"ThreadX",
+			"ATSAME54P20A",
+			"SAM D5x/E5x Family"
+		],
+		"additionalData": {
+			"longDescription": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.portal.fileRef",
+				"content": {
+					"metaDataVersion": "1.0.0",
+					"fileName": "./../../readme.md",
+					"mimeType": "text/markdown"
+				}
+			}
+		}
+	}
+}
