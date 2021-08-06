@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Package name="replaceme">
+<Package name="azure_rtos">
     <Dependencies>
+        <Dependency name="core" version="v3.9.2"/>
+        <Dependency name="threadx" version="v6.1.8_rel"/>
     </Dependencies>
 </Package>

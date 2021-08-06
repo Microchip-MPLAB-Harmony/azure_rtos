@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Module name="Azure RTOS" id="12a6bb9e-f5d7-11eb-9a03-0242ac130003" version="1.0.0">
+    <ConfigRoot path="config/module.py"/>
+</Module>
