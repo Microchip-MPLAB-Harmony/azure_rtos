@@ -1,0 +1,64 @@
+format_version: v1.0
+type: UniqueComponent
+attributes: {id: pit64b}
+children:
+- type: Symbols
+  children:
+  - type: Boolean
+    attributes: {id: CONT}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: ThreadX, value: 'true'}
+  - type: Boolean
+    attributes: {id: ENABLE_INTERRUPT}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: pit64b, value: 'true'}
+  - type: Long
+    attributes: {id: PERIOD}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: ThreadX, value: '200000'}
+  - type: Boolean
+    attributes: {id: PERIOD_INT}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: ThreadX, value: 'true'}
+  - type: Long
+    attributes: {id: PERIOD_LSB}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: pit64b, value: '200000'}
+  - type: Integer
+    attributes: {id: PERIOD_MSB}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: pit64b, value: '0'}
+  - type: Float
+    attributes: {id: PERIOD_US}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: pit64b, value: '1000.0'}
+  - type: Integer
+    attributes: {id: SRC_FREQ}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: pit64b, value: '200000000'}
+- type: ElementPosition
+  attributes: {x: '340', y: '20', id: pit64b}

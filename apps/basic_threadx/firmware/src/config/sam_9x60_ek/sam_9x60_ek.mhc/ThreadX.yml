@@ -1,0 +1,35 @@
+format_version: v1.0
+type: UniqueComponent
+attributes: {id: ThreadX}
+children:
+- type: Symbols
+  children:
+  - type: Setting
+    attributes: {id: THREADX_AS_INCLUDE_DIRS}
+    children:
+    - type: Attributes
+      children:
+      - type: String
+        attributes: {id: value}
+        children:
+        - {type: Value, value: ../src/config/sam_9x60_ek/threadx_config;../src/third_party/rtos/threadx/common/inc;../src/third_party/rtos/threadx/ports/arm9/mplabx/inc;}
+  - type: Setting
+    attributes: {id: THREADX_AS_INCLUDE_PRE_PROC_DIRS}
+    children:
+    - type: Attributes
+      children:
+      - type: String
+        attributes: {id: value}
+        children:
+        - {type: Value, value: ../src/config/sam_9x60_ek/threadx_config;../src/third_party/rtos/threadx/common/inc;../src/third_party/rtos/threadx/ports/arm9/mplabx/inc;}
+  - type: Setting
+    attributes: {id: THREADX_OS_INCLUDE_DIRS}
+    children:
+    - type: Attributes
+      children:
+      - type: String
+        attributes: {id: value}
+        children:
+        - {type: Value, value: ../src/config/sam_9x60_ek/threadx_config;../src/third_party/rtos/threadx/common/inc;../src/third_party/rtos/threadx/ports/arm9/mplabx/inc;}
+- type: ElementPosition
+  attributes: {x: '500', y: '20', id: ThreadX}
