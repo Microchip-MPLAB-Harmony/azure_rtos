@@ -1,0 +1,35 @@
+format_version: v1.0
+type: UniqueComponent
+attributes: {id: ThreadX}
+children:
+- type: Symbols
+  children:
+  - type: Setting
+    attributes: {id: THREADX_AS_INCLUDE_DIRS}
+    children:
+    - type: Attributes
+      children:
+      - type: String
+        attributes: {id: value}
+        children:
+        - {type: Value, value: ../src/config/sam_a5d2_xult/threadx_config;../src/third_party/rtos/threadx/common/inc;../src/third_party/rtos/threadx/ports/cortex_a5/mplabx/inc;}
+  - type: Setting
+    attributes: {id: THREADX_AS_INCLUDE_PRE_PROC_DIRS}
+    children:
+    - type: Attributes
+      children:
+      - type: String
+        attributes: {id: value}
+        children:
+        - {type: Value, value: ../src/config/sam_a5d2_xult/threadx_config;../src/third_party/rtos/threadx/common/inc;../src/third_party/rtos/threadx/ports/cortex_a5/mplabx/inc;}
+  - type: Setting
+    attributes: {id: THREADX_OS_INCLUDE_DIRS}
+    children:
+    - type: Attributes
+      children:
+      - type: String
+        attributes: {id: value}
+        children:
+        - {type: Value, value: ../src/config/sam_a5d2_xult/threadx_config;../src/third_party/rtos/threadx/common/inc;../src/third_party/rtos/threadx/ports/cortex_a5/mplabx/inc;}
+- type: ElementPosition
+  attributes: {x: '270', y: '60', id: ThreadX}
