@@ -1,0 +1,114 @@
+format_version: v1.0
+type: GeneratorComponent
+attributes: {id: lib_azure_rtos}
+children:
+- type: Symbols
+  children:
+  - type: Boolean
+    attributes: {id: AZURE_IOT_ENABLE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_azure_rtos, value: 'false'}
+  - type: Boolean
+    attributes: {id: CLOUD_ENABLE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_azure_rtos, value: 'false'}
+  - type: Boolean
+    attributes: {id: DHCP_ENABLE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_azure_rtos, value: 'true'}
+  - type: Boolean
+    attributes: {id: DNS_ENABLE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_azure_rtos, value: 'true'}
+  - type: Boolean
+    attributes: {id: MQTT_ENABLE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_azure_rtos, value: 'false'}
+  - type: Boolean
+    attributes: {id: NX_CRYPTO_LIB_ENABLE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_azure_rtos, value: 'false'}
+  - type: Boolean
+    attributes: {id: NX_SECURE_ENABLE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_azure_rtos, value: 'false'}
+  - type: Boolean
+    attributes: {id: SNTP_ENABLE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: lib_azure_rtos, value: 'false'}
+- type: Instances
+  children:
+  - type: InstanceComponent
+    attributes: {instance: '0', id: lib_azure_rtos}
+    children:
+    - type: Symbols
+      children:
+      - type: Integer
+        attributes: {id: AZURE_INTERFACE_CONFIG_NUMBER}
+        children:
+        - type: Values
+          children:
+          - type: Dynamic
+            attributes: {id: lib_azure_rtos_0, value: '0'}
+      - type: String
+        attributes: {id: AZURE_INTERFACE_DEFAULT_DRIVER_IDX0}
+        children:
+        - type: Values
+          children:
+          - type: Dynamic
+            attributes: {id: lib_azure_rtos_0, value: DRV_GMAC_Object}
+      - type: String
+        attributes: {id: AZURE_INTERFACE_DEFAULT_INTERFACE_NAME_IDX0}
+        children:
+        - type: Values
+          children:
+          - type: Dynamic
+            attributes: {id: lib_azure_rtos_0, value: GMAC}
+      - type: String
+        attributes: {id: AZURE_INTERFACE_DEFAULT_MAC_ADDR_IDX0}
+        children:
+        - type: Values
+          children:
+          - type: Dynamic
+            attributes: {id: lib_azure_rtos_0, value: '00:04:25:1C:A0:02'}
+    - type: Attachments
+      children:
+      - type: DirectDependency
+        attributes: {id: AZURE_MAC_Dependency}
+        children:
+        - type: Attributes
+          children:
+          - type: String
+            attributes: {id: targetComponentID}
+            children:
+            - {type: Value, value: drvGmac}
+          - type: String
+            attributes: {id: targetAttachmentID}
+            children:
+            - {type: Value, value: libdrvGmac}
+- type: ElementPosition
+  attributes: {x: '384', y: '292', id: lib_azure_rtos}

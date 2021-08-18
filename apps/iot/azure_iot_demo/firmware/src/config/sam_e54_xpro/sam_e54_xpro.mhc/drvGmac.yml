@@ -1,0 +1,113 @@
+format_version: v1.0
+type: UniqueComponent
+attributes: {id: drvGmac}
+children:
+- type: Symbols
+  children:
+  - type: Integer
+    attributes: {id: DRV_GMAC_HEAP_SIZE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: drvGmac, value: '39520'}
+  - type: Boolean
+    attributes: {id: DRV_GMAC_RX_CHKSM_OFFLOAD}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'true'}
+  - type: Boolean
+    attributes: {id: DRV_GMAC_TX_CHKSM_OFFLOAD}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'true'}
+  - type: String
+    attributes: {id: DRV_INTMAC_PHY_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: drvGmac, value: KSZ8091}
+  - type: Integer
+    attributes: {id: TCPIP_GMAC_RX_ADDL_BUFF_COUNT_QUE0}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '4'}
+  - type: Integer
+    attributes: {id: TCPIP_GMAC_RX_BUFF_ALLOC_COUNT_QUE0}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '4'}
+  - type: Integer
+    attributes: {id: TCPIP_GMAC_RX_BUFF_COUNT_THRESHOLD_QUE0}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '2'}
+  - type: Integer
+    attributes: {id: TCPIP_GMAC_RX_DEDICATED_BUFFERS_QUE0}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '0'}
+  - type: Integer
+    attributes: {id: TCPIP_GMAC_RX_DESCRIPTORS_COUNT_QUE0}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '16'}
+  - type: Integer
+    attributes: {id: TCPIP_GMAC_RX_MAX_FRAME}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '1518'}
+  - type: Integer
+    attributes: {id: TCPIP_GMAC_TX_DESCRIPTORS_COUNT_QUE0}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '90'}
+- type: Attachments
+  children:
+  - type: DirectDependency
+    attributes: {id: GMAC_PHY_Dependency}
+    children:
+    - type: Attributes
+      children:
+      - type: String
+        attributes: {id: targetComponentID}
+        children:
+        - {type: Value, value: drvExtPhyKsz8091}
+      - type: String
+        attributes: {id: targetAttachmentID}
+        children:
+        - {type: Value, value: libdrvExtPhyKsz8091}
+  - type: DirectCapability
+    attributes: {id: libdrvGmac}
+    children:
+    - type: Attributes
+      children:
+      - type: String
+        attributes: {id: targetComponentID}
+        children:
+        - {type: Value, value: lib_azure_rtos_0}
+      - type: String
+        attributes: {id: targetAttachmentID}
+        children:
+        - {type: Value, value: AZURE_MAC_Dependency}
+- type: ElementPosition
+  attributes: {x: '185', y: '364', id: drvGmac}

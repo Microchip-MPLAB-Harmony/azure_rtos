@@ -1,0 +1,14 @@
+configName: sam_e54_xpro
+folderName: sam_e54_xpro
+format_version: v1.0
+frameworkPath: ..\..\..
+processor: ATSAME54P20A
+projectName: tcp_echo_server
+settings:
+  PackageFilter: audio;azure-rtos-threadx;azure_rtos;bsp;core;core_apps_sam_d5x_e5x;crypto;csp;dummy_package;gfx;net;net_apps_pic32mx;net_apps_pic32mz;net_apps_sam_9x60;net_apps_sam_a5d2;net_apps_sam_e5x;net_apps_sam_e70_v71;net_apps_sam_rh71;touch;usb;wireless
+  FORCE_OPTIMIZATION: 'false'
+  GENERATE_BACKUP: 'true'
+  TRUSTZONE: 'false'
+  CMSISPath: .\dev_packs\arm\CMSIS\5.7.0
+  MERGE_STRATEGY: ALL
+  DFPPath: .\dev_packs\Microchip\SAME54_DFP\3.5.87\atdf\ATSAME54P20A.atdf
