@@ -1188,6 +1188,8 @@
                 <itemPath>../src/third_party/rtos/threadx/ports/cortex_m4/mplabx/src/tx_thread_system_return.S</itemPath>
                 <itemPath>../src/third_party/rtos/threadx/ports/cortex_m4/mplabx/src/tx_timer_interrupt.S</itemPath>
                 <itemPath>../src/third_party/rtos/threadx/ports/cortex_m4/mplabx/src/tx_initialize_low_level.S</itemPath>
+                <itemPath>../src/third_party/rtos/threadx/ports/cortex_m4/mplabx/src/tx_thread_interrupt_disable.S</itemPath>
+                <itemPath>../src/third_party/rtos/threadx/ports/cortex_m4/mplabx/src/tx_thread_interrupt_restore.S</itemPath>
               </logicalFolder>
             </logicalFolder>
           </logicalFolder>
