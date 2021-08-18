@@ -152,5 +152,8 @@ THAT YOU HAVE PAID DIRECTLY TO MICROCHIP FOR THIS SOFTWARE.
         <#lt>#define NXD_MQTT_PING_TIMEOUT_DELAY        500
         <#lt>#define NXD_MQTT_SOCKET_TIMEOUT            0
     </#if>
+
+    <#lt>#define NX_ENABLE_INTERFACE_CAPABILITY
+
 </#if>
 #endif  // NX_USER_H

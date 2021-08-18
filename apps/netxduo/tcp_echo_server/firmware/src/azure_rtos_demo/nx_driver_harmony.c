@@ -342,7 +342,7 @@ static VOID  _nx_driver_interface_attach(NX_IP_DRIVER *driver_req_ptr)
 /*  05-19-2020     Yuxin Zhou               Initial Version 6.0           */
 /*                                                                        */
 /**************************************************************************/
-// @@@@_aa from initialization.c
+// from initialization.c
 extern const AZURE_GLUE_INIT azure_glue_init;
 
 static VOID  _nx_driver_initialize(NX_IP_DRIVER *driver_req_ptr)
@@ -378,7 +378,7 @@ static VOID  _nx_driver_initialize(NX_IP_DRIVER *driver_req_ptr)
     interface_ptr -> nx_interface_ip_mtu_size =  NX_DRIVER_ETHERNET_MTU - NX_DRIVER_ETHERNET_FRAME_SIZE;
 
     /* initialize the Azure Glue code */
-    AZURE_GLUE_RES azureRes = Azure_Glue_Initialize(&azure_glue_init);  // @@@@_aa
+    AZURE_GLUE_RES azureRes = Azure_Glue_Initialize(&azure_glue_init);
     if(azureRes != AZURE_GLUE_RES_OK)
     {
         driver_req_ptr -> nx_ip_driver_status = NX_DRIVER_ERROR;                      
@@ -1110,7 +1110,7 @@ ULONG       deferred_events;
     if(deferred_events & NX_DRIVER_DEFERRED_PACKET_TRANSMITTED)
     {
         /* Process transmitted packet(s).  */
-        // @@@@_aa: nothing to do. H3 MAC driver takes care of it.
+        // nothing to do. H3 MAC driver takes care of it.
     }    
     
     /* Check for recevied packet.  */
@@ -1118,7 +1118,7 @@ ULONG       deferred_events;
     {
 
         /* Process received packet(s).  */
-        // @@@@_aa: nothing to do. H3 MAC driver takes care of it.
+        // nothing to do. H3 MAC driver takes care of it.
     }
     Azure_Glue_Tasks();
 
@@ -1461,7 +1461,6 @@ static UINT  _nx_driver_hardware_get_status(NX_IP_DRIVER *driver_req_ptr)
 // passing a packet to netxd
 
 // simple error gathering for now
-// TODO aa: remove when finished testing
 typedef struct
 {
     uint32_t okCnt;

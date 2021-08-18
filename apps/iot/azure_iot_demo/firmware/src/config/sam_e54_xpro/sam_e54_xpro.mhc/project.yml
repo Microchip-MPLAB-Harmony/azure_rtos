@@ -160,13 +160,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 9F925E2AB9F81A066B175AEDFFAFC694
-- generatedChecksum: 7E2EA38936EBEC0672C4603991B69695
+- generatedChecksum: FF300EF5DB6AEB06242A413C2036CB4D
   logicalPath: config/sam_e54_xpro/third_party_adapter/azure_rtos/src
   name: azure_glue.c
   physicalPath: third_party_adapter/azure_rtos/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 7E2EA38936EBEC0672C4603991B69695
+  userChecksum: FF300EF5DB6AEB06242A413C2036CB4D
 - generatedChecksum: 7F46F93CFAAD75CACB249017911CE218
   logicalPath: config/sam_e54_xpro/third_party_adapter/azure_rtos/src
   name: azure_glue_private.c
@@ -272,13 +272,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 9AEAA7368A9ED193313E9C2D2CCE69A0
-- generatedChecksum: 0D545EDE078A0AD99970EFE11E152B77
+- generatedChecksum: FC56A32DC06A87F23E5B37F4E116F28D
   logicalPath: config/sam_e54_xpro/driver/gmac/src/dynamic
   name: drv_gmac.c
   physicalPath: driver/gmac/src/dynamic
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 0D545EDE078A0AD99970EFE11E152B77
+  userChecksum: FC56A32DC06A87F23E5B37F4E116F28D
 - generatedChecksum: C76BF7F145E34B160861D68C86B42A5D
   logicalPath: config/sam_e54_xpro/driver/gmac/src/dynamic
   name: drv_gmac_lib_samE5x.c
@@ -11668,13 +11668,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 711C12E732C123F758A47127E13FBEBB
-- generatedChecksum: 87D984B53796067566B7ED92CDF46656
+- generatedChecksum: 76D3133695E4D0A72028C48A9BD63FEF
   logicalPath: config/sam_e54_xpro/third_party_adapter/azure_rtos
   name: nx_user.h
   physicalPath: third_party_adapter/azure_rtos
   security: NON_SECURE
   type: HEADER
-  userChecksum: 87D984B53796067566B7ED92CDF46656
+  userChecksum: 76D3133695E4D0A72028C48A9BD63FEF
 - generatedChecksum: 4A4D55DD6033675F27FEC94F26847FA9
   logicalPath: third_party/azure_rtos/netxduo/common/inc
   name: nx_user_sample.h

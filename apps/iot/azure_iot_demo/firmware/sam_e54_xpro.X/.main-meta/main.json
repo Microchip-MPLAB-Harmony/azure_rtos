@@ -1,0 +1,78 @@
+{
+    "metaDataVersion": "1.0.0",
+    "category": "com.microchip.ide.project",
+    "content": {
+        "metaDataVersion": "1.0.0",
+        "name": "com.microchip.mcu32.mplabx.project.azure_rtos_azure_iot_demo_sam_e54_xpro",
+        "version": "1.0.0",
+        "displayName": "Azure IoT Example for SAM D5x/E5x Family",
+        "projectName": "azure_iot_demo",
+        "shortDescription": "The Azure IoT Example configuration demonstrates creating a Azure IoT application with the MPLAB Harmony.",
+        "ide": {
+            "name": "MPLABX",
+            "semverRange": ">=5.45.0"
+        },
+        "compiler": [
+            {
+                "name": "XC32",
+                "semverRange": ">=2.50.0"
+            }
+        ],
+        "dfp": {
+            "name": "SAME54_DFP",
+            "semverRange": "^3.5.87"
+        },
+        "configurator": {
+            "name": "MHC",
+            "semverRange": ">=3.8.0"
+        },
+        "device": {
+            "metaDataVersion": "1.0.0",
+            "category": "com.microchip.portal.contentRef",
+            "content": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.device",
+                "name": "ATSAME54P20A",
+                "versionRange": "*"
+            }
+        },
+        "author": "Microchip",
+        "subcategories": [
+            [
+                "Development Kit", "SAM E54 Xplained Pro Evaluation Kit"
+            ],
+            [
+                "Harmony", "Azure", "Azure IoT", "Azure IoT Example"
+            ],
+            [
+                "Azure", "Azure IoT", "Azure IoT Example"
+            ]
+        ],
+        "peripherals": [
+            "MAC"
+        ],
+        "keywords": [
+            "MHC",
+            "Harmony",
+            "Azure",
+            "NetX Duo",
+            "Azure IoT",
+            "Azure IoT Example",
+            "ATSAME54P20A",
+            "SAM D5x/E5x Family",
+            "Ethernet MAC",
+            "GMAC"
+        ],
+        "additionalData": {
+            "longDescription": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.portal.fileRef",
+                "content": {
+                    "metaDataVersion": "1.0.0",
+                    "fileName": "./../../readme.md",
+                    "mimeType": "text/markdown"
+                }
+            }
+        }
+    }
+}

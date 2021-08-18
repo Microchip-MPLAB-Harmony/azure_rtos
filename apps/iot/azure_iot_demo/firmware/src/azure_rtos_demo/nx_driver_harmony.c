@@ -342,6 +342,7 @@ static VOID  _nx_driver_interface_attach(NX_IP_DRIVER *driver_req_ptr)
 /*  05-19-2020     Yuxin Zhou               Initial Version 6.0           */
 /*                                                                        */
 /**************************************************************************/
+// from initialization.c
 extern const AZURE_GLUE_INIT azure_glue_init;
 
 static VOID  _nx_driver_initialize(NX_IP_DRIVER *driver_req_ptr)
@@ -1459,7 +1460,7 @@ static UINT  _nx_driver_hardware_get_status(NX_IP_DRIVER *driver_req_ptr)
 // interface to the H3 MAC driver
 // passing a packet to netxd
 
-// simple error gathering for now, debug purposes
+// simple error gathering for now
 typedef struct
 {
     uint32_t okCnt;

@@ -990,6 +990,12 @@ AZURE_GLUE_RES Azure_Glue_PacketTx(void* netxPkt)
         _AzureAssertCond(false, __func__, __LINE__);
         return AZURE_GLUE_RES_IF_NOT_READY;
     }
+    
+    // additional link check 
+    if(pMDcpt->pMacObj->TCPIP_MAC_LinkCheck(pMDcpt->hIfMac) == false)
+    {
+        return AZURE_GLUE_RES_IF_NOT_READY;
+    }
 
     TCPIP_MAC_SEGMENT_GAP_DCPT* pSegGap;
     uint8_t* endGap;
@@ -1451,7 +1457,7 @@ static bool _Azure_Glue_SyncCritLeave(void* synchHandle)
 #endif // (AZURE_MAC_TX_SYNCHRONIZE_FUNC != 0)
 
 // *****************************************************************
-// TODO: test area
+// debug, statistics area
 
 #if (AZURE_DEBUG_STATISTICS != 0)
 typedef struct

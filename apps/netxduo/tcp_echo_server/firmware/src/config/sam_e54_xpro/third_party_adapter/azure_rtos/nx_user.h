@@ -48,4 +48,6 @@
 /*** Crypto Configuration ***/ 
 #define NX_SECURE_ENABLE       0
 
+
+#define NX_ENABLE_INTERFACE_CAPABILITY
 #endif  // NX_USER_H
