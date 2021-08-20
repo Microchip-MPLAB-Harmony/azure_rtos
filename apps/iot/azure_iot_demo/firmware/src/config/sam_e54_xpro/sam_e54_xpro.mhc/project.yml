@@ -2687,6 +2687,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: FA5E60B9D89039772DC0C272D68A97C8
+- generatedChecksum: 6E7972DE9F15117D6EC27CEE54568C06
+  logicalPath: config/sam_e54_xpro/third_party_adapter/azure_rtos/src
+  name: nx_driver_harmony.c
+  physicalPath: third_party_adapter/azure_rtos/src
+  security: NON_SECURE
+  type: SOURCE
+  userChecksum: 6E7972DE9F15117D6EC27CEE54568C06
 - generatedChecksum: F51B835C84014BDD848A41AB01919742
   logicalPath: third_party/azure_rtos/netxduo/common/src
   name: nx_icmp_cleanup.c
@@ -11514,6 +11521,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 082DD7809E7F4BC5EDF460673C5720D1
+- generatedChecksum: F63B3DC1A2F87622721CA47C6BA937CA
+  logicalPath: config/sam_e54_xpro/third_party_adapter/azure_rtos/src
+  name: nx_driver_harmony.h
+  physicalPath: third_party_adapter/azure_rtos/src
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: F63B3DC1A2F87622721CA47C6BA937CA
 - generatedChecksum: 40C4A08BB00FEFA44B2E00D2E6CC440B
   logicalPath: third_party/azure_rtos/netxduo/common/inc
   name: nx_icmp.h

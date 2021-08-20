@@ -14,7 +14,6 @@
           <itemPath>../src/azure_rtos_demo/sample_azure_iot_embedded_sdk/nx_azure_iot_ciphersuites.h</itemPath>
           <itemPath>../src/azure_rtos_demo/sample_azure_iot_embedded_sdk/sample_config.h</itemPath>
         </logicalFolder>
-        <itemPath>../src/azure_rtos_demo/nx_driver_harmony.h</itemPath>
       </logicalFolder>
       <logicalFolder name="f1" displayName="config" projectFiles="true">
         <logicalFolder name="f1" displayName="sam_e54_xpro" projectFiles="true">
@@ -126,6 +125,7 @@
                 </logicalFolder>
                 <itemPath>../src/config/sam_e54_xpro/third_party_adapter/azure_rtos/src/azure_glue.h</itemPath>
                 <itemPath>../src/config/sam_e54_xpro/third_party_adapter/azure_rtos/src/azure_glue_private.h</itemPath>
+                <itemPath>../src/config/sam_e54_xpro/third_party_adapter/azure_rtos/src/nx_driver_harmony.h</itemPath>
               </logicalFolder>
               <itemPath>../src/config/sam_e54_xpro/third_party_adapter/azure_rtos/nx_user.h</itemPath>
             </logicalFolder>
@@ -794,7 +794,6 @@
           <itemPath>../src/azure_rtos_demo/sample_azure_iot_embedded_sdk/sample_azure_iot_embedded_sdk.c</itemPath>
           <itemPath>../src/azure_rtos_demo/sample_azure_iot_embedded_sdk/sample_device_identity.c</itemPath>
         </logicalFolder>
-        <itemPath>../src/azure_rtos_demo/nx_driver_harmony.c</itemPath>
         <itemPath>../src/azure_rtos_demo/sample_azure_iot_entry.c</itemPath>
         <itemPath>../src/azure_rtos_demo/sample_netx_duo.c</itemPath>
       </logicalFolder>
@@ -893,6 +892,7 @@
               <logicalFolder name="f1" displayName="src" projectFiles="true">
                 <itemPath>../src/config/sam_e54_xpro/third_party_adapter/azure_rtos/src/azure_glue.c</itemPath>
                 <itemPath>../src/config/sam_e54_xpro/third_party_adapter/azure_rtos/src/azure_glue_private.c</itemPath>
+                <itemPath>../src/config/sam_e54_xpro/third_party_adapter/azure_rtos/src/nx_driver_harmony.c</itemPath>
               </logicalFolder>
             </logicalFolder>
           </logicalFolder>

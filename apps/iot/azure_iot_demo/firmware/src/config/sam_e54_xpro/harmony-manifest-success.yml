@@ -4,12 +4,12 @@
 
 
 project: azure_iot_demo
-creation_date: 2021-08-18T15:15:10.829-07:00[America/Phoenix]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
+creation_date: 2021-08-20T13:31:11.393+05:30[Asia/Calcutta]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
 operating_system: Windows 10
 mhc_mode: IDE            # [IDE|Standalone|Headless]
 mhc_version: v3.8.0
 mplabx_version: v5.45        # if MPLAB X plugin only
-plugin_version: v3.6.3        # if MPLAB X plugin only
+plugin_version: v3.6.4        # if MPLAB X plugin only
 compiler: XC32 (3.00)
 
 modules:

@@ -4,11 +4,6 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
-      <logicalFolder name="azure_rtos_demo"
-                     displayName="azure_rtos_demo"
-                     projectFiles="true">
-        <itemPath>../src/azure_rtos_demo/nx_driver_harmony.h</itemPath>
-      </logicalFolder>
       <logicalFolder name="f1" displayName="config" projectFiles="true">
         <logicalFolder name="f1" displayName="sam_e54_xpro" projectFiles="true">
           <logicalFolder name="f3" displayName="driver" projectFiles="true">
@@ -119,6 +114,7 @@
                 </logicalFolder>
                 <itemPath>../src/config/sam_e54_xpro/third_party_adapter/azure_rtos/src/azure_glue.h</itemPath>
                 <itemPath>../src/config/sam_e54_xpro/third_party_adapter/azure_rtos/src/azure_glue_private.h</itemPath>
+                <itemPath>../src/config/sam_e54_xpro/third_party_adapter/azure_rtos/src/nx_driver_harmony.h</itemPath>
               </logicalFolder>
               <itemPath>../src/config/sam_e54_xpro/third_party_adapter/azure_rtos/nx_user.h</itemPath>
             </logicalFolder>
@@ -356,7 +352,6 @@
       <logicalFolder name="azure_rtos_demo"
                      displayName="azure_rtos_demo"
                      projectFiles="true">
-        <itemPath>../src/azure_rtos_demo/nx_driver_harmony.c</itemPath>
         <itemPath>../src/azure_rtos_demo/sample_netx_duo.c</itemPath>
         <itemPath>../src/azure_rtos_demo/sample_tcp_echo_server.c</itemPath>
       </logicalFolder>
@@ -455,6 +450,7 @@
               <logicalFolder name="f1" displayName="src" projectFiles="true">
                 <itemPath>../src/config/sam_e54_xpro/third_party_adapter/azure_rtos/src/azure_glue.c</itemPath>
                 <itemPath>../src/config/sam_e54_xpro/third_party_adapter/azure_rtos/src/azure_glue_private.c</itemPath>
+                <itemPath>../src/config/sam_e54_xpro/third_party_adapter/azure_rtos/src/nx_driver_harmony.c</itemPath>
               </logicalFolder>
             </logicalFolder>
           </logicalFolder>
@@ -1241,7 +1237,7 @@
         <targetPluginBoard></targetPluginBoard>
         <platformTool>noID</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>3.00</languageToolchainVersion>
+        <languageToolchainVersion>2.50</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
