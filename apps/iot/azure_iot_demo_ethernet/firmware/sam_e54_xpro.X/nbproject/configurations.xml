@@ -743,31 +743,21 @@
           </logicalFolder>
         </logicalFolder>
       </logicalFolder>
-      <logicalFolder name="f3" displayName="threadx" projectFiles="true">
-        <logicalFolder name="f1" displayName="common" projectFiles="true">
-          <logicalFolder name="f1" displayName="inc" projectFiles="true">
-            <itemPath>../src/third_party/rtos/threadx/common/inc/tx_api.h</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/inc/tx_block_pool.h</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/inc/tx_byte_pool.h</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/inc/tx_event_flags.h</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/inc/tx_initialize.h</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/inc/tx_mutex.h</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/inc/tx_queue.h</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/inc/tx_semaphore.h</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/inc/tx_thread.h</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/inc/tx_timer.h</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/inc/tx_trace.h</itemPath>
-          </logicalFolder>
+      <logicalFolder name="f3" displayName="ThreadX" projectFiles="true">
+        <logicalFolder name="f1" displayName="CORTEX_M4" projectFiles="true">
+          <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_port.h</itemPath>
         </logicalFolder>
-        <logicalFolder name="f2" displayName="ports" projectFiles="true">
-          <logicalFolder name="f1" displayName="cortex_m4" projectFiles="true">
-            <logicalFolder name="f1" displayName="mplabx" projectFiles="true">
-              <logicalFolder name="f1" displayName="inc" projectFiles="true">
-                <itemPath>../src/third_party/rtos/threadx/ports/cortex_m4/mplabx/inc/tx_port.h</itemPath>
-              </logicalFolder>
-            </logicalFolder>
-          </logicalFolder>
-        </logicalFolder>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_api.h</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_block_pool.h</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_byte_pool.h</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_event_flags.h</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_initialize.h</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_mutex.h</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_queue.h</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_semaphore.h</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_thread.h</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_timer.h</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_trace.h</itemPath>
       </logicalFolder>
       <itemPath>../src/app.h</itemPath>
     </logicalFolder>
@@ -2149,214 +2139,201 @@
           </logicalFolder>
         </logicalFolder>
       </logicalFolder>
-      <logicalFolder name="f3" displayName="threadx" projectFiles="true">
-        <logicalFolder name="f1" displayName="common" projectFiles="true">
-          <logicalFolder name="f1" displayName="src" projectFiles="true">
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_block_allocate.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_block_pool_create.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_block_pool_delete.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_block_pool_info_get.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_block_pool_prioritize.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_block_release.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_byte_allocate.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_byte_pool_create.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_byte_pool_delete.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_byte_pool_info_get.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_byte_pool_prioritize.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_byte_release.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_event_flags_create.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_event_flags_delete.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_event_flags_get.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_event_flags_info_get.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_event_flags_set.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_event_flags_set_notify.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_mutex_create.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_mutex_delete.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_mutex_get.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_mutex_info_get.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_mutex_prioritize.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_mutex_put.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_queue_create.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_queue_delete.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_queue_flush.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_queue_front_send.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_queue_info_get.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_queue_prioritize.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_queue_receive.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_queue_send.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_queue_send_notify.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_semaphore_ceiling_put.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_semaphore_create.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_semaphore_delete.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_semaphore_get.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_semaphore_info_get.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_semaphore_prioritize.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_semaphore_put.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_semaphore_put_notify.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_thread_create.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_thread_delete.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_thread_entry_exit_notify.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_thread_info_get.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_thread_preemption_change.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_thread_priority_change.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_thread_relinquish.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_thread_reset.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_thread_resume.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_thread_suspend.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_thread_terminate.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_thread_time_slice_change.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_thread_wait_abort.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_timer_activate.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_timer_change.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_timer_create.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_timer_deactivate.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_timer_delete.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/txe_timer_info_get.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_block_allocate.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_block_pool_cleanup.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_block_pool_create.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_block_pool_delete.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_block_pool_info_get.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_block_pool_initialize.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_block_pool_performance_info_get.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_block_pool_performance_system_info_get.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_block_pool_prioritize.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_block_release.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_byte_allocate.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_byte_pool_cleanup.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_byte_pool_create.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_byte_pool_delete.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_byte_pool_info_get.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_byte_pool_initialize.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_byte_pool_performance_info_get.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_byte_pool_performance_system_info_get.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_byte_pool_prioritize.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_byte_pool_search.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_byte_release.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_event_flags_cleanup.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_event_flags_create.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_event_flags_delete.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_event_flags_get.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_event_flags_info_get.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_event_flags_initialize.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_event_flags_performance_info_get.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_event_flags_performance_system_info_get.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_event_flags_set.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_event_flags_set_notify.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_initialize_high_level.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_initialize_kernel_enter.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_initialize_kernel_setup.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_misra.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_mutex_cleanup.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_mutex_create.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_mutex_delete.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_mutex_get.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_mutex_info_get.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_mutex_initialize.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_mutex_performance_info_get.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_mutex_performance_system_info_get.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_mutex_prioritize.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_mutex_priority_change.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_mutex_put.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_queue_cleanup.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_queue_create.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_queue_delete.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_queue_flush.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_queue_front_send.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_queue_info_get.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_queue_initialize.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_queue_performance_info_get.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_queue_performance_system_info_get.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_queue_prioritize.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_queue_receive.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_queue_send.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_queue_send_notify.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_semaphore_ceiling_put.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_semaphore_cleanup.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_semaphore_create.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_semaphore_delete.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_semaphore_get.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_semaphore_info_get.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_semaphore_initialize.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_semaphore_performance_info_get.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_semaphore_performance_system_info_get.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_semaphore_prioritize.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_semaphore_put.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_semaphore_put_notify.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_thread_create.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_thread_delete.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_thread_entry_exit_notify.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_thread_identify.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_thread_info_get.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_thread_initialize.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_thread_performance_info_get.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_thread_performance_system_info_get.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_thread_preemption_change.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_thread_priority_change.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_thread_relinquish.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_thread_reset.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_thread_resume.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_thread_shell_entry.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_thread_sleep.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_thread_stack_analyze.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_thread_stack_error_handler.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_thread_stack_error_notify.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_thread_suspend.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_thread_system_preempt_check.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_thread_system_resume.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_thread_system_suspend.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_thread_terminate.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_thread_timeout.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_thread_time_slice.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_thread_time_slice_change.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_thread_wait_abort.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_timer_activate.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_timer_change.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_timer_create.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_timer_deactivate.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_timer_delete.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_timer_expiration_process.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_timer_info_get.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_timer_initialize.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_timer_performance_info_get.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_timer_performance_system_info_get.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_timer_system_activate.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_timer_system_deactivate.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_timer_thread_entry.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_time_get.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_time_set.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_trace_buffer_full_notify.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_trace_disable.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_trace_enable.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_trace_event_filter.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_trace_event_unfilter.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_trace_initialize.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_trace_interrupt_control.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_trace_isr_enter_insert.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_trace_isr_exit_insert.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_trace_object_register.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_trace_object_unregister.c</itemPath>
-            <itemPath>../src/third_party/rtos/threadx/common/src/tx_trace_user_event_insert.c</itemPath>
-          </logicalFolder>
+      <logicalFolder name="f3" displayName="ThreadX" projectFiles="true">
+        <logicalFolder name="f1" displayName="CORTEX_M4" projectFiles="true">
+          <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_initialize_low_level.S</itemPath>
+          <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_thread_context_restore.S</itemPath>
+          <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_thread_context_save.S</itemPath>
+          <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_thread_interrupt_control.S</itemPath>
+          <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_thread_schedule.S</itemPath>
+          <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_thread_stack_build.S</itemPath>
+          <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_thread_system_return.S</itemPath>
+          <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_timer_interrupt.S</itemPath>
         </logicalFolder>
-        <logicalFolder name="f2" displayName="ports" projectFiles="true">
-          <logicalFolder name="f1" displayName="cortex_m4" projectFiles="true">
-            <logicalFolder name="f1" displayName="mplabx" projectFiles="true">
-              <logicalFolder name="f1" displayName="src" projectFiles="true">
-                <itemPath>../src/third_party/rtos/threadx/ports/cortex_m4/mplabx/src/tx_thread_context_restore.S</itemPath>
-                <itemPath>../src/third_party/rtos/threadx/ports/cortex_m4/mplabx/src/tx_thread_context_save.S</itemPath>
-                <itemPath>../src/third_party/rtos/threadx/ports/cortex_m4/mplabx/src/tx_thread_interrupt_control.S</itemPath>
-                <itemPath>../src/third_party/rtos/threadx/ports/cortex_m4/mplabx/src/tx_thread_schedule.S</itemPath>
-                <itemPath>../src/third_party/rtos/threadx/ports/cortex_m4/mplabx/src/tx_thread_stack_build.S</itemPath>
-                <itemPath>../src/third_party/rtos/threadx/ports/cortex_m4/mplabx/src/tx_thread_system_return.S</itemPath>
-                <itemPath>../src/third_party/rtos/threadx/ports/cortex_m4/mplabx/src/tx_timer_interrupt.S</itemPath>
-                <itemPath>../src/third_party/rtos/threadx/ports/cortex_m4/mplabx/src/tx_initialize_low_level.S</itemPath>
-                <itemPath>../src/third_party/rtos/threadx/ports/cortex_m4/mplabx/src/tx_thread_interrupt_disable.S</itemPath>
-                <itemPath>../src/third_party/rtos/threadx/ports/cortex_m4/mplabx/src/tx_thread_interrupt_restore.S</itemPath>
-              </logicalFolder>
-            </logicalFolder>
-          </logicalFolder>
-        </logicalFolder>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_block_allocate.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_block_pool_create.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_block_pool_delete.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_block_pool_info_get.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_block_pool_prioritize.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_block_release.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_byte_allocate.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_byte_pool_create.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_byte_pool_delete.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_byte_pool_info_get.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_byte_pool_prioritize.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_byte_release.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_event_flags_create.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_event_flags_delete.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_event_flags_get.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_event_flags_info_get.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_event_flags_set.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_event_flags_set_notify.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_mutex_create.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_mutex_delete.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_mutex_get.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_mutex_info_get.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_mutex_prioritize.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_mutex_put.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_queue_create.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_queue_delete.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_queue_flush.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_queue_front_send.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_queue_info_get.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_queue_prioritize.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_queue_receive.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_queue_send.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_queue_send_notify.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_semaphore_ceiling_put.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_semaphore_create.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_semaphore_delete.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_semaphore_get.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_semaphore_info_get.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_semaphore_prioritize.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_semaphore_put.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_semaphore_put_notify.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_thread_create.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_thread_delete.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_thread_entry_exit_notify.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_thread_info_get.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_thread_preemption_change.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_thread_priority_change.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_thread_relinquish.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_thread_reset.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_thread_resume.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_thread_suspend.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_thread_terminate.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_thread_time_slice_change.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_thread_wait_abort.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_timer_activate.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_timer_change.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_timer_create.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_timer_deactivate.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_timer_delete.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/txe_timer_info_get.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_block_allocate.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_block_pool_cleanup.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_block_pool_create.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_block_pool_delete.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_block_pool_info_get.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_block_pool_initialize.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_block_pool_performance_info_get.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_block_pool_performance_system_info_get.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_block_pool_prioritize.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_block_release.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_byte_allocate.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_byte_pool_cleanup.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_byte_pool_create.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_byte_pool_delete.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_byte_pool_info_get.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_byte_pool_initialize.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_byte_pool_performance_info_get.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_byte_pool_performance_system_info_get.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_byte_pool_prioritize.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_byte_pool_search.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_byte_release.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_event_flags_cleanup.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_event_flags_create.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_event_flags_delete.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_event_flags_get.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_event_flags_info_get.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_event_flags_initialize.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_event_flags_performance_info_get.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_event_flags_performance_system_info_get.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_event_flags_set.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_event_flags_set_notify.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_initialize_high_level.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_initialize_kernel_enter.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_initialize_kernel_setup.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_mutex_cleanup.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_mutex_create.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_mutex_delete.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_mutex_get.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_mutex_info_get.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_mutex_initialize.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_mutex_performance_info_get.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_mutex_performance_system_info_get.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_mutex_prioritize.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_mutex_priority_change.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_mutex_put.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_queue_cleanup.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_queue_create.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_queue_delete.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_queue_flush.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_queue_front_send.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_queue_info_get.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_queue_initialize.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_queue_performance_info_get.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_queue_performance_system_info_get.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_queue_prioritize.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_queue_receive.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_queue_send.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_queue_send_notify.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_semaphore_ceiling_put.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_semaphore_cleanup.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_semaphore_create.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_semaphore_delete.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_semaphore_get.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_semaphore_info_get.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_semaphore_initialize.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_semaphore_performance_info_get.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_semaphore_performance_system_info_get.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_semaphore_prioritize.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_semaphore_put.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_semaphore_put_notify.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_thread_create.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_thread_delete.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_thread_entry_exit_notify.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_thread_identify.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_thread_info_get.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_thread_initialize.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_thread_performance_info_get.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_thread_performance_system_info_get.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_thread_preemption_change.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_thread_priority_change.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_thread_relinquish.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_thread_reset.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_thread_resume.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_thread_shell_entry.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_thread_sleep.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_thread_stack_analyze.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_thread_stack_error_handler.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_thread_stack_error_notify.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_thread_suspend.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_thread_system_preempt_check.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_thread_system_resume.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_thread_system_suspend.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_thread_terminate.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_thread_timeout.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_thread_time_slice.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_thread_time_slice_change.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_thread_wait_abort.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_timer_activate.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_timer_change.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_timer_create.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_timer_deactivate.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_timer_delete.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_timer_expiration_process.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_timer_info_get.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_timer_initialize.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_timer_performance_info_get.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_timer_performance_system_info_get.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_timer_system_activate.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_timer_system_deactivate.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_timer_thread_entry.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_time_get.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_time_set.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_trace_buffer_full_notify.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_trace_disable.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_trace_enable.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_trace_event_filter.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_trace_event_unfilter.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_trace_initialize.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_trace_interrupt_control.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_trace_isr_enter_insert.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_trace_isr_exit_insert.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_trace_object_register.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_trace_object_unregister.c</itemPath>
+        <itemPath>../src/third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx/tx_trace_user_event_insert.c</itemPath>
       </logicalFolder>
       <itemPath>../src/main.c</itemPath>
       <itemPath>../src/app.c</itemPath>
@@ -2407,8 +2384,8 @@
         <platform>3</platform>
       </toolsSet>
       <packs>
-        <pack name="CMSIS" vendor="ARM" version="5.4.0"/>
         <pack name="SAME54_DFP" vendor="Microchip" version="3.5.87"/>
+        <pack name="CMSIS" vendor="ARM" version="5.4.0"/>
       </packs>
       <ScriptingSettings>
       </ScriptingSettings>
@@ -2470,7 +2447,7 @@
         <property key="enable-unroll-loops" value="false"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value=" ../src/config/sam_e54_xpro/third_party_adapter/azure_rtos/src/tcpip;../src;../src/config/sam_e54_xpro;../src/config/sam_e54_xpro/third_party_adapter/azure_rtos;../src/config/sam_e54_xpro/third_party_adapter/azure_rtos/src;../src/config/sam_e54_xpro/third_party_adapter/azure_rtos/src/tcpip;../src/config/sam_e54_xpro/threadx_config;../src/packs/ATSAME54P20A_DFP;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include;../src/third_party/azure_rtos/filex/common/inc;../src/third_party/azure_rtos/filex/ports/cortex_m4/gnu/inc;../src/third_party/azure_rtos/netxduo;../src/third_party/azure_rtos/netxduo/addons;../src/third_party/azure_rtos/netxduo/addons/azure_iot;../src/third_party/azure_rtos/netxduo/addons/azure_iot/azure-sdk-for-c/sdk/inc;../src/third_party/azure_rtos/netxduo/addons/azure_iot/azure_iot_security_module;../src/third_party/azure_rtos/netxduo/addons/azure_iot/azure_iot_security_module/inc;../src/third_party/azure_rtos/netxduo/addons/azure_iot/azure_iot_security_module/inc/configs/RTOS_BASE_UT;../src/third_party/azure_rtos/netxduo/addons/azure_iot/azure_iot_security_module/iot-security-module-core/deps/flatcc/include;../src/third_party/azure_rtos/netxduo/addons/azure_iot/azure_iot_security_module/iot-security-module-core/deps/flatcc/include ;../src/third_party/azure_rtos/netxduo/addons/azure_iot/azure_iot_security_module/iot-security-module-core/inc;../src/third_party/azure_rtos/netxduo/addons/cloud;../src/third_party/azure_rtos/netxduo/addons/dhcp;../src/third_party/azure_rtos/netxduo/addons/dns;../src/third_party/azure_rtos/netxduo/addons/mqtt;../src/third_party/azure_rtos/netxduo/addons/sntp;../src/third_party/azure_rtos/netxduo/common/inc;../src/third_party/azure_rtos/netxduo/crypto_libraries/inc;../src/third_party/azure_rtos/netxduo/nx_secure/inc;../src/third_party/azure_rtos/netxduo/nx_secure/ports;../src/third_party/azure_rtos/netxduo/ports/cortex_m4/gnu/inc;../src/third_party/rtos/threadx/common/inc;../src/third_party/rtos/threadx/ports/cortex_m4/mplabx/inc"/>
+                  value="../src/config/sam_e54_xpro/third_party_adapter/azure_rtos/src/tcpip;../src;../src/config/sam_e54_xpro;../src/config/sam_e54_xpro/third_party_adapter/azure_rtos;../src/config/sam_e54_xpro/third_party_adapter/azure_rtos/src;../src/config/sam_e54_xpro/third_party_adapter/azure_rtos/src/tcpip;../src/config/sam_e54_xpro/threadx_config;../src/packs/ATSAME54P20A_DFP;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include;../src/third_party/azure_rtos/filex/common/inc;../src/third_party/azure_rtos/filex/ports/cortex_m4/gnu/inc;../src/third_party/azure_rtos/netxduo;../src/third_party/azure_rtos/netxduo/addons;../src/third_party/azure_rtos/netxduo/addons/azure_iot;../src/third_party/azure_rtos/netxduo/addons/azure_iot/azure-sdk-for-c/sdk/inc;../src/third_party/azure_rtos/netxduo/addons/azure_iot/azure_iot_security_module;../src/third_party/azure_rtos/netxduo/addons/azure_iot/azure_iot_security_module/inc;../src/third_party/azure_rtos/netxduo/addons/azure_iot/azure_iot_security_module/inc/configs/RTOS_BASE_UT;../src/third_party/azure_rtos/netxduo/addons/azure_iot/azure_iot_security_module/iot-security-module-core/deps/flatcc/include;../src/third_party/azure_rtos/netxduo/addons/azure_iot/azure_iot_security_module/iot-security-module-core/deps/flatcc/include ;../src/third_party/azure_rtos/netxduo/addons/azure_iot/azure_iot_security_module/iot-security-module-core/inc;../src/third_party/azure_rtos/netxduo/addons/cloud;../src/third_party/azure_rtos/netxduo/addons/dhcp;../src/third_party/azure_rtos/netxduo/addons/dns;../src/third_party/azure_rtos/netxduo/addons/mqtt;../src/third_party/azure_rtos/netxduo/addons/sntp;../src/third_party/azure_rtos/netxduo/common/inc;../src/third_party/azure_rtos/netxduo/crypto_libraries/inc;../src/third_party/azure_rtos/netxduo/nx_secure/inc;../src/third_party/azure_rtos/netxduo/nx_secure/ports;../src/third_party/azure_rtos/netxduo/ports/cortex_m4/gnu/inc;../src/third_party/rtos/threadx/common/inc;../src/third_party/rtos/threadx/ports/cortex_m4/mplabx/inc"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -2569,7 +2546,7 @@
         <property key="exceptions" value="true"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value="../src;../src/config/sam_e54_xpro;../src/packs/ATSAME54P20A_DFP;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include;/mplabx/inc"/>
+                  value="../src;../src/config/sam_e54_xpro;../src/packs/ATSAME54P20A_DFP;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="false"/>
@@ -2578,7 +2555,7 @@
         <property key="place-data-into-section" value="false"/>
         <property key="post-instruction-scheduling" value="default"/>
         <property key="pre-instruction-scheduling" value="default"/>
-        <property key="preprocessor-macros" value="TX_INCLUDE_USER_DEFINE_FILE"/>
+        <property key="preprocessor-macros" value=""/>
         <property key="rtti" value="true"/>
         <property key="strict-ansi" value="false"/>
         <property key="toplevel-reordering" value=""/>
