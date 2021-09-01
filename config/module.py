@@ -29,10 +29,9 @@ def loadModule():
     execfile(Module.getPath() + "/threadx/config/threadx.py")
 
 ######################  Azure RTOS Library  ######################
-def loadModule():    
-    # Azure IoT 
+    # Azure IoT
     azureIOTComponent = Module.CreateGeneratorComponent("lib_azure_rtos", "Azure RTOS", "/Third Party Libraries/AzureRtos/", "third_party_adapter/azure_rtos/config/azureRtos_common.py","third_party_adapter/azure_rtos/config/azureRtos.py" )
-    azureIOTComponent.addCapability("lib_azure_rtos","azure_rtos",True)   
+    azureIOTComponent.addCapability("lib_azure_rtos","azure_rtos",True)
     azureIOTComponent.addDependency("AZURE_MAC_Dependency", "MAC")
     azureIOTComponent.addDependency("Azure_SysTime_Dependency", "SYS_TIME", None, True, True)
     # azureIOTComponent.addDependency("Azure_SysConsole_Dependency", "SYS_CONSOLE", None, False, False)
