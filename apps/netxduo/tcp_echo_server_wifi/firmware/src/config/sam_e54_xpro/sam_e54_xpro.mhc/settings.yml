@@ -1,0 +1,14 @@
+configName: sam_e54_xpro
+folderName: sam_e54_xpro
+format_version: v1.0
+frameworkPath: ../../../microchip/harmony/aziot
+processor: ATSAME54P20A
+projectName: tcp_echo_server
+settings:
+  PackageFilter: azure-rtos-threadx;azure_rtos;bsp;core;crypto;cryptoauthlib;csp;gfx_aria;net;quick_docs;touch;usb;wireless_apps_pic32mzw1_wfi32e01;wireless_apps_winc1500;wireless_apps_winc3400;wireless_system_pic32mzw1_wfi32e01;wireless_wifi
+  FORCE_OPTIMIZATION: 'false'
+  GENERATE_BACKUP: 'true'
+  TRUSTZONE: 'false'
+  CMSISPath: .\dev_packs\arm\CMSIS\5.7.0
+  MERGE_STRATEGY: ALL
+  DFPPath: .\dev_packs\Microchip\SAME54_DFP\3.5.87\atdf\ATSAME54P20A.atdf
