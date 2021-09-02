@@ -58,6 +58,8 @@ THAT YOU HAVE PAID DIRECTLY TO MICROCHIP FOR THIS SOFTWARE.
         <#lt>#define TCPIP_IF_MRF24WN
     <#lt><#elseif .vars["AZURE_INTERFACE_DEFAULT_INTERFACE_NAME_IDX${__INSTANCE_NUM?number}"] = "WINC">
         <#lt>#define TCPIP_IF_WINC
+    <#lt><#elseif .vars["AZURE_INTERFACE_DEFAULT_INTERFACE_NAME_IDX${__INSTANCE_NUM?number}"] = "WINC (Lite)">
+        <#lt>#define TCPIP_IF_WINC
     <#lt><#elseif .vars["AZURE_INTERFACE_DEFAULT_INTERFACE_NAME_IDX${__INSTANCE_NUM?number}"] = "WILC1000">
         <#lt>#define TCPIP_IF_WILC1000
     <#lt><#elseif .vars["AZURE_INTERFACE_DEFAULT_INTERFACE_NAME_IDX${__INSTANCE_NUM?number}"] = "PIC32MZW1">

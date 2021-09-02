@@ -52,6 +52,16 @@ const AZURE_GLUE_NETWORK_CONFIG azure_net_config[] =
                 <#lt>   .macInitSize = sizeof(tcpipEMAC1InitData),
                 <#lt>   .macIrq = DRV_EMAC1_INTERRUPT_SOURCE,
                 <#lt>   .macRxMaxFrame = TCPIP_EMAC_MAX_FRAME,
+                <#elseif (interface_name_idx == "WINC")>   
+                <#lt>   .pMacInit = 0,
+                <#lt>   .macInitSize = 0,
+                <#lt>   .macIrq = 0,
+                <#lt>   .macRxMaxFrame = 1518,
+                <#elseif (interface_name_idx == "WINC (Lite)")>   
+                <#lt>   .pMacInit = 0,
+                <#lt>   .macInitSize = 0,
+                <#lt>   .macIrq = 0,
+                <#lt>   .macRxMaxFrame = 1518,
                 </#if>                       
                 <#lt>},
             </#if>

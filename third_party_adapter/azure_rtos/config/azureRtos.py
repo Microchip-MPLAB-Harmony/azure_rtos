@@ -91,6 +91,7 @@ def azureNetxIfDrvObjUpdate(symbol, event):
         'EMAC1':        'DRV_EMAC1_Object',
         'MRF24WN':      'WDRV_MRF24WN_MACObject',
         'WINC':         'WDRV_WINC_MACObject',
+        'WINC (Lite)':  'WDRV_WINC_MACObject',
         'WINC1500':     'WDRV_WINC1500_MACObject',
         'WILC1000':     'WDRV_WILC1000_MACObject',
         'PIC32MZW1':    'WDRV_PIC32MZW1_MACObject',
@@ -100,9 +101,9 @@ def azureNetxIfDrvObjUpdate(symbol, event):
     symbol.setValue( interfaceToMacObject.get( event[ "value" ], '' ) )
     
     Database.getSymbolValue("HarmonyCore", "ENABLE_OSAL")
-    if (event[ "value" ] == 'MRF24WN') or (event[ "value" ] == 'WINC') or (event[ "value" ] == 'WINC1500') or (event[ "value" ] == 'WILC1000') or (event[ "value" ] == 'PIC32MZW1'):
+    if (event[ "value" ] == 'MRF24WN') or (event[ "value" ] == 'WINC') or (event[ "value" ] == 'WINC (Lite)') or (event[ "value" ] == 'WINC1500') or (event[ "value" ] == 'WILC1000') or (event[ "value" ] == 'PIC32MZW1'):
         # For wireless, set mac data segment gap size = 34 
-        setVal("lib_azure_rtos", "MAC_DATA_GAP_SIZE", 34)
+        setVal("lib_azure_rtos", "MAC_DATA_GAP_SIZE", 4) #TODO: MA
     else:
         if (Database.getSymbolValue("lib_azure_rtos", "MAC_DATA_GAP_SIZE") < 4) : 
             setVal("lib_azure_rtos", "MAC_DATA_GAP_SIZE", 4)
