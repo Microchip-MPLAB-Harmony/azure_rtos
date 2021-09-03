@@ -3,10 +3,10 @@
     "category": "com.microchip.ide.project",
     "content": {
         "metaDataVersion": "1.0.0",
-        "name": "com.microchip.mcu32.mplabx.project.azure_rtos_tcp_echo_server_sam_e54_xpro",
+        "name": "com.microchip.mcu32.mplabx.project.azure_rtos_tcp_echo_server_wifi_sam_e54_xpro",
         "version": "1.0.0",
-        "displayName": "Netxduo Echo Server Example for SAM D5x/E5x Family",
-        "projectName": "tcp_echo_server",
+        "displayName": "Netxduo Echo Server Example for WINC1500 using SAM D5x/E5x Family",
+        "projectName": "tcp_echo_server_wifi",
         "shortDescription": "The TCP Echo Server configuration demonstrates creating a NetX Duo echo server with the MPLAB Harmony.",
         "ide": {
             "name": "MPLABX",
@@ -32,7 +32,7 @@
             "content": {
                 "metaDataVersion": "1.0.0",
                 "category": "com.microchip.device",
-                "name": "ATSAME54P20A",
+                "name": "ATWINC1500",
                 "versionRange": "*"
             }
         },
@@ -49,7 +49,8 @@
             ]
         ],
         "peripherals": [
-            "MAC"
+            "SPI",
+            "EIC"
         ],
         "keywords": [
             "MHC",
@@ -58,8 +59,11 @@
             "NetX Duo",
             "ATSAME54P20A",
             "SAM D5x/E5x Family",
-            "Ethernet MAC",
-            "GMAC"
+            "ATWINC1500-XPRO",
+            "WINC15x0",
+            "Wireless",
+            "Wi-Fi",
+            "WiFi"
         ],
         "additionalData": {
             "longDescription": {
