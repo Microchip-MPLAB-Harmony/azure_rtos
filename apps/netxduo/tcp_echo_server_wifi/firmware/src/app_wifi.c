@@ -38,12 +38,12 @@
 // *****************************************************************************
 
 // desired AP credentials
-#define WLAN_SSID           "athome" /* desired SSID */
+#define WLAN_SSID           "DEMO_AP" /* desired SSID */
 #define WLAN_CHANNEL        WDRV_WINC_ALL_CHANNELS /* WINC1500's Working Channel e.g. 1, 6, 11 or WDRV_WINC_ALL_CHANNELS*/
 #define WLAN_AUTH           WDRV_WINC_AUTH_TYPE_WPA_PSK /* WINC1500's Security, e.g. WDRV_WINC_AUTH_TYPE_OPEN, WDRV_WINC_AUTH_TYPE_WPA_PSK or WDRV_WINC_AUTH_TYPE_WEP */
 #define WLAN_WEP_KEY        "1234567890" /* Key for WEP Security */
 #define WLAN_WEP_KEY_INDEX  1 /* Key Index for WEP Security */
-#define WLAN_WPA_PASSPHRASE "mayuratre@03" /* target AP's passphrase */
+#define WLAN_WPA_PASSPHRASE "123456789" /* target AP's passphrase */
 
 // *****************************************************************************
 /* Application Data
