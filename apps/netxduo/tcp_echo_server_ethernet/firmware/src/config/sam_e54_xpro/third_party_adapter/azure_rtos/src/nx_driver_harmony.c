@@ -290,14 +290,9 @@ VOID  nx_driver_harmony(NX_IP_DRIVER *driver_req_ptr)
 static VOID  _nx_driver_interface_attach(NX_IP_DRIVER *driver_req_ptr)
 {
 
-
     /* Setup the driver's interface.  This example is for a simple one-interface
        Ethernet driver. Additional logic is necessary for multiple port devices.  */
     nx_driver_information.nx_driver_information_interface =  driver_req_ptr -> nx_ip_driver_interface;
-
-#ifdef NX_ENABLE_INTERFACE_CAPABILITY
-    driver_req_ptr -> nx_ip_driver_interface -> nx_interface_capability_flag = NX_DRIVER_CAPABILITY;
-#endif /* NX_ENABLE_INTERFACE_CAPABILITY */
 
     /* Return successful status.  */
     driver_req_ptr -> nx_ip_driver_status =  NX_SUCCESS;
@@ -403,7 +398,7 @@ static VOID  _nx_driver_initialize(NX_IP_DRIVER *driver_req_ptr)
     /* Setup the physical address of this IP instance.  Increment the 
        physical address lsw to simulate multiple nodes hanging on the
        ethernet.  */
-    const uint8_t* pMacAdd = Azure_Glue_MACAddress(0);
+    const uint8_t* pMacAdd = Azure_Glue_MACAddress(interface_ptr->nx_interface_index);
     if(pMacAdd == 0)
     {   
         printf("Azure IoT Glue MAC address Failed!\r\n");
@@ -489,6 +484,13 @@ static VOID  _nx_driver_enable(NX_IP_DRIVER *driver_req_ptr)
         return;
     }
 
+    NX_INTERFACE    *interface_ptr = driver_req_ptr -> nx_ip_driver_interface;
+
+    /* enable the driver capability. */
+#ifdef NX_ENABLE_INTERFACE_CAPABILITY
+    interface_ptr -> nx_interface_capability_flag = Azure_Glue_IfCapability(interface_ptr->nx_interface_index);
+#endif /* NX_ENABLE_INTERFACE_CAPABILITY */
+
 
     /* Update the driver state to link enabled.  */
     nx_driver_information.nx_driver_information_state = NX_DRIVER_STATE_LINK_ENABLED;
@@ -497,7 +499,7 @@ static VOID  _nx_driver_enable(NX_IP_DRIVER *driver_req_ptr)
     driver_req_ptr -> nx_ip_driver_status =  NX_SUCCESS;
 
     /* Mark the IP interface as link up.  */
-    driver_req_ptr -> nx_ip_driver_interface -> nx_interface_link_up = NX_TRUE;
+    interface_ptr -> nx_interface_link_up = NX_TRUE;
 }
 
 

@@ -149,6 +149,11 @@ AZURE_GLUE_RES Azure_Glue_PacketTx(void* netxPkt);
 const uint8_t* Azure_Glue_MACAddress(int ifIx);
 
 //*****************************************************************************
+// Azure IoT function to get the MAC driver capabilities (IPv4 + UDP + TCP  RX/TX checksum offload) 
+// returns an or-ed NX_ENABLE_INTERFACE_CAPABILITY mask:
+//      NX_INTERFACE_CAPABILITY_IPV4_TX_CHECKSUM, NX_INTERFACE_CAPABILITY_IPV4_RX_CHECKSUM, etc. 
+uint32_t Azure_Glue_IfCapability(int ifIx);
+//*****************************************************************************
 // mapping of the printf to the system console
 
 ssize_t write(int fd, const void *buffer, size_t length);

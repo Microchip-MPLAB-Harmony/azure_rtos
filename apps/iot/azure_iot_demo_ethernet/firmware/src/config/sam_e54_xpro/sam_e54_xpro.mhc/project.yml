@@ -160,13 +160,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 9F925E2AB9F81A066B175AEDFFAFC694
-- generatedChecksum: FF300EF5DB6AEB06242A413C2036CB4D
+- generatedChecksum: 92F85CC2CBD2E33F9D9813699F9F8A36
   logicalPath: config/sam_e54_xpro/third_party_adapter/azure_rtos/src
   name: azure_glue.c
   physicalPath: third_party_adapter/azure_rtos/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: FF300EF5DB6AEB06242A413C2036CB4D
+  userChecksum: 92F85CC2CBD2E33F9D9813699F9F8A36
 - generatedChecksum: 7F46F93CFAAD75CACB249017911CE218
   logicalPath: config/sam_e54_xpro/third_party_adapter/azure_rtos/src
   name: azure_glue_private.c
@@ -2687,13 +2687,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: FA5E60B9D89039772DC0C272D68A97C8
-- generatedChecksum: 6E7972DE9F15117D6EC27CEE54568C06
+- generatedChecksum: 9F20348C309EE6E7800744F79B82A4DB
   logicalPath: config/sam_e54_xpro/third_party_adapter/azure_rtos/src
   name: nx_driver_harmony.c
   physicalPath: third_party_adapter/azure_rtos/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 6E7972DE9F15117D6EC27CEE54568C06
+  userChecksum: 9F20348C309EE6E7800744F79B82A4DB
 - generatedChecksum: F51B835C84014BDD848A41AB01919742
   logicalPath: third_party/azure_rtos/netxduo/common/src
   name: nx_icmp_cleanup.c
@@ -8343,1350 +8343,1371 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: E5DC4E8A45AEB527A5163AD8EC8260AE
-- generatedChecksum: E2FC4046C2E5EEDC44724699F8EADF66
-  logicalPath: ThreadX
+- generatedChecksum: 91D688554B1E19C9B21B541D7AE1F750
+  logicalPath: threadx/common/src
   name: tx_block_allocate.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: E2FC4046C2E5EEDC44724699F8EADF66
-- generatedChecksum: 9E51A3818B3CEC5459444337D2FCC78A
-  logicalPath: ThreadX
+  userChecksum: 91D688554B1E19C9B21B541D7AE1F750
+- generatedChecksum: 30689B90DA81B8D919615A5F053641BD
+  logicalPath: threadx/common/src
   name: tx_block_pool_cleanup.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 9E51A3818B3CEC5459444337D2FCC78A
-- generatedChecksum: 1B5D09F094C8B5FB0BC951EDBFD9B250
-  logicalPath: ThreadX
+  userChecksum: 30689B90DA81B8D919615A5F053641BD
+- generatedChecksum: B271E7EC94754CCF1B75FB1759C7AD80
+  logicalPath: threadx/common/src
   name: tx_block_pool_create.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 1B5D09F094C8B5FB0BC951EDBFD9B250
-- generatedChecksum: 10B038DB6830B7DA6B87484EEB6A41EF
-  logicalPath: ThreadX
+  userChecksum: B271E7EC94754CCF1B75FB1759C7AD80
+- generatedChecksum: D3402501FF978EBBC54E8D3C84FEF9D4
+  logicalPath: threadx/common/src
   name: tx_block_pool_delete.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 10B038DB6830B7DA6B87484EEB6A41EF
-- generatedChecksum: 50D6A96C2B0A6BC3F5EB7ACBDB8BA6C5
-  logicalPath: ThreadX
+  userChecksum: D3402501FF978EBBC54E8D3C84FEF9D4
+- generatedChecksum: ACC4AE7419683E5DB77FF5ABC33E4A3A
+  logicalPath: threadx/common/src
   name: tx_block_pool_info_get.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 50D6A96C2B0A6BC3F5EB7ACBDB8BA6C5
-- generatedChecksum: 8AE4A21A26436245BCBB509180C9D2B9
-  logicalPath: ThreadX
+  userChecksum: ACC4AE7419683E5DB77FF5ABC33E4A3A
+- generatedChecksum: 0AE872F9CC1A5E5AF4228D32588E0980
+  logicalPath: threadx/common/src
   name: tx_block_pool_initialize.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 8AE4A21A26436245BCBB509180C9D2B9
-- generatedChecksum: DAA36F7529D0C2F70560ECDA4128F5AC
-  logicalPath: ThreadX
+  userChecksum: 0AE872F9CC1A5E5AF4228D32588E0980
+- generatedChecksum: 45705648A89B7B941BCEA5383FF96731
+  logicalPath: threadx/common/src
   name: tx_block_pool_performance_info_get.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: DAA36F7529D0C2F70560ECDA4128F5AC
-- generatedChecksum: BEFBE64061F34F459036791C3A743341
-  logicalPath: ThreadX
+  userChecksum: 45705648A89B7B941BCEA5383FF96731
+- generatedChecksum: A8974DC291E1128F1EFB32C34E3AED1F
+  logicalPath: threadx/common/src
   name: tx_block_pool_performance_system_info_get.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: BEFBE64061F34F459036791C3A743341
-- generatedChecksum: DD7596F0ED4301298A679BA76670180A
-  logicalPath: ThreadX
+  userChecksum: A8974DC291E1128F1EFB32C34E3AED1F
+- generatedChecksum: 37266F950A84B4D3261F4AB3B3930A92
+  logicalPath: threadx/common/src
   name: tx_block_pool_prioritize.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: DD7596F0ED4301298A679BA76670180A
-- generatedChecksum: B978A1CAFB9D479F0483B3704ED721BB
-  logicalPath: ThreadX
+  userChecksum: 37266F950A84B4D3261F4AB3B3930A92
+- generatedChecksum: 228F51E939038ACE9B61B9FA6CA1051E
+  logicalPath: threadx/common/src
   name: tx_block_release.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: B978A1CAFB9D479F0483B3704ED721BB
-- generatedChecksum: DDD8FE1CA8C4ADB4785314BB93C9D338
-  logicalPath: ThreadX
+  userChecksum: 228F51E939038ACE9B61B9FA6CA1051E
+- generatedChecksum: 7BE28070449E3CB5228C14B29347EBC9
+  logicalPath: threadx/common/src
   name: tx_byte_allocate.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: DDD8FE1CA8C4ADB4785314BB93C9D338
-- generatedChecksum: A19D21DB02DE23D8D37B37682B404B3E
-  logicalPath: ThreadX
+  userChecksum: 7BE28070449E3CB5228C14B29347EBC9
+- generatedChecksum: ABBF6EB675CAD5117D7501933D818422
+  logicalPath: threadx/common/src
   name: tx_byte_pool_cleanup.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: A19D21DB02DE23D8D37B37682B404B3E
-- generatedChecksum: BCF3B3111F2A9A7A10766C49895BDC1B
-  logicalPath: ThreadX
+  userChecksum: ABBF6EB675CAD5117D7501933D818422
+- generatedChecksum: 15F3108320E958AAE2280EE6E1959902
+  logicalPath: threadx/common/src
   name: tx_byte_pool_create.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: BCF3B3111F2A9A7A10766C49895BDC1B
-- generatedChecksum: C34B6515F20FAB367A751B2F36B413EF
-  logicalPath: ThreadX
+  userChecksum: 15F3108320E958AAE2280EE6E1959902
+- generatedChecksum: 51002A309919F14D63BA5042E1CE93C3
+  logicalPath: threadx/common/src
   name: tx_byte_pool_delete.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: C34B6515F20FAB367A751B2F36B413EF
-- generatedChecksum: 6B0F40131DCD71618B5EE9EAD819F39F
-  logicalPath: ThreadX
+  userChecksum: 51002A309919F14D63BA5042E1CE93C3
+- generatedChecksum: 9EBC347447C7F59B594D4A45047CD455
+  logicalPath: threadx/common/src
   name: tx_byte_pool_info_get.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 6B0F40131DCD71618B5EE9EAD819F39F
-- generatedChecksum: 8D27F992BB76707E129C91F5229754C1
-  logicalPath: ThreadX
+  userChecksum: 9EBC347447C7F59B594D4A45047CD455
+- generatedChecksum: 933401B214A62908B870CBF3EAAE2C23
+  logicalPath: threadx/common/src
   name: tx_byte_pool_initialize.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 8D27F992BB76707E129C91F5229754C1
-- generatedChecksum: 786D96DFA56D50A170CCC3CFA3F932BC
-  logicalPath: ThreadX
+  userChecksum: 933401B214A62908B870CBF3EAAE2C23
+- generatedChecksum: 7AD28E5F3F981ADEB6381EA023696706
+  logicalPath: threadx/common/src
   name: tx_byte_pool_performance_info_get.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 786D96DFA56D50A170CCC3CFA3F932BC
-- generatedChecksum: 5D4D57F8CCB8586713CBA239032ABE9C
-  logicalPath: ThreadX
+  userChecksum: 7AD28E5F3F981ADEB6381EA023696706
+- generatedChecksum: A60C70F09E2BB162BF02ADEC742325F5
+  logicalPath: threadx/common/src
   name: tx_byte_pool_performance_system_info_get.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 5D4D57F8CCB8586713CBA239032ABE9C
-- generatedChecksum: 9A7E074286892028B8B50E02A5606926
-  logicalPath: ThreadX
+  userChecksum: A60C70F09E2BB162BF02ADEC742325F5
+- generatedChecksum: 5FD2C29EAC259DD11D40FA24BF670718
+  logicalPath: threadx/common/src
   name: tx_byte_pool_prioritize.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 9A7E074286892028B8B50E02A5606926
-- generatedChecksum: 42D306EB6F47528C0B8E962D9A4850FF
-  logicalPath: ThreadX
+  userChecksum: 5FD2C29EAC259DD11D40FA24BF670718
+- generatedChecksum: 5E4F6283C095F55F354E8109B8CB3558
+  logicalPath: threadx/common/src
   name: tx_byte_pool_search.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 42D306EB6F47528C0B8E962D9A4850FF
-- generatedChecksum: 4495FDB54BE0ECE5C1F87097927B9032
-  logicalPath: ThreadX
+  userChecksum: 5E4F6283C095F55F354E8109B8CB3558
+- generatedChecksum: 6705E76DFCE68FD9797F2D9DF0761FE8
+  logicalPath: threadx/common/src
   name: tx_byte_release.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 4495FDB54BE0ECE5C1F87097927B9032
-- generatedChecksum: 88D074CE9B20D71616802E2746D690D7
-  logicalPath: ThreadX
+  userChecksum: 6705E76DFCE68FD9797F2D9DF0761FE8
+- generatedChecksum: FF7768F71E6FC7E1D2B57832E3B98341
+  logicalPath: threadx/common/src
   name: tx_event_flags_cleanup.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 88D074CE9B20D71616802E2746D690D7
-- generatedChecksum: 02CCB59FA49F8053F9A5FA9247E95A6E
-  logicalPath: ThreadX
+  userChecksum: FF7768F71E6FC7E1D2B57832E3B98341
+- generatedChecksum: EC08426169F0783CCC82FC6F661444D0
+  logicalPath: threadx/common/src
   name: tx_event_flags_create.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 02CCB59FA49F8053F9A5FA9247E95A6E
-- generatedChecksum: 32387A82337CD3B2C90060F3AC0EF0C4
-  logicalPath: ThreadX
+  userChecksum: EC08426169F0783CCC82FC6F661444D0
+- generatedChecksum: 889DECBFF30FC75323F36BC6E01A451C
+  logicalPath: threadx/common/src
   name: tx_event_flags_delete.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 32387A82337CD3B2C90060F3AC0EF0C4
-- generatedChecksum: 70F0B182A5A89626A9458D72C8C0FBA7
-  logicalPath: ThreadX
+  userChecksum: 889DECBFF30FC75323F36BC6E01A451C
+- generatedChecksum: 2A6AED7E6E9823E363BC64A379F3AF00
+  logicalPath: threadx/common/src
   name: tx_event_flags_get.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 70F0B182A5A89626A9458D72C8C0FBA7
-- generatedChecksum: DC2D34CA8B741EA3591E84F85398B2B8
-  logicalPath: ThreadX
+  userChecksum: 2A6AED7E6E9823E363BC64A379F3AF00
+- generatedChecksum: 46052C1D879FA806BB9167A0D887B50D
+  logicalPath: threadx/common/src
   name: tx_event_flags_info_get.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: DC2D34CA8B741EA3591E84F85398B2B8
-- generatedChecksum: 3A31B68999D5B3F1969EB22D7E98755D
-  logicalPath: ThreadX
+  userChecksum: 46052C1D879FA806BB9167A0D887B50D
+- generatedChecksum: BDF3534F3E20AA858424FAECB1071B35
+  logicalPath: threadx/common/src
   name: tx_event_flags_initialize.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 3A31B68999D5B3F1969EB22D7E98755D
-- generatedChecksum: 099D778B5623028A6510A5145EBB6317
-  logicalPath: ThreadX
+  userChecksum: BDF3534F3E20AA858424FAECB1071B35
+- generatedChecksum: B320458E70022F7FA8C85BEA209AD6F8
+  logicalPath: threadx/common/src
   name: tx_event_flags_performance_info_get.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 099D778B5623028A6510A5145EBB6317
-- generatedChecksum: 6C5178408CD43452AF3A465986AD15A6
-  logicalPath: ThreadX
+  userChecksum: B320458E70022F7FA8C85BEA209AD6F8
+- generatedChecksum: DFF00A629E6EFAA5C1E7BF4AF95C815D
+  logicalPath: threadx/common/src
   name: tx_event_flags_performance_system_info_get.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 6C5178408CD43452AF3A465986AD15A6
-- generatedChecksum: C0B9FFB4D5A2795DF8EE2281AD2963CD
-  logicalPath: ThreadX
+  userChecksum: DFF00A629E6EFAA5C1E7BF4AF95C815D
+- generatedChecksum: 04566802C2D5C313A02D06E919A3EFC2
+  logicalPath: threadx/common/src
   name: tx_event_flags_set.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: C0B9FFB4D5A2795DF8EE2281AD2963CD
-- generatedChecksum: 4214DEB74532559E54ADDDCA7622F45B
-  logicalPath: ThreadX
+  userChecksum: 04566802C2D5C313A02D06E919A3EFC2
+- generatedChecksum: 1A1FEAADB323A6227CED263C2CF68A5D
+  logicalPath: threadx/common/src
   name: tx_event_flags_set_notify.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 4214DEB74532559E54ADDDCA7622F45B
-- generatedChecksum: E53FF4A7D4522993D8066ED5CE4BFD1C
-  logicalPath: ThreadX
+  userChecksum: 1A1FEAADB323A6227CED263C2CF68A5D
+- generatedChecksum: 5DE9C3570CC56BC41445B57E1E6B600F
+  logicalPath: threadx/common/src
   name: tx_initialize_high_level.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: E53FF4A7D4522993D8066ED5CE4BFD1C
-- generatedChecksum: DA0FA7AF998A6D6B5EA1F880649B9E81
-  logicalPath: ThreadX
+  userChecksum: 5DE9C3570CC56BC41445B57E1E6B600F
+- generatedChecksum: CE5717D5E8FD4D7F51B93780B4EBB188
+  logicalPath: threadx/common/src
   name: tx_initialize_kernel_enter.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: DA0FA7AF998A6D6B5EA1F880649B9E81
-- generatedChecksum: 4FE15639A68459D6F882FC97878D6854
-  logicalPath: ThreadX
+  userChecksum: CE5717D5E8FD4D7F51B93780B4EBB188
+- generatedChecksum: 4784674FB498474C6538E0275DA8636C
+  logicalPath: threadx/common/src
   name: tx_initialize_kernel_setup.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 4FE15639A68459D6F882FC97878D6854
-- generatedChecksum: B99AAE27AF352AF5D591D0B33E2802D3
-  logicalPath: ThreadX/CORTEX_M4
+  userChecksum: 4784674FB498474C6538E0275DA8636C
+- generatedChecksum: 1C8A94508E4818807F387A392A3EA5CE
+  logicalPath: threadx/ports/cortex_m4/mplabx/src
   name: tx_initialize_low_level.S
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/ports/cortex_m4/mplabx/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: B99AAE27AF352AF5D591D0B33E2802D3
-- generatedChecksum: E76167E07BD3BECF009D5D6FD2295CD3
-  logicalPath: ThreadX
+  userChecksum: 1C8A94508E4818807F387A392A3EA5CE
+- generatedChecksum: 1EF481244B7A5D933881B3AFBA6AA144
+  logicalPath: threadx/common/src
+  name: tx_misra.c
+  physicalPath: ../../third_party/rtos/threadx/common/src
+  security: NON_SECURE
+  type: SOURCE
+  userChecksum: 1EF481244B7A5D933881B3AFBA6AA144
+- generatedChecksum: BB827EF16367B0A08D52AA467E7DB6E8
+  logicalPath: threadx/common/src
   name: tx_mutex_cleanup.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: E76167E07BD3BECF009D5D6FD2295CD3
-- generatedChecksum: 978A7E39535A91861B9D71D19BE8C01D
-  logicalPath: ThreadX
+  userChecksum: BB827EF16367B0A08D52AA467E7DB6E8
+- generatedChecksum: 265357A974E7BA596F86817BAC399D6A
+  logicalPath: threadx/common/src
   name: tx_mutex_create.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 978A7E39535A91861B9D71D19BE8C01D
-- generatedChecksum: 4215E56EBFD4E4A7067160E8D0940721
-  logicalPath: ThreadX
+  userChecksum: 265357A974E7BA596F86817BAC399D6A
+- generatedChecksum: D09A08C7471DA587A6C87642DC225462
+  logicalPath: threadx/common/src
   name: tx_mutex_delete.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 4215E56EBFD4E4A7067160E8D0940721
-- generatedChecksum: 9D1E78B7518E826ADE16D59D36794E78
-  logicalPath: ThreadX
+  userChecksum: D09A08C7471DA587A6C87642DC225462
+- generatedChecksum: F346396A577135AF2D661CE8D1E42150
+  logicalPath: threadx/common/src
   name: tx_mutex_get.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 9D1E78B7518E826ADE16D59D36794E78
-- generatedChecksum: 9E2F7B65C48DE773E0E7345B71A3AEA5
-  logicalPath: ThreadX
+  userChecksum: F346396A577135AF2D661CE8D1E42150
+- generatedChecksum: 18621DAD6ABA3EE55590669EC5960BB9
+  logicalPath: threadx/common/src
   name: tx_mutex_info_get.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 9E2F7B65C48DE773E0E7345B71A3AEA5
-- generatedChecksum: F960C45D9C02FD098562634DD511C411
-  logicalPath: ThreadX
+  userChecksum: 18621DAD6ABA3EE55590669EC5960BB9
+- generatedChecksum: 3E256E3A4DB5FC70E5E107B357C8B468
+  logicalPath: threadx/common/src
   name: tx_mutex_initialize.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: F960C45D9C02FD098562634DD511C411
-- generatedChecksum: 8F7633AEC71F8C2867C7F357B51633CC
-  logicalPath: ThreadX
+  userChecksum: 3E256E3A4DB5FC70E5E107B357C8B468
+- generatedChecksum: A76E59CE85FE1B6BA94EB6B5DC638C3A
+  logicalPath: threadx/common/src
   name: tx_mutex_performance_info_get.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 8F7633AEC71F8C2867C7F357B51633CC
-- generatedChecksum: 818E29AA176E691A41BAA23A259FD29D
-  logicalPath: ThreadX
+  userChecksum: A76E59CE85FE1B6BA94EB6B5DC638C3A
+- generatedChecksum: 19C558C4F1AAE515FBCB3B048B508DC1
+  logicalPath: threadx/common/src
   name: tx_mutex_performance_system_info_get.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 818E29AA176E691A41BAA23A259FD29D
-- generatedChecksum: 8C4B7A892D79E306BCB6C21F8B97946D
-  logicalPath: ThreadX
+  userChecksum: 19C558C4F1AAE515FBCB3B048B508DC1
+- generatedChecksum: 2D5F9EA082ED2062FC59DBBCB85F64BC
+  logicalPath: threadx/common/src
   name: tx_mutex_prioritize.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 8C4B7A892D79E306BCB6C21F8B97946D
-- generatedChecksum: 3837A1C78BDA760C6DAF298232D275A0
-  logicalPath: ThreadX
+  userChecksum: 2D5F9EA082ED2062FC59DBBCB85F64BC
+- generatedChecksum: 433A2A2F6853F223E7E9CA2CE1B1B151
+  logicalPath: threadx/common/src
   name: tx_mutex_priority_change.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 3837A1C78BDA760C6DAF298232D275A0
-- generatedChecksum: 007F3BC3247F108966A3EE40226B6F80
-  logicalPath: ThreadX
+  userChecksum: 433A2A2F6853F223E7E9CA2CE1B1B151
+- generatedChecksum: C5CC4062809EA0D7F0E57BC3EFADB74B
+  logicalPath: threadx/common/src
   name: tx_mutex_put.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 007F3BC3247F108966A3EE40226B6F80
-- generatedChecksum: A119D50F5DA6DDF49C9513813E07F149
-  logicalPath: ThreadX
+  userChecksum: C5CC4062809EA0D7F0E57BC3EFADB74B
+- generatedChecksum: FDB1CFF71C859149C02E2974832DB132
+  logicalPath: threadx/common/src
   name: tx_queue_cleanup.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: A119D50F5DA6DDF49C9513813E07F149
-- generatedChecksum: FFDCF40EFEC88A09FF970D62E2083D0F
-  logicalPath: ThreadX
+  userChecksum: FDB1CFF71C859149C02E2974832DB132
+- generatedChecksum: D2F13A07663DEE38AC22F229ACCDA7E2
+  logicalPath: threadx/common/src
   name: tx_queue_create.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: FFDCF40EFEC88A09FF970D62E2083D0F
-- generatedChecksum: D61EEB3EE07D402D42DAAE62123FB339
-  logicalPath: ThreadX
+  userChecksum: D2F13A07663DEE38AC22F229ACCDA7E2
+- generatedChecksum: D9A2BEBF36E8E91DA50473C460C87A7E
+  logicalPath: threadx/common/src
   name: tx_queue_delete.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: D61EEB3EE07D402D42DAAE62123FB339
-- generatedChecksum: D27F192BBECDAA1D6C0AF4E063D69731
-  logicalPath: ThreadX
+  userChecksum: D9A2BEBF36E8E91DA50473C460C87A7E
+- generatedChecksum: D22571081C466E176A7B48C4411B3024
+  logicalPath: threadx/common/src
   name: tx_queue_flush.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: D27F192BBECDAA1D6C0AF4E063D69731
-- generatedChecksum: 7E6D869B92A6AC9F4A2D9C35E6D01012
-  logicalPath: ThreadX
+  userChecksum: D22571081C466E176A7B48C4411B3024
+- generatedChecksum: B454FAAE25468F7A39C5470E4975AD20
+  logicalPath: threadx/common/src
   name: tx_queue_front_send.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 7E6D869B92A6AC9F4A2D9C35E6D01012
-- generatedChecksum: F0C62252B8BA5AE06F0346849895BA90
-  logicalPath: ThreadX
+  userChecksum: B454FAAE25468F7A39C5470E4975AD20
+- generatedChecksum: 4FDE0342968B8762EEE40F659000D6BC
+  logicalPath: threadx/common/src
   name: tx_queue_info_get.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: F0C62252B8BA5AE06F0346849895BA90
-- generatedChecksum: 39D56E6BD402E308588A8AFF50E2B1E5
-  logicalPath: ThreadX
+  userChecksum: 4FDE0342968B8762EEE40F659000D6BC
+- generatedChecksum: 50B1378E51FBCBF363C6EF1880157FF9
+  logicalPath: threadx/common/src
   name: tx_queue_initialize.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 39D56E6BD402E308588A8AFF50E2B1E5
-- generatedChecksum: DB4D54E7697C772F876B0F0B18AFC2D2
-  logicalPath: ThreadX
+  userChecksum: 50B1378E51FBCBF363C6EF1880157FF9
+- generatedChecksum: 31999BD15212328D8C3E42395D39BFF7
+  logicalPath: threadx/common/src
   name: tx_queue_performance_info_get.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: DB4D54E7697C772F876B0F0B18AFC2D2
-- generatedChecksum: 18C0E40F90378C1A48DD669E31D4CA89
-  logicalPath: ThreadX
+  userChecksum: 31999BD15212328D8C3E42395D39BFF7
+- generatedChecksum: 384D31BAE5642104B24B95474BC6FD77
+  logicalPath: threadx/common/src
   name: tx_queue_performance_system_info_get.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 18C0E40F90378C1A48DD669E31D4CA89
-- generatedChecksum: 91A66F010FFEAF3FF61C4F51CF1331A8
-  logicalPath: ThreadX
+  userChecksum: 384D31BAE5642104B24B95474BC6FD77
+- generatedChecksum: 44B6FE3B4ADED2CA1FBE874B71E3E8DE
+  logicalPath: threadx/common/src
   name: tx_queue_prioritize.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 91A66F010FFEAF3FF61C4F51CF1331A8
-- generatedChecksum: 6C703C916C7515D979426EADCD9487DD
-  logicalPath: ThreadX
+  userChecksum: 44B6FE3B4ADED2CA1FBE874B71E3E8DE
+- generatedChecksum: 561380997E76AE16069CFF02CC7FA32E
+  logicalPath: threadx/common/src
   name: tx_queue_receive.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 6C703C916C7515D979426EADCD9487DD
-- generatedChecksum: 1AFBA5E28FCBA89C3C7FA7873C98A2C9
-  logicalPath: ThreadX
+  userChecksum: 561380997E76AE16069CFF02CC7FA32E
+- generatedChecksum: 5BA334F0D67431B888CD62F0A4634099
+  logicalPath: threadx/common/src
   name: tx_queue_send.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 1AFBA5E28FCBA89C3C7FA7873C98A2C9
-- generatedChecksum: 49315A66439DA237D42C8899470E08B1
-  logicalPath: ThreadX
+  userChecksum: 5BA334F0D67431B888CD62F0A4634099
+- generatedChecksum: 7C2E3457040D18685F83B67D4A4E603A
+  logicalPath: threadx/common/src
   name: tx_queue_send_notify.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 49315A66439DA237D42C8899470E08B1
-- generatedChecksum: 53AC7D60279393BBA756D09D237D0558
-  logicalPath: ThreadX
+  userChecksum: 7C2E3457040D18685F83B67D4A4E603A
+- generatedChecksum: FB60E8B8296CE29F8B923B64DA711D05
+  logicalPath: threadx/common/src
   name: tx_semaphore_ceiling_put.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 53AC7D60279393BBA756D09D237D0558
-- generatedChecksum: 248CC19B53752CCEC961D30B009F5D5F
-  logicalPath: ThreadX
+  userChecksum: FB60E8B8296CE29F8B923B64DA711D05
+- generatedChecksum: AA70570E4E6B6086DCDA00CE0189D58F
+  logicalPath: threadx/common/src
   name: tx_semaphore_cleanup.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 248CC19B53752CCEC961D30B009F5D5F
-- generatedChecksum: EDFAFFD55411E1CEF919E997E32097B7
-  logicalPath: ThreadX
+  userChecksum: AA70570E4E6B6086DCDA00CE0189D58F
+- generatedChecksum: 066E9D3A2FAAEC9141F5EDD94C4D68EE
+  logicalPath: threadx/common/src
   name: tx_semaphore_create.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: EDFAFFD55411E1CEF919E997E32097B7
-- generatedChecksum: A763B905CE736FDD5EFA2BEA904F53B0
-  logicalPath: ThreadX
+  userChecksum: 066E9D3A2FAAEC9141F5EDD94C4D68EE
+- generatedChecksum: 6F19B8C895F923C6DAD5063ABA4BA604
+  logicalPath: threadx/common/src
   name: tx_semaphore_delete.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: A763B905CE736FDD5EFA2BEA904F53B0
-- generatedChecksum: 972491EC560B1DC1C6437C61CAC297E6
-  logicalPath: ThreadX
+  userChecksum: 6F19B8C895F923C6DAD5063ABA4BA604
+- generatedChecksum: 3DBF07B7E38122668C5FEB70A28FE403
+  logicalPath: threadx/common/src
   name: tx_semaphore_get.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 972491EC560B1DC1C6437C61CAC297E6
-- generatedChecksum: 8D17511A79BBC95E8C4426E7AC8AB0AF
-  logicalPath: ThreadX
+  userChecksum: 3DBF07B7E38122668C5FEB70A28FE403
+- generatedChecksum: 01ED9952DBE1FD988EF548070075B0AC
+  logicalPath: threadx/common/src
   name: tx_semaphore_info_get.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 8D17511A79BBC95E8C4426E7AC8AB0AF
-- generatedChecksum: 7C953FF6C5B332562CA57C979F53EA5A
-  logicalPath: ThreadX
+  userChecksum: 01ED9952DBE1FD988EF548070075B0AC
+- generatedChecksum: 355F13AE7BE1AA084C093B3687BE5B38
+  logicalPath: threadx/common/src
   name: tx_semaphore_initialize.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 7C953FF6C5B332562CA57C979F53EA5A
-- generatedChecksum: F791BDF26CE17021179C6F0815AD4085
-  logicalPath: ThreadX
+  userChecksum: 355F13AE7BE1AA084C093B3687BE5B38
+- generatedChecksum: A907BAC01F421D5942FCDFBDD6BDE840
+  logicalPath: threadx/common/src
   name: tx_semaphore_performance_info_get.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: F791BDF26CE17021179C6F0815AD4085
-- generatedChecksum: BBA2CD06DCEF384B541124DE666DA5A2
-  logicalPath: ThreadX
+  userChecksum: A907BAC01F421D5942FCDFBDD6BDE840
+- generatedChecksum: 16BF6FECAABB5921C64589079DB7F516
+  logicalPath: threadx/common/src
   name: tx_semaphore_performance_system_info_get.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: BBA2CD06DCEF384B541124DE666DA5A2
-- generatedChecksum: FCE26EE82F62FDA52910C0EB507D658D
-  logicalPath: ThreadX
+  userChecksum: 16BF6FECAABB5921C64589079DB7F516
+- generatedChecksum: E7174471FCC8F43B24688D4B76688456
+  logicalPath: threadx/common/src
   name: tx_semaphore_prioritize.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: FCE26EE82F62FDA52910C0EB507D658D
-- generatedChecksum: CD84432C9734C629C315E2D5EB1C608A
-  logicalPath: ThreadX
+  userChecksum: E7174471FCC8F43B24688D4B76688456
+- generatedChecksum: 3C2EB8849DFD1108E7CF7E4846EA2AB3
+  logicalPath: threadx/common/src
   name: tx_semaphore_put.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: CD84432C9734C629C315E2D5EB1C608A
-- generatedChecksum: CABA101B6C797C4A9970E036027C84DB
-  logicalPath: ThreadX
+  userChecksum: 3C2EB8849DFD1108E7CF7E4846EA2AB3
+- generatedChecksum: 8CA9C3D621F5FAAB94FC393C8B10B400
+  logicalPath: threadx/common/src
   name: tx_semaphore_put_notify.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: CABA101B6C797C4A9970E036027C84DB
-- generatedChecksum: 621772A36E09D6D2E05F6D5B511ACAB2
-  logicalPath: ThreadX/CORTEX_M4
+  userChecksum: 8CA9C3D621F5FAAB94FC393C8B10B400
+- generatedChecksum: DF41D3DCCBF40F41B8D0FA3AEC0B00C4
+  logicalPath: threadx/ports/cortex_m4/mplabx/src
   name: tx_thread_context_restore.S
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/ports/cortex_m4/mplabx/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 621772A36E09D6D2E05F6D5B511ACAB2
-- generatedChecksum: DCCBF78A25DAE92F3082BE7969037F82
-  logicalPath: ThreadX/CORTEX_M4
+  userChecksum: DF41D3DCCBF40F41B8D0FA3AEC0B00C4
+- generatedChecksum: 586AFC095D715CA8C71A063B402D76B1
+  logicalPath: threadx/ports/cortex_m4/mplabx/src
   name: tx_thread_context_save.S
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/ports/cortex_m4/mplabx/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: DCCBF78A25DAE92F3082BE7969037F82
-- generatedChecksum: 43E655A73C0BAA235466A67496B1D296
-  logicalPath: ThreadX
+  userChecksum: 586AFC095D715CA8C71A063B402D76B1
+- generatedChecksum: 686A92D3F86C2515FDD733FA94D3494A
+  logicalPath: threadx/common/src
   name: tx_thread_create.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 43E655A73C0BAA235466A67496B1D296
-- generatedChecksum: 6C2C858FA84FC6102ECD525CC72E772F
-  logicalPath: ThreadX
+  userChecksum: 686A92D3F86C2515FDD733FA94D3494A
+- generatedChecksum: 8D1043A2F94BB2A2544D4E9D1A050B99
+  logicalPath: threadx/common/src
   name: tx_thread_delete.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 6C2C858FA84FC6102ECD525CC72E772F
-- generatedChecksum: 0F60F679D1E43C1B314AC5C12200AD71
-  logicalPath: ThreadX
+  userChecksum: 8D1043A2F94BB2A2544D4E9D1A050B99
+- generatedChecksum: BA908CF8A726F5DEDAEB81D68903B427
+  logicalPath: threadx/common/src
   name: tx_thread_entry_exit_notify.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 0F60F679D1E43C1B314AC5C12200AD71
-- generatedChecksum: 71849059FFB4C8D26C4E883244C117CA
-  logicalPath: ThreadX
+  userChecksum: BA908CF8A726F5DEDAEB81D68903B427
+- generatedChecksum: 7E2CBE81305D179FF50318B7CB11626D
+  logicalPath: threadx/common/src
   name: tx_thread_identify.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 71849059FFB4C8D26C4E883244C117CA
-- generatedChecksum: 0FDD0F996814FE855CEE4E28CA06BDCC
-  logicalPath: ThreadX
+  userChecksum: 7E2CBE81305D179FF50318B7CB11626D
+- generatedChecksum: 97DABF5C746FF677759F690C7C990B3B
+  logicalPath: threadx/common/src
   name: tx_thread_info_get.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 0FDD0F996814FE855CEE4E28CA06BDCC
-- generatedChecksum: C71BBF2A078DE9854E875458A0E4A35F
-  logicalPath: ThreadX
+  userChecksum: 97DABF5C746FF677759F690C7C990B3B
+- generatedChecksum: E88E689A2ABF7FCB26F9830C63D370B9
+  logicalPath: threadx/common/src
   name: tx_thread_initialize.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: C71BBF2A078DE9854E875458A0E4A35F
-- generatedChecksum: E0636C9788D86FDE1587E9FC248BBA29
-  logicalPath: ThreadX/CORTEX_M4
+  userChecksum: E88E689A2ABF7FCB26F9830C63D370B9
+- generatedChecksum: 199FE31CD56B8BC71C7D494D311E05F8
+  logicalPath: threadx/ports/cortex_m4/mplabx/src
   name: tx_thread_interrupt_control.S
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/ports/cortex_m4/mplabx/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: E0636C9788D86FDE1587E9FC248BBA29
-- generatedChecksum: C03155CC1F927939172838890258CFDC
-  logicalPath: ThreadX
+  userChecksum: 199FE31CD56B8BC71C7D494D311E05F8
+- generatedChecksum: 6ECA646F66BFEF18A6257910BF8FF36D
+  logicalPath: threadx/ports/cortex_m4/mplabx/src
+  name: tx_thread_interrupt_disable.S
+  physicalPath: ../../third_party/rtos/threadx/ports/cortex_m4/mplabx/src
+  security: NON_SECURE
+  type: SOURCE
+  userChecksum: 6ECA646F66BFEF18A6257910BF8FF36D
+- generatedChecksum: D0CA4FE8C0F6C015BD5A53DD18132E13
+  logicalPath: threadx/ports/cortex_m4/mplabx/src
+  name: tx_thread_interrupt_restore.S
+  physicalPath: ../../third_party/rtos/threadx/ports/cortex_m4/mplabx/src
+  security: NON_SECURE
+  type: SOURCE
+  userChecksum: D0CA4FE8C0F6C015BD5A53DD18132E13
+- generatedChecksum: 19BEE90AB5A99718F8311BC91D355067
+  logicalPath: threadx/common/src
   name: tx_thread_performance_info_get.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: C03155CC1F927939172838890258CFDC
-- generatedChecksum: 5F1B1DB83513DBBDC4C6DB47AD76F96B
-  logicalPath: ThreadX
+  userChecksum: 19BEE90AB5A99718F8311BC91D355067
+- generatedChecksum: F2B619D3F764A756E1CEF6938163D459
+  logicalPath: threadx/common/src
   name: tx_thread_performance_system_info_get.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 5F1B1DB83513DBBDC4C6DB47AD76F96B
-- generatedChecksum: F0B0DA95D6A4D99C2976E8EA4C052E0F
-  logicalPath: ThreadX
+  userChecksum: F2B619D3F764A756E1CEF6938163D459
+- generatedChecksum: 5F5B7A72CEE3129A92FAB4131B53CAFE
+  logicalPath: threadx/common/src
   name: tx_thread_preemption_change.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: F0B0DA95D6A4D99C2976E8EA4C052E0F
-- generatedChecksum: 9E72650F0D86344D5DDF5259E664D251
-  logicalPath: ThreadX
+  userChecksum: 5F5B7A72CEE3129A92FAB4131B53CAFE
+- generatedChecksum: 647BCEDC00D9005F4389E4257D303738
+  logicalPath: threadx/common/src
   name: tx_thread_priority_change.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 9E72650F0D86344D5DDF5259E664D251
-- generatedChecksum: 930780B4CFFD1F4346246A52ACAB84B3
-  logicalPath: ThreadX
+  userChecksum: 647BCEDC00D9005F4389E4257D303738
+- generatedChecksum: 6C9394C136FA0ACF771D202BA7E51D2B
+  logicalPath: threadx/common/src
   name: tx_thread_relinquish.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 930780B4CFFD1F4346246A52ACAB84B3
-- generatedChecksum: 7E5F5376C8021C790EEFB178989AB0CE
-  logicalPath: ThreadX
+  userChecksum: 6C9394C136FA0ACF771D202BA7E51D2B
+- generatedChecksum: A397E965AC2A64AE2547A56C0FC63360
+  logicalPath: threadx/common/src
   name: tx_thread_reset.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 7E5F5376C8021C790EEFB178989AB0CE
-- generatedChecksum: 4400A4FA3F782DFF52071452909ADF40
-  logicalPath: ThreadX
+  userChecksum: A397E965AC2A64AE2547A56C0FC63360
+- generatedChecksum: 091DD75AE4013439776F0184F9BB100F
+  logicalPath: threadx/common/src
   name: tx_thread_resume.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 4400A4FA3F782DFF52071452909ADF40
-- generatedChecksum: 62D545FF07DF5864B68109C4B5F5248D
-  logicalPath: ThreadX/CORTEX_M4
+  userChecksum: 091DD75AE4013439776F0184F9BB100F
+- generatedChecksum: 4EB7FAB3CCF4691D697720D8C4C1A851
+  logicalPath: threadx/ports/cortex_m4/mplabx/src
   name: tx_thread_schedule.S
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/ports/cortex_m4/mplabx/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 62D545FF07DF5864B68109C4B5F5248D
-- generatedChecksum: 8B7E516DBE68EACAD7CABD764F2495F8
-  logicalPath: ThreadX
+  userChecksum: 4EB7FAB3CCF4691D697720D8C4C1A851
+- generatedChecksum: 20DFE69C215234E9F30E08C8E9006D63
+  logicalPath: threadx/common/src
   name: tx_thread_shell_entry.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 8B7E516DBE68EACAD7CABD764F2495F8
-- generatedChecksum: DE38FB2C604D843C9441E01D3F3190B1
-  logicalPath: ThreadX
+  userChecksum: 20DFE69C215234E9F30E08C8E9006D63
+- generatedChecksum: AB8E8862464BA2CD4236CF14CAD7CD5E
+  logicalPath: threadx/common/src
   name: tx_thread_sleep.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: DE38FB2C604D843C9441E01D3F3190B1
-- generatedChecksum: 51312F417587987323BF12E4D32FA0F0
-  logicalPath: ThreadX
+  userChecksum: AB8E8862464BA2CD4236CF14CAD7CD5E
+- generatedChecksum: 8F6460AA271A561B2EA5463CCBB17F4F
+  logicalPath: threadx/common/src
   name: tx_thread_stack_analyze.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 51312F417587987323BF12E4D32FA0F0
-- generatedChecksum: 20CDD62420A68D9ED5FF918197B701C4
-  logicalPath: ThreadX/CORTEX_M4
+  userChecksum: 8F6460AA271A561B2EA5463CCBB17F4F
+- generatedChecksum: 8A943030B1B2DBBC642085AEC4A87C4B
+  logicalPath: threadx/ports/cortex_m4/mplabx/src
   name: tx_thread_stack_build.S
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/ports/cortex_m4/mplabx/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 20CDD62420A68D9ED5FF918197B701C4
-- generatedChecksum: 6BBF9BBC3E8EB06D2D3059CB1209D05E
-  logicalPath: ThreadX
+  userChecksum: 8A943030B1B2DBBC642085AEC4A87C4B
+- generatedChecksum: A35CE81B2E7854761C895D53FB50DB19
+  logicalPath: threadx/common/src
   name: tx_thread_stack_error_handler.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 6BBF9BBC3E8EB06D2D3059CB1209D05E
-- generatedChecksum: B842581F151F7E55B6EB8BF97C326E78
-  logicalPath: ThreadX
+  userChecksum: A35CE81B2E7854761C895D53FB50DB19
+- generatedChecksum: D5730C45BBF34889CDFAED812A44B3F2
+  logicalPath: threadx/common/src
   name: tx_thread_stack_error_notify.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: B842581F151F7E55B6EB8BF97C326E78
-- generatedChecksum: 3963B9019A077C69310B090A20E6D414
-  logicalPath: ThreadX
+  userChecksum: D5730C45BBF34889CDFAED812A44B3F2
+- generatedChecksum: E165C3C41351124782D7249D02B61E9E
+  logicalPath: threadx/common/src
   name: tx_thread_suspend.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 3963B9019A077C69310B090A20E6D414
-- generatedChecksum: FF3D4D899A5555AFC0411FEBEAEBC4BC
-  logicalPath: ThreadX
+  userChecksum: E165C3C41351124782D7249D02B61E9E
+- generatedChecksum: DB36C8BD519CB19222E489E139E61575
+  logicalPath: threadx/common/src
   name: tx_thread_system_preempt_check.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: FF3D4D899A5555AFC0411FEBEAEBC4BC
-- generatedChecksum: 376D8F3BEE393F41AC2AD627051A63D5
-  logicalPath: ThreadX
+  userChecksum: DB36C8BD519CB19222E489E139E61575
+- generatedChecksum: 6484E5FA8051A81230EC03B1A34FF0B2
+  logicalPath: threadx/common/src
   name: tx_thread_system_resume.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 376D8F3BEE393F41AC2AD627051A63D5
-- generatedChecksum: AA1EBE0CD47BAFE758324475DE86C0D8
-  logicalPath: ThreadX/CORTEX_M4
+  userChecksum: 6484E5FA8051A81230EC03B1A34FF0B2
+- generatedChecksum: 22FFD35047DB0A143579E790807B3614
+  logicalPath: threadx/ports/cortex_m4/mplabx/src
   name: tx_thread_system_return.S
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/ports/cortex_m4/mplabx/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: AA1EBE0CD47BAFE758324475DE86C0D8
-- generatedChecksum: 120B685DC94288E43A74EE2DBFA5E70E
-  logicalPath: ThreadX
+  userChecksum: 22FFD35047DB0A143579E790807B3614
+- generatedChecksum: 3A97E96CA3259B61D37775A636641F5E
+  logicalPath: threadx/common/src
   name: tx_thread_system_suspend.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 120B685DC94288E43A74EE2DBFA5E70E
-- generatedChecksum: 7C823B430D96F82D2B8880E717AED3DF
-  logicalPath: ThreadX
+  userChecksum: 3A97E96CA3259B61D37775A636641F5E
+- generatedChecksum: FEC95C6D267EE17E72D4DDC8714D81EE
+  logicalPath: threadx/common/src
   name: tx_thread_terminate.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 7C823B430D96F82D2B8880E717AED3DF
-- generatedChecksum: A9B832F477913AF03C54CFD0F69FAC63
-  logicalPath: ThreadX
+  userChecksum: FEC95C6D267EE17E72D4DDC8714D81EE
+- generatedChecksum: 8B2111F41C0A2B3E9C3BE908958C960A
+  logicalPath: threadx/common/src
   name: tx_thread_time_slice.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: A9B832F477913AF03C54CFD0F69FAC63
-- generatedChecksum: 3E6C94B1AE94556A9A43E8FDA1EE27FE
-  logicalPath: ThreadX
+  userChecksum: 8B2111F41C0A2B3E9C3BE908958C960A
+- generatedChecksum: 47EE9AE9E87171C9C5F241B06E1244F8
+  logicalPath: threadx/common/src
   name: tx_thread_time_slice_change.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 3E6C94B1AE94556A9A43E8FDA1EE27FE
-- generatedChecksum: 44EDC944DA11BC4C52641D07D4E46407
-  logicalPath: ThreadX
+  userChecksum: 47EE9AE9E87171C9C5F241B06E1244F8
+- generatedChecksum: A8BF3C265345E55323BC38E18839CC65
+  logicalPath: threadx/common/src
   name: tx_thread_timeout.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 44EDC944DA11BC4C52641D07D4E46407
-- generatedChecksum: 3FAEDDFDD28A071E63861B683B7085D6
-  logicalPath: ThreadX
+  userChecksum: A8BF3C265345E55323BC38E18839CC65
+- generatedChecksum: E2B59A021ED7EA1FEE01F109445DEBC1
+  logicalPath: threadx/common/src
   name: tx_thread_wait_abort.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 3FAEDDFDD28A071E63861B683B7085D6
-- generatedChecksum: F2FD9A5490EE91CAD9ECFC364E10503B
-  logicalPath: ThreadX
+  userChecksum: E2B59A021ED7EA1FEE01F109445DEBC1
+- generatedChecksum: E52DF45BA8D8F21306C8DB710F5C1274
+  logicalPath: threadx/common/src
   name: tx_time_get.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: F2FD9A5490EE91CAD9ECFC364E10503B
-- generatedChecksum: 6AD098A15D1395CC98AF23E2941F7EC2
-  logicalPath: ThreadX
+  userChecksum: E52DF45BA8D8F21306C8DB710F5C1274
+- generatedChecksum: 854B6CF7AC243A1BCD4EFC1777966BDC
+  logicalPath: threadx/common/src
   name: tx_time_set.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 6AD098A15D1395CC98AF23E2941F7EC2
-- generatedChecksum: B4259658971F3701F5D52195994D0C7D
-  logicalPath: ThreadX
+  userChecksum: 854B6CF7AC243A1BCD4EFC1777966BDC
+- generatedChecksum: 92772C76E52E17180B6650EDAB2B19E7
+  logicalPath: threadx/common/src
   name: tx_timer_activate.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: B4259658971F3701F5D52195994D0C7D
-- generatedChecksum: DC833289436889A09F585402326CEA2D
-  logicalPath: ThreadX
+  userChecksum: 92772C76E52E17180B6650EDAB2B19E7
+- generatedChecksum: 8039153AA262A4596C55835054F24F99
+  logicalPath: threadx/common/src
   name: tx_timer_change.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: DC833289436889A09F585402326CEA2D
-- generatedChecksum: 2B5B4649D630ED0B2DFD426A0046841A
-  logicalPath: ThreadX
+  userChecksum: 8039153AA262A4596C55835054F24F99
+- generatedChecksum: 6A516B45B7710FB5C84A70DADC5F7321
+  logicalPath: threadx/common/src
   name: tx_timer_create.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 2B5B4649D630ED0B2DFD426A0046841A
-- generatedChecksum: 80AD536E4AB831D1E67C416742C47A68
-  logicalPath: ThreadX
+  userChecksum: 6A516B45B7710FB5C84A70DADC5F7321
+- generatedChecksum: 13059012BA1AEE55FC83180601B139B5
+  logicalPath: threadx/common/src
   name: tx_timer_deactivate.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 80AD536E4AB831D1E67C416742C47A68
-- generatedChecksum: F057EC5BEC1F21E1AE2825B9B510F132
-  logicalPath: ThreadX
+  userChecksum: 13059012BA1AEE55FC83180601B139B5
+- generatedChecksum: C9FE52AD4434D5C408BFC2DA594727B8
+  logicalPath: threadx/common/src
   name: tx_timer_delete.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: F057EC5BEC1F21E1AE2825B9B510F132
-- generatedChecksum: FB99B736DC4859172EC075A2618A9DA4
-  logicalPath: ThreadX
+  userChecksum: C9FE52AD4434D5C408BFC2DA594727B8
+- generatedChecksum: DDC9F029DB8AEAF1B9108A5157F5509D
+  logicalPath: threadx/common/src
   name: tx_timer_expiration_process.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: FB99B736DC4859172EC075A2618A9DA4
-- generatedChecksum: CDEDB38EFE79D3406C7FE061685033F9
-  logicalPath: ThreadX
+  userChecksum: DDC9F029DB8AEAF1B9108A5157F5509D
+- generatedChecksum: D9B93C9BBE0E39BAD942E85F17883D79
+  logicalPath: threadx/common/src
   name: tx_timer_info_get.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: CDEDB38EFE79D3406C7FE061685033F9
-- generatedChecksum: 8700DA4FA2EF814FF5D99CA469C78795
-  logicalPath: ThreadX
+  userChecksum: D9B93C9BBE0E39BAD942E85F17883D79
+- generatedChecksum: CC7844BF2E2D4688EF17BFF4667ECEB7
+  logicalPath: threadx/common/src
   name: tx_timer_initialize.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 8700DA4FA2EF814FF5D99CA469C78795
-- generatedChecksum: E75D93F0675E8AA5C2C356129D3433E8
-  logicalPath: ThreadX/CORTEX_M4
+  userChecksum: CC7844BF2E2D4688EF17BFF4667ECEB7
+- generatedChecksum: 53144FAF2AC8D748464CA74DE9824287
+  logicalPath: threadx/ports/cortex_m4/mplabx/src
   name: tx_timer_interrupt.S
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/ports/cortex_m4/mplabx/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: E75D93F0675E8AA5C2C356129D3433E8
-- generatedChecksum: BDEEDACE4A843DE4FDA990C966F8FDCD
-  logicalPath: ThreadX
+  userChecksum: 53144FAF2AC8D748464CA74DE9824287
+- generatedChecksum: E7FFFF5881370EE5B1DAD84A54CE860A
+  logicalPath: threadx/common/src
   name: tx_timer_performance_info_get.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: BDEEDACE4A843DE4FDA990C966F8FDCD
-- generatedChecksum: 7D8221BE06A20615CF0516D7BD459F6D
-  logicalPath: ThreadX
+  userChecksum: E7FFFF5881370EE5B1DAD84A54CE860A
+- generatedChecksum: ECCB5AB2381FC40C5E2109CACCEE183A
+  logicalPath: threadx/common/src
   name: tx_timer_performance_system_info_get.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 7D8221BE06A20615CF0516D7BD459F6D
-- generatedChecksum: D5276CC1979A34B6E6CF38C49EEBAF51
-  logicalPath: ThreadX
+  userChecksum: ECCB5AB2381FC40C5E2109CACCEE183A
+- generatedChecksum: 479695DB16DE05C8BC9650F28256E219
+  logicalPath: threadx/common/src
   name: tx_timer_system_activate.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: D5276CC1979A34B6E6CF38C49EEBAF51
-- generatedChecksum: D2E685901F020EB27DEC636ED9BC0B1B
-  logicalPath: ThreadX
+  userChecksum: 479695DB16DE05C8BC9650F28256E219
+- generatedChecksum: CB307440A4B3BAB16F4E84E0B07736F2
+  logicalPath: threadx/common/src
   name: tx_timer_system_deactivate.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: D2E685901F020EB27DEC636ED9BC0B1B
-- generatedChecksum: D473D482D0405DD66AC1B59A80FD4238
-  logicalPath: ThreadX
+  userChecksum: CB307440A4B3BAB16F4E84E0B07736F2
+- generatedChecksum: 3D7553E56C07B6CF71490FC704F57288
+  logicalPath: threadx/common/src
   name: tx_timer_thread_entry.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: D473D482D0405DD66AC1B59A80FD4238
-- generatedChecksum: 0943F7F83B298EA7A15CBC6130CD8688
-  logicalPath: ThreadX
+  userChecksum: 3D7553E56C07B6CF71490FC704F57288
+- generatedChecksum: D2FDBFBEBB62616E22B40AE620E7B9D4
+  logicalPath: threadx/common/src
   name: tx_trace_buffer_full_notify.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 0943F7F83B298EA7A15CBC6130CD8688
-- generatedChecksum: E25BF16E66A10228A620166ECD2D7C96
-  logicalPath: ThreadX
+  userChecksum: D2FDBFBEBB62616E22B40AE620E7B9D4
+- generatedChecksum: 1011CBAE191CABB3B82BA0C6D2C93589
+  logicalPath: threadx/common/src
   name: tx_trace_disable.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: E25BF16E66A10228A620166ECD2D7C96
-- generatedChecksum: 8533C7FF1C0F677A144591A165BAE005
-  logicalPath: ThreadX
+  userChecksum: 1011CBAE191CABB3B82BA0C6D2C93589
+- generatedChecksum: FB59A1EBD75C8E2AB97C8C6F0ED1A601
+  logicalPath: threadx/common/src
   name: tx_trace_enable.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 8533C7FF1C0F677A144591A165BAE005
-- generatedChecksum: C6349BEF35A6E27EAEAAC09C1851AF39
-  logicalPath: ThreadX
+  userChecksum: FB59A1EBD75C8E2AB97C8C6F0ED1A601
+- generatedChecksum: 616681E7BB0E7686BAA603C89EAF37BE
+  logicalPath: threadx/common/src
   name: tx_trace_event_filter.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: C6349BEF35A6E27EAEAAC09C1851AF39
-- generatedChecksum: DFF5D78FBA317540F692114A74E1A001
-  logicalPath: ThreadX
+  userChecksum: 616681E7BB0E7686BAA603C89EAF37BE
+- generatedChecksum: 94F7E73B2E0ADEBB5ECA6181388A70A2
+  logicalPath: threadx/common/src
   name: tx_trace_event_unfilter.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: DFF5D78FBA317540F692114A74E1A001
-- generatedChecksum: 1CB50ABF8ADE2C860D45457747A9D572
-  logicalPath: ThreadX
+  userChecksum: 94F7E73B2E0ADEBB5ECA6181388A70A2
+- generatedChecksum: 536C248719BFC5CE77D91A5F3C55A554
+  logicalPath: threadx/common/src
   name: tx_trace_initialize.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 1CB50ABF8ADE2C860D45457747A9D572
-- generatedChecksum: ADB225099BE85085209592E90A861DA2
-  logicalPath: ThreadX
+  userChecksum: 536C248719BFC5CE77D91A5F3C55A554
+- generatedChecksum: 44F8A5482AD8D09D56749FA3DACEB38A
+  logicalPath: threadx/common/src
   name: tx_trace_interrupt_control.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: ADB225099BE85085209592E90A861DA2
-- generatedChecksum: EDD7E17EDB166C22749613F2B08E389D
-  logicalPath: ThreadX
+  userChecksum: 44F8A5482AD8D09D56749FA3DACEB38A
+- generatedChecksum: EA394E9FB7B8F4437E43BA0475BC446F
+  logicalPath: threadx/common/src
   name: tx_trace_isr_enter_insert.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: EDD7E17EDB166C22749613F2B08E389D
-- generatedChecksum: 515FA122353B9B55C04D3E097E0E0D01
-  logicalPath: ThreadX
+  userChecksum: EA394E9FB7B8F4437E43BA0475BC446F
+- generatedChecksum: 122832158958BDFF9D91B89662D93DC7
+  logicalPath: threadx/common/src
   name: tx_trace_isr_exit_insert.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 515FA122353B9B55C04D3E097E0E0D01
-- generatedChecksum: 9CF378831CC82B1C256967C1F82585A0
-  logicalPath: ThreadX
+  userChecksum: 122832158958BDFF9D91B89662D93DC7
+- generatedChecksum: 273E57D05BAEE37A626BF8AEE9E12EC0
+  logicalPath: threadx/common/src
   name: tx_trace_object_register.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 9CF378831CC82B1C256967C1F82585A0
-- generatedChecksum: 49F0B912AA6FEB3C0EBFDEF76E83D6F1
-  logicalPath: ThreadX
+  userChecksum: 273E57D05BAEE37A626BF8AEE9E12EC0
+- generatedChecksum: 9A90636D32347B4538D8A74584763FAB
+  logicalPath: threadx/common/src
   name: tx_trace_object_unregister.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 49F0B912AA6FEB3C0EBFDEF76E83D6F1
-- generatedChecksum: F7968D329BC366808CECF471A7FEE40A
-  logicalPath: ThreadX
+  userChecksum: 9A90636D32347B4538D8A74584763FAB
+- generatedChecksum: 98761E20C525059735E277D0C5BA9CFB
+  logicalPath: threadx/common/src
   name: tx_trace_user_event_insert.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: F7968D329BC366808CECF471A7FEE40A
-- generatedChecksum: E5CB53E13C6B0BA378E5CE96DD5E3BC0
-  logicalPath: ThreadX
+  userChecksum: 98761E20C525059735E277D0C5BA9CFB
+- generatedChecksum: DCFB9F141DF6B118B116DDB3B358759E
+  logicalPath: threadx/common/src
   name: txe_block_allocate.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: E5CB53E13C6B0BA378E5CE96DD5E3BC0
-- generatedChecksum: 1C282B79DAB9420B6116BB42F115125E
-  logicalPath: ThreadX
+  userChecksum: DCFB9F141DF6B118B116DDB3B358759E
+- generatedChecksum: 5AF394A1CA94B1B76015969EDC6542F3
+  logicalPath: threadx/common/src
   name: txe_block_pool_create.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 1C282B79DAB9420B6116BB42F115125E
-- generatedChecksum: 0A60EFDB30BAA69C7EBE22CFC85D9BDB
-  logicalPath: ThreadX
+  userChecksum: 5AF394A1CA94B1B76015969EDC6542F3
+- generatedChecksum: A39831C41ED6D92D846CBEB11CD30FCF
+  logicalPath: threadx/common/src
   name: txe_block_pool_delete.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 0A60EFDB30BAA69C7EBE22CFC85D9BDB
-- generatedChecksum: E3763AC2A141D44DF93FC5DC875915E6
-  logicalPath: ThreadX
+  userChecksum: A39831C41ED6D92D846CBEB11CD30FCF
+- generatedChecksum: D319C160775C1AD2BF1E001210CDAAD5
+  logicalPath: threadx/common/src
   name: txe_block_pool_info_get.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: E3763AC2A141D44DF93FC5DC875915E6
-- generatedChecksum: 322D2F7BCDAB568AEF1B6F7C92655CB0
-  logicalPath: ThreadX
+  userChecksum: D319C160775C1AD2BF1E001210CDAAD5
+- generatedChecksum: F0C8F0E2AC0FC5BA850F3530B7024D34
+  logicalPath: threadx/common/src
   name: txe_block_pool_prioritize.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 322D2F7BCDAB568AEF1B6F7C92655CB0
-- generatedChecksum: 1CE639DFACF9EA6CC7D2AC67C2129878
-  logicalPath: ThreadX
+  userChecksum: F0C8F0E2AC0FC5BA850F3530B7024D34
+- generatedChecksum: 5FA1E9418BBDB3784517E6093CD7380C
+  logicalPath: threadx/common/src
   name: txe_block_release.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 1CE639DFACF9EA6CC7D2AC67C2129878
-- generatedChecksum: 70D3321A173F41EED2A151E8A2C21CBB
-  logicalPath: ThreadX
+  userChecksum: 5FA1E9418BBDB3784517E6093CD7380C
+- generatedChecksum: 06191C8440C8A34D111E2B89ADB94AF7
+  logicalPath: threadx/common/src
   name: txe_byte_allocate.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 70D3321A173F41EED2A151E8A2C21CBB
-- generatedChecksum: 93937174577FFF74C6DCEC9B580176AB
-  logicalPath: ThreadX
+  userChecksum: 06191C8440C8A34D111E2B89ADB94AF7
+- generatedChecksum: CC019AF175337ED645D2875A7EC0FEEA
+  logicalPath: threadx/common/src
   name: txe_byte_pool_create.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 93937174577FFF74C6DCEC9B580176AB
-- generatedChecksum: 32B996C1703888E48CE8F4529F5A4E46
-  logicalPath: ThreadX
+  userChecksum: CC019AF175337ED645D2875A7EC0FEEA
+- generatedChecksum: B3C7CD73DBFA45BF0FB3DE518A3BB0A0
+  logicalPath: threadx/common/src
   name: txe_byte_pool_delete.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 32B996C1703888E48CE8F4529F5A4E46
-- generatedChecksum: 7BD540BF0B149CF9436EEC9EEB58DCD0
-  logicalPath: ThreadX
+  userChecksum: B3C7CD73DBFA45BF0FB3DE518A3BB0A0
+- generatedChecksum: BDFAAEA51B8E2539FB419A52E4D120CE
+  logicalPath: threadx/common/src
   name: txe_byte_pool_info_get.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 7BD540BF0B149CF9436EEC9EEB58DCD0
-- generatedChecksum: 43FF8D79811E47A3F61B7332D3A347F9
-  logicalPath: ThreadX
+  userChecksum: BDFAAEA51B8E2539FB419A52E4D120CE
+- generatedChecksum: 191F3267F64EB4250C2DAF76E75AD47B
+  logicalPath: threadx/common/src
   name: txe_byte_pool_prioritize.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 43FF8D79811E47A3F61B7332D3A347F9
-- generatedChecksum: 52CBB5993994FF2505D9AC770A439927
-  logicalPath: ThreadX
+  userChecksum: 191F3267F64EB4250C2DAF76E75AD47B
+- generatedChecksum: 43A99D1A7A2CE3ADFD2DE3BF8E25E3FC
+  logicalPath: threadx/common/src
   name: txe_byte_release.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 52CBB5993994FF2505D9AC770A439927
-- generatedChecksum: ED0369A20FF60E9840220C8258609C50
-  logicalPath: ThreadX
+  userChecksum: 43A99D1A7A2CE3ADFD2DE3BF8E25E3FC
+- generatedChecksum: 72681ACB066C06D8749A8C72ACBD4547
+  logicalPath: threadx/common/src
   name: txe_event_flags_create.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: ED0369A20FF60E9840220C8258609C50
-- generatedChecksum: F173B67E8F35F2321691BEEB7989803E
-  logicalPath: ThreadX
+  userChecksum: 72681ACB066C06D8749A8C72ACBD4547
+- generatedChecksum: 26918AB6B715439FAB111722ED376A88
+  logicalPath: threadx/common/src
   name: txe_event_flags_delete.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: F173B67E8F35F2321691BEEB7989803E
-- generatedChecksum: 19CE9456A08A94A202434C42582B465D
-  logicalPath: ThreadX
+  userChecksum: 26918AB6B715439FAB111722ED376A88
+- generatedChecksum: 92BD2264CBF5B4F33D6910D527CE97FF
+  logicalPath: threadx/common/src
   name: txe_event_flags_get.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 19CE9456A08A94A202434C42582B465D
-- generatedChecksum: DED586178873F70BD31F06CD94BDF23D
-  logicalPath: ThreadX
+  userChecksum: 92BD2264CBF5B4F33D6910D527CE97FF
+- generatedChecksum: 8C98EA4968D4614DDFE30FDEF2DCC460
+  logicalPath: threadx/common/src
   name: txe_event_flags_info_get.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: DED586178873F70BD31F06CD94BDF23D
-- generatedChecksum: 15B8E220B7AF3CEE155C1284B4A7E6C8
-  logicalPath: ThreadX
+  userChecksum: 8C98EA4968D4614DDFE30FDEF2DCC460
+- generatedChecksum: 4ED1A7A9B053FEFF111C84B9FE0C479A
+  logicalPath: threadx/common/src
   name: txe_event_flags_set.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 15B8E220B7AF3CEE155C1284B4A7E6C8
-- generatedChecksum: FAA4F9DB7D7DC1AA8F476C4702435426
-  logicalPath: ThreadX
+  userChecksum: 4ED1A7A9B053FEFF111C84B9FE0C479A
+- generatedChecksum: CC4524A619838D9BEC79D616FB515488
+  logicalPath: threadx/common/src
   name: txe_event_flags_set_notify.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: FAA4F9DB7D7DC1AA8F476C4702435426
-- generatedChecksum: C73A312B11AAEC891EBD1041E80178A0
-  logicalPath: ThreadX
+  userChecksum: CC4524A619838D9BEC79D616FB515488
+- generatedChecksum: 0378C2E840CF5BFFD629A50ADCA210B6
+  logicalPath: threadx/common/src
   name: txe_mutex_create.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: C73A312B11AAEC891EBD1041E80178A0
-- generatedChecksum: D3A8416E7179E400E576261B90AF7FE5
-  logicalPath: ThreadX
+  userChecksum: 0378C2E840CF5BFFD629A50ADCA210B6
+- generatedChecksum: 66C4A2DD051377329A23F6A9E4EDB2A8
+  logicalPath: threadx/common/src
   name: txe_mutex_delete.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: D3A8416E7179E400E576261B90AF7FE5
-- generatedChecksum: 27A99A9970EBEC02D915BBF1368D296D
-  logicalPath: ThreadX
+  userChecksum: 66C4A2DD051377329A23F6A9E4EDB2A8
+- generatedChecksum: 4005288D1687570638317284119C8E65
+  logicalPath: threadx/common/src
   name: txe_mutex_get.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 27A99A9970EBEC02D915BBF1368D296D
-- generatedChecksum: F662357B6AF8744B267E38FE2D8982FA
-  logicalPath: ThreadX
+  userChecksum: 4005288D1687570638317284119C8E65
+- generatedChecksum: 0E0F274C304AF0A5C23E40EC45DB7FCC
+  logicalPath: threadx/common/src
   name: txe_mutex_info_get.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: F662357B6AF8744B267E38FE2D8982FA
-- generatedChecksum: D23B97956FCE33BE48D62289BDFE92B7
-  logicalPath: ThreadX
+  userChecksum: 0E0F274C304AF0A5C23E40EC45DB7FCC
+- generatedChecksum: 0A9932703D4E720588EAF355EA83B4A3
+  logicalPath: threadx/common/src
   name: txe_mutex_prioritize.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: D23B97956FCE33BE48D62289BDFE92B7
-- generatedChecksum: 933C228024E54DD27C1D34B507E70096
-  logicalPath: ThreadX
+  userChecksum: 0A9932703D4E720588EAF355EA83B4A3
+- generatedChecksum: 33C6CAB70C31DB0ED8F69B99DF574E4C
+  logicalPath: threadx/common/src
   name: txe_mutex_put.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 933C228024E54DD27C1D34B507E70096
-- generatedChecksum: 97BC847ACBA74DE204FD04D567421E1E
-  logicalPath: ThreadX
+  userChecksum: 33C6CAB70C31DB0ED8F69B99DF574E4C
+- generatedChecksum: 225E967D882798D2188844319FE67D75
+  logicalPath: threadx/common/src
   name: txe_queue_create.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 97BC847ACBA74DE204FD04D567421E1E
-- generatedChecksum: 7C9F8DF2D92D796028E8177B15BAE201
-  logicalPath: ThreadX
+  userChecksum: 225E967D882798D2188844319FE67D75
+- generatedChecksum: 57BF346D969578F2B1536F17CD8B7A56
+  logicalPath: threadx/common/src
   name: txe_queue_delete.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 7C9F8DF2D92D796028E8177B15BAE201
-- generatedChecksum: 51DA6A5A701B55594C8979B9AD74DE78
-  logicalPath: ThreadX
+  userChecksum: 57BF346D969578F2B1536F17CD8B7A56
+- generatedChecksum: 7720C97495430839F8B8527CEFCAB03C
+  logicalPath: threadx/common/src
   name: txe_queue_flush.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 51DA6A5A701B55594C8979B9AD74DE78
-- generatedChecksum: 33E403090E5CC7A4B0F20A7AA09F490F
-  logicalPath: ThreadX
+  userChecksum: 7720C97495430839F8B8527CEFCAB03C
+- generatedChecksum: 13EC9B0557110CC4B67CC9C5EFF9DB2C
+  logicalPath: threadx/common/src
   name: txe_queue_front_send.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 33E403090E5CC7A4B0F20A7AA09F490F
-- generatedChecksum: F8D2CEA809C8518FDA2B1AE7883C39EE
-  logicalPath: ThreadX
+  userChecksum: 13EC9B0557110CC4B67CC9C5EFF9DB2C
+- generatedChecksum: 62254750CCF7D0755A757FE471473E5F
+  logicalPath: threadx/common/src
   name: txe_queue_info_get.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: F8D2CEA809C8518FDA2B1AE7883C39EE
-- generatedChecksum: 7B44ACB69BD82504999D4E1624C1F54F
-  logicalPath: ThreadX
+  userChecksum: 62254750CCF7D0755A757FE471473E5F
+- generatedChecksum: 7351844554F6E18100BBBA85ACF0BEEC
+  logicalPath: threadx/common/src
   name: txe_queue_prioritize.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 7B44ACB69BD82504999D4E1624C1F54F
-- generatedChecksum: 69707B9281B48B6CFB78B747314B1C6D
-  logicalPath: ThreadX
+  userChecksum: 7351844554F6E18100BBBA85ACF0BEEC
+- generatedChecksum: BC7FBF5FD0C47C4106C03928C311A2A7
+  logicalPath: threadx/common/src
   name: txe_queue_receive.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 69707B9281B48B6CFB78B747314B1C6D
-- generatedChecksum: 5461C0509A8FB85DDE4E99060A55768D
-  logicalPath: ThreadX
+  userChecksum: BC7FBF5FD0C47C4106C03928C311A2A7
+- generatedChecksum: C441FFF54E086522E014FFA3B3DC1456
+  logicalPath: threadx/common/src
   name: txe_queue_send.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 5461C0509A8FB85DDE4E99060A55768D
-- generatedChecksum: 430FA5EE9155298BDCEBFA47FC5288BC
-  logicalPath: ThreadX
+  userChecksum: C441FFF54E086522E014FFA3B3DC1456
+- generatedChecksum: 77C28377286132C316FFA8679089EB39
+  logicalPath: threadx/common/src
   name: txe_queue_send_notify.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 430FA5EE9155298BDCEBFA47FC5288BC
-- generatedChecksum: 30BAC59A1CA97A49C3CBF9713AEFEB9F
-  logicalPath: ThreadX
+  userChecksum: 77C28377286132C316FFA8679089EB39
+- generatedChecksum: 56F17935CE2F084487F77A9BEBA06314
+  logicalPath: threadx/common/src
   name: txe_semaphore_ceiling_put.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 30BAC59A1CA97A49C3CBF9713AEFEB9F
-- generatedChecksum: 0645348B5A369A3FC160129A10E7369C
-  logicalPath: ThreadX
+  userChecksum: 56F17935CE2F084487F77A9BEBA06314
+- generatedChecksum: BC19637A0CD3534ABDA77D214764B87E
+  logicalPath: threadx/common/src
   name: txe_semaphore_create.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 0645348B5A369A3FC160129A10E7369C
-- generatedChecksum: 991AB9A5BEEDE9562FEA1C45E01839F7
-  logicalPath: ThreadX
+  userChecksum: BC19637A0CD3534ABDA77D214764B87E
+- generatedChecksum: E56E534469861912CCA82C6704C01FF2
+  logicalPath: threadx/common/src
   name: txe_semaphore_delete.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 991AB9A5BEEDE9562FEA1C45E01839F7
-- generatedChecksum: 92FB2C87F547C88B11D70FA38C175F70
-  logicalPath: ThreadX
+  userChecksum: E56E534469861912CCA82C6704C01FF2
+- generatedChecksum: 57061FDCD9842ABADA51A1831D2CBF7B
+  logicalPath: threadx/common/src
   name: txe_semaphore_get.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 92FB2C87F547C88B11D70FA38C175F70
-- generatedChecksum: 22936A8FB6982C178FDCC4EC4C026924
-  logicalPath: ThreadX
+  userChecksum: 57061FDCD9842ABADA51A1831D2CBF7B
+- generatedChecksum: 2777D87E52A21AFFEC26986D1F7FF8AB
+  logicalPath: threadx/common/src
   name: txe_semaphore_info_get.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 22936A8FB6982C178FDCC4EC4C026924
-- generatedChecksum: D14569147FC4F163AD4C8AA78654787C
-  logicalPath: ThreadX
+  userChecksum: 2777D87E52A21AFFEC26986D1F7FF8AB
+- generatedChecksum: 8C30328D9AE9FB8F8B7B6AC9B7AC2DD8
+  logicalPath: threadx/common/src
   name: txe_semaphore_prioritize.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: D14569147FC4F163AD4C8AA78654787C
-- generatedChecksum: 1A82BA0D192C94DC81A1BC2D8095EF86
-  logicalPath: ThreadX
+  userChecksum: 8C30328D9AE9FB8F8B7B6AC9B7AC2DD8
+- generatedChecksum: A53B1BA47A0F49A3BD80D3E1B60E4E88
+  logicalPath: threadx/common/src
   name: txe_semaphore_put.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 1A82BA0D192C94DC81A1BC2D8095EF86
-- generatedChecksum: 29301C85B207B37E1285187FA97E47F8
-  logicalPath: ThreadX
+  userChecksum: A53B1BA47A0F49A3BD80D3E1B60E4E88
+- generatedChecksum: CEF691EDF2C09DED5B8D8D13C0A1B8EC
+  logicalPath: threadx/common/src
   name: txe_semaphore_put_notify.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 29301C85B207B37E1285187FA97E47F8
-- generatedChecksum: E5587CC3629A5B4152BA9C1F214985BB
-  logicalPath: ThreadX
+  userChecksum: CEF691EDF2C09DED5B8D8D13C0A1B8EC
+- generatedChecksum: 80D3275CA68370CB611EBCD65983E391
+  logicalPath: threadx/common/src
   name: txe_thread_create.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: E5587CC3629A5B4152BA9C1F214985BB
-- generatedChecksum: DEFFAA152561C70186B9656196ED4339
-  logicalPath: ThreadX
+  userChecksum: 80D3275CA68370CB611EBCD65983E391
+- generatedChecksum: 69A8DBDDEC9C4861F139F61E51625264
+  logicalPath: threadx/common/src
   name: txe_thread_delete.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: DEFFAA152561C70186B9656196ED4339
-- generatedChecksum: 6774C385A0090AFA5B0B3BD551E3E8CF
-  logicalPath: ThreadX
+  userChecksum: 69A8DBDDEC9C4861F139F61E51625264
+- generatedChecksum: 43F46B21955D2D7117E227DEB5977855
+  logicalPath: threadx/common/src
   name: txe_thread_entry_exit_notify.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 6774C385A0090AFA5B0B3BD551E3E8CF
-- generatedChecksum: B8DEBFF48C9A8F615A7D0A6EABB52376
-  logicalPath: ThreadX
+  userChecksum: 43F46B21955D2D7117E227DEB5977855
+- generatedChecksum: C69C9D0FC8463DA618A56D85036975AA
+  logicalPath: threadx/common/src
   name: txe_thread_info_get.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: B8DEBFF48C9A8F615A7D0A6EABB52376
-- generatedChecksum: AE7151F12D03F79E51EBBE35E3B9A8A7
-  logicalPath: ThreadX
+  userChecksum: C69C9D0FC8463DA618A56D85036975AA
+- generatedChecksum: A6C8BA4492DD73AFCBEDF3487E69CB89
+  logicalPath: threadx/common/src
   name: txe_thread_preemption_change.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: AE7151F12D03F79E51EBBE35E3B9A8A7
-- generatedChecksum: 610A919E4CD34FDC965BD91FD746AFAA
-  logicalPath: ThreadX
+  userChecksum: A6C8BA4492DD73AFCBEDF3487E69CB89
+- generatedChecksum: 5E6CEF96CA58392C350DF485E872AD81
+  logicalPath: threadx/common/src
   name: txe_thread_priority_change.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 610A919E4CD34FDC965BD91FD746AFAA
-- generatedChecksum: 9CF938A6A87F3BB2DCCFC9853A5FC889
-  logicalPath: ThreadX
+  userChecksum: 5E6CEF96CA58392C350DF485E872AD81
+- generatedChecksum: 1D53937667987FB85785B0172AC378DF
+  logicalPath: threadx/common/src
   name: txe_thread_relinquish.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 9CF938A6A87F3BB2DCCFC9853A5FC889
-- generatedChecksum: 448F6C72DB8C888DD3B44A9D9333F266
-  logicalPath: ThreadX
+  userChecksum: 1D53937667987FB85785B0172AC378DF
+- generatedChecksum: 8325967D9870F57A5B94E09A046FBE68
+  logicalPath: threadx/common/src
   name: txe_thread_reset.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 448F6C72DB8C888DD3B44A9D9333F266
-- generatedChecksum: 8771576172B0F57C510FD480AF45D8EC
-  logicalPath: ThreadX
+  userChecksum: 8325967D9870F57A5B94E09A046FBE68
+- generatedChecksum: 0F8DC0D5480E7BCA25B0342D4A42D748
+  logicalPath: threadx/common/src
   name: txe_thread_resume.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 8771576172B0F57C510FD480AF45D8EC
-- generatedChecksum: 2A84F7586E0D41D55199F58B74F919EE
-  logicalPath: ThreadX
+  userChecksum: 0F8DC0D5480E7BCA25B0342D4A42D748
+- generatedChecksum: 7E5CDC66D631BCBBD0DF9B3F2D6DF416
+  logicalPath: threadx/common/src
   name: txe_thread_suspend.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 2A84F7586E0D41D55199F58B74F919EE
-- generatedChecksum: B3833CD4FC233235A7287B6F88E570D4
-  logicalPath: ThreadX
+  userChecksum: 7E5CDC66D631BCBBD0DF9B3F2D6DF416
+- generatedChecksum: 033BDA60C849D2A81AF21EF16161DF12
+  logicalPath: threadx/common/src
   name: txe_thread_terminate.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: B3833CD4FC233235A7287B6F88E570D4
-- generatedChecksum: 1B05021242724CCC1A7A4830C1264B83
-  logicalPath: ThreadX
+  userChecksum: 033BDA60C849D2A81AF21EF16161DF12
+- generatedChecksum: 3B996E71519875E7452311E98A8734E5
+  logicalPath: threadx/common/src
   name: txe_thread_time_slice_change.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 1B05021242724CCC1A7A4830C1264B83
-- generatedChecksum: 548C2DDD1E13A92B403CF69EBCB7E02A
-  logicalPath: ThreadX
+  userChecksum: 3B996E71519875E7452311E98A8734E5
+- generatedChecksum: 8BE21ED2986B96BB1E15E705F6EEB2DD
+  logicalPath: threadx/common/src
   name: txe_thread_wait_abort.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 548C2DDD1E13A92B403CF69EBCB7E02A
-- generatedChecksum: 8AD5579A822FC7F62B66554B75D80F51
-  logicalPath: ThreadX
+  userChecksum: 8BE21ED2986B96BB1E15E705F6EEB2DD
+- generatedChecksum: 5013181E10E984FCB8DB6B1A3421CD1D
+  logicalPath: threadx/common/src
   name: txe_timer_activate.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 8AD5579A822FC7F62B66554B75D80F51
-- generatedChecksum: 7477591A26F389F2A85CFC544D32C6EC
-  logicalPath: ThreadX
+  userChecksum: 5013181E10E984FCB8DB6B1A3421CD1D
+- generatedChecksum: 1BF7A55B5D1463765C2B16CEB59B5DFD
+  logicalPath: threadx/common/src
   name: txe_timer_change.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 7477591A26F389F2A85CFC544D32C6EC
-- generatedChecksum: 0BF8B5638F390A6C8EC2AEB6C175F14D
-  logicalPath: ThreadX
+  userChecksum: 1BF7A55B5D1463765C2B16CEB59B5DFD
+- generatedChecksum: 340DC0FC489908C40EB4E62406498BB9
+  logicalPath: threadx/common/src
   name: txe_timer_create.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 0BF8B5638F390A6C8EC2AEB6C175F14D
-- generatedChecksum: DF76C4FC8C5D871C4938F84771ED7211
-  logicalPath: ThreadX
+  userChecksum: 340DC0FC489908C40EB4E62406498BB9
+- generatedChecksum: 6E3227260060FB08902C591B9E56660A
+  logicalPath: threadx/common/src
   name: txe_timer_deactivate.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: DF76C4FC8C5D871C4938F84771ED7211
-- generatedChecksum: 2B08237EE96B7DCB8D0270D2A09D96B8
-  logicalPath: ThreadX
+  userChecksum: 6E3227260060FB08902C591B9E56660A
+- generatedChecksum: 212505517DCE2F64DCCE4287EB768ABD
+  logicalPath: threadx/common/src
   name: txe_timer_delete.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 2B08237EE96B7DCB8D0270D2A09D96B8
-- generatedChecksum: F05D85792DC2A9DABC30F84E91CF05D3
-  logicalPath: ThreadX
+  userChecksum: 212505517DCE2F64DCCE4287EB768ABD
+- generatedChecksum: C1DD82DC16DD85EC8C5FE819B1B47E9E
+  logicalPath: threadx/common/src
   name: txe_timer_info_get.c
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: F05D85792DC2A9DABC30F84E91CF05D3
+  userChecksum: C1DD82DC16DD85EC8C5FE819B1B47E9E
 - generatedChecksum: 03E1F361F1B88721637A0A0F7DD3BEF3
   logicalPath: third_party/azure_rtos/netxduo/addons/azure_iot/azure_iot_security_module/iot-security-module-core/src/utils
   name: uuid.c
@@ -10023,13 +10044,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: BF2C2E01072E8CE8010C92C829832F30
-- generatedChecksum: 0BA82D689163FBCAE5171061489E5181
+- generatedChecksum: 0CE3CB5545FF7F3EC79BBCADE956BA66
   logicalPath: config/sam_e54_xpro/third_party_adapter/azure_rtos/src
   name: azure_glue.h
   physicalPath: third_party_adapter/azure_rtos/src
   security: NON_SECURE
   type: HEADER
-  userChecksum: 0BA82D689163FBCAE5171061489E5181
+  userChecksum: 0CE3CB5545FF7F3EC79BBCADE956BA66
 - generatedChecksum: F9ED8F75A0DEC7EE20525646E708CE11
   logicalPath: config/sam_e54_xpro/third_party_adapter/azure_rtos/src
   name: azure_glue_private.h
@@ -12711,97 +12732,97 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: D2DE9CF6C07EADF0F1DDB64517B728B6
-- generatedChecksum: F33F8FEBB17EF788B68C6475D16AFA8C
-  logicalPath: ThreadX
+- generatedChecksum: ED16F5F98136A01ADC530EF589C93327
+  logicalPath: threadx/common/inc
   name: tx_api.h
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/inc
   security: NON_SECURE
   type: HEADER
-  userChecksum: F33F8FEBB17EF788B68C6475D16AFA8C
-- generatedChecksum: 72605BE7CC79AFDBEB670C721BFB52D7
-  logicalPath: ThreadX
+  userChecksum: ED16F5F98136A01ADC530EF589C93327
+- generatedChecksum: 8F2B7320A6CE50D853E38514472EB4C2
+  logicalPath: threadx/common/inc
   name: tx_block_pool.h
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/inc
   security: NON_SECURE
   type: HEADER
-  userChecksum: 72605BE7CC79AFDBEB670C721BFB52D7
-- generatedChecksum: AEB991419FA93CCDE3641DCF891FD3FB
-  logicalPath: ThreadX
+  userChecksum: 8F2B7320A6CE50D853E38514472EB4C2
+- generatedChecksum: A6B782230E7D0D0797AFE75158E40ED4
+  logicalPath: threadx/common/inc
   name: tx_byte_pool.h
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/inc
   security: NON_SECURE
   type: HEADER
-  userChecksum: AEB991419FA93CCDE3641DCF891FD3FB
-- generatedChecksum: 95C8E41F64C664C75062BDBF3E39386D
-  logicalPath: ThreadX
+  userChecksum: A6B782230E7D0D0797AFE75158E40ED4
+- generatedChecksum: 7D7A5194A5091F48B4B896DE6B600975
+  logicalPath: threadx/common/inc
   name: tx_event_flags.h
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/inc
   security: NON_SECURE
   type: HEADER
-  userChecksum: 95C8E41F64C664C75062BDBF3E39386D
-- generatedChecksum: 0379532DE53F0818BF982F684C6D01A5
-  logicalPath: ThreadX
+  userChecksum: 7D7A5194A5091F48B4B896DE6B600975
+- generatedChecksum: C9EB28AF6EC9C34C60DD4CF8283AF426
+  logicalPath: threadx/common/inc
   name: tx_initialize.h
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/inc
   security: NON_SECURE
   type: HEADER
-  userChecksum: 0379532DE53F0818BF982F684C6D01A5
-- generatedChecksum: EFBB51C888B5FB00723A4B91400A0A2F
-  logicalPath: ThreadX
+  userChecksum: C9EB28AF6EC9C34C60DD4CF8283AF426
+- generatedChecksum: 4723849BB95D0EFB2300C99F4EA6E1F0
+  logicalPath: threadx/common/inc
   name: tx_mutex.h
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/inc
   security: NON_SECURE
   type: HEADER
-  userChecksum: EFBB51C888B5FB00723A4B91400A0A2F
-- generatedChecksum: D32AF6C7BFB7AC6BA69DFF3E3A2B0529
-  logicalPath: ThreadX/CORTEX_M4
+  userChecksum: 4723849BB95D0EFB2300C99F4EA6E1F0
+- generatedChecksum: 34E19B21C70B6F57DE4422FF6276203A
+  logicalPath: threadx/ports/cortex_m4/mplabx/inc
   name: tx_port.h
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/ports/cortex_m4/mplabx/inc
   security: NON_SECURE
   type: HEADER
-  userChecksum: D32AF6C7BFB7AC6BA69DFF3E3A2B0529
-- generatedChecksum: 479833416F7D653B0E323B801D2E3264
-  logicalPath: ThreadX
+  userChecksum: 34E19B21C70B6F57DE4422FF6276203A
+- generatedChecksum: C452786209BA4350967087E7FD1B0832
+  logicalPath: threadx/common/inc
   name: tx_queue.h
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/inc
   security: NON_SECURE
   type: HEADER
-  userChecksum: 479833416F7D653B0E323B801D2E3264
-- generatedChecksum: 0281DD56A7D9D96AC829F2BF5FE17506
-  logicalPath: ThreadX
+  userChecksum: C452786209BA4350967087E7FD1B0832
+- generatedChecksum: 7F04CA8DB402A313678D178EB213683A
+  logicalPath: threadx/common/inc
   name: tx_semaphore.h
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/inc
   security: NON_SECURE
   type: HEADER
-  userChecksum: 0281DD56A7D9D96AC829F2BF5FE17506
-- generatedChecksum: 45DF138438E27DAE6D87F8B4EA9ADAAC
-  logicalPath: ThreadX
+  userChecksum: 7F04CA8DB402A313678D178EB213683A
+- generatedChecksum: 8426FD1D0BE717D1B851C7D9BA0CEE91
+  logicalPath: threadx/common/inc
   name: tx_thread.h
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/inc
   security: NON_SECURE
   type: HEADER
-  userChecksum: 45DF138438E27DAE6D87F8B4EA9ADAAC
-- generatedChecksum: 206F6191B82A93A931FE595D2A4A50A6
-  logicalPath: ThreadX
+  userChecksum: 8426FD1D0BE717D1B851C7D9BA0CEE91
+- generatedChecksum: E47DF01195FA79661CBF351145BBB31A
+  logicalPath: threadx/common/inc
   name: tx_timer.h
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/inc
   security: NON_SECURE
   type: HEADER
-  userChecksum: 206F6191B82A93A931FE595D2A4A50A6
-- generatedChecksum: 654CD0EBCBCF9663457B455FCA21ECDC
-  logicalPath: ThreadX
+  userChecksum: E47DF01195FA79661CBF351145BBB31A
+- generatedChecksum: 9735007C93710E17B9D076EB9EB5F5EC
+  logicalPath: threadx/common/inc
   name: tx_trace.h
-  physicalPath: ../../third_party/rtos/ThreadX/tx58cortex_m4_mplabx/threadx
+  physicalPath: ../../third_party/rtos/threadx/common/inc
   security: NON_SECURE
   type: HEADER
-  userChecksum: 654CD0EBCBCF9663457B455FCA21ECDC
-- generatedChecksum: 6FFDCE3854370BA51A8060BC93636CFC
+  userChecksum: 9735007C93710E17B9D076EB9EB5F5EC
+- generatedChecksum: 2A9C991DAE19B2401A7A01F7DAB268BC
   logicalPath: config/sam_e54_xpro/threadx_config
   name: tx_user.h
   physicalPath: threadx_config
   security: NON_SECURE
   type: HEADER
-  userChecksum: 695A77A8F2E50049A7B8EAA1600BD5B1
+  userChecksum: 2A9C991DAE19B2401A7A01F7DAB268BC
 - generatedChecksum: 6731910581AB359B9F9B7F2FF3989553
   logicalPath: packs/ATSAME54P20A_DFP/component
   name: usb.h
@@ -13004,9 +13025,9 @@ settings:
   key: preprocessor-macros
   security: NON_SECURE
   value: NX_INCLUDE_USER_DEFINE_FILE
-- append: false
+- append: true
   category: C32
-  delimiter: ''
+  delimiter: ;
   key: preprocessor-macros
   security: NON_SECURE
   value: TX_INCLUDE_USER_DEFINE_FILE
@@ -13052,6 +13073,18 @@ settings:
   key: extra-include-directories
   security: NON_SECURE
   value: ../src;../src/config/sam_e54_xpro;../src/packs/ATSAME54P20A_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/
+- append: true
+  category: C32CPP
+  delimiter: ;
+  key: extra-include-directories
+  security: NON_SECURE
+  value: /mplabx/inc;
+- append: true
+  category: C32CPP
+  delimiter: ;
+  key: preprocessor-macros
+  security: NON_SECURE
+  value: TX_INCLUDE_USER_DEFINE_FILE
 - append: false
   category: C32Global
   delimiter: ''
