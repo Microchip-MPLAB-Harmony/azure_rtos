@@ -25,6 +25,7 @@ The following table provides links to documentation on how to build and run Basi
 |[PIC32MZ Embedded Connectivity with FPU (EF) Starter Kit](docs/readme_pic32mz_ef_sk.md) |
 |[SAM9X60-EK Evaluation Kit](docs/readme_sam_9x60_ek.md) |
 |[SAMA5D2 Xplained Ultra Evaluation Kit](docs/readme_sam_a5d2_xult.md) |
+|[SAMA7G5 Evaluation Kit](docs/readme_sam_a7g5_ek.md) |
 |[SAM C21N Xplained Pro Evaluation Kit](docs/readme_sam_c21n_xpro.md) |
 |[SAM E54 Xplained Pro Evaluation Kit](docs/readme_sam_e54_xpro.md) |
 |[SAM E70 Xplained Ultra Evaluation Kit](docs/readme_sam_e70_xult.md) |

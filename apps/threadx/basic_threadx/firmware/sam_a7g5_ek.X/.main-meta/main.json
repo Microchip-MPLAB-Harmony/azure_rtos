@@ -1,0 +1,83 @@
+{
+	"metaDataVersion": "1.0.0",
+	"category": "com.microchip.ide.project",
+	"content": {
+		"metaDataVersion": "1.0.0",
+		"name": "com.microchip.mcu32.mplabx.project.azure_rtos_basic_threadx_sam_a7g5_ek",
+		"version": "3.0.0",
+		"displayName": "Azure RTOS ThreadX basic example for SAM A7G5 Family",
+		"projectName": "basic_threadx_sam_a7g5_ek",
+		"shortDescription": "This example application blinks an LED to show the Azure RTOS ThreadX threads that are running and to indicate status",
+		"ide": {
+			"name": "MPLABX",
+			"semverRange": ">=5.50.0"
+		},
+		"compiler": [
+			{
+				"name": "XC32",
+				"semverRange": ">=3.01.0"
+			}
+		],
+		"dfp": {
+			"name": "SAMA7G5_DFP",
+			"semverRange": "^1.0.36"
+		},
+		"configurator": {
+			"name": "MHC",
+			"semverRange": ">=3.8.0"
+		},
+		"device": {
+			"metaDataVersion": "1.0.0",
+			"category": "com.microchip.portal.contentRef",
+			"content": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.device",
+				"name": "SAMA7G54",
+				"versionRange": "*"
+			}
+		},
+		"author": "Microchip",
+		"subcategories": [
+			[
+				"Development Kit",
+				"SAMA7G5 Evaluation Kit"
+			],
+			[
+				"Harmony",
+				"RTOS",
+				"Azure RTOS",
+				"ThreadX",
+				"Basic_ThreadX"
+			],
+			[
+				"RTOS",
+				"AZURE RTOS",
+				"THREADX",
+				"BASIC_THREADX"
+			]
+		],
+		"peripherals": [
+			"BASIC_THREADX"
+		],
+		"keywords": [
+			"MHC",
+			"Harmony",
+			"RTOS",
+			"Azure RTOS",
+			"ThreadX",
+			"SAMA7G54",
+			"SAM A7G5 Family"
+		],
+		"additionalData": {
+			"longDescription": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.portal.fileRef",
+				"content": {
+					"metaDataVersion": "1.0.0",
+					"fileName": "./../../readme.md",
+					"mimeType": "text/markdown"
+				}
+			}
+		}
+	}
+}
