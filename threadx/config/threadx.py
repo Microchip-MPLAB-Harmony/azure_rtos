@@ -549,7 +549,7 @@ def instantiateComponent(thirdPartyThreadX):
         threadxXc32PortSourcePath = threadxSourcePath + "/ports/" + coreName.replace("926","9") + "/gnu"
         threadxXc32PortDestPath = threadxDestPath + "/ports/" + coreName.replace("926","9") + "/mplabx"
         AddThreadXFiles(thirdPartyThreadX, threadxXc32PortSourcePath + "/src/", threadxXc32PortDestPath + "/src/", False, compilers["XC32"])
-        if not (("CORTEX-A5" in coreArch) or ("ARM926" in coreArch)):
+        if not (("CORTEX-A5" in coreArch) or ("CORTEX-A7" in coreArch) or ("ARM926" in coreArch)):
             AddThreadXFiles(thirdPartyThreadX, threadxXc32PortSourcePath + "/inc/", threadxXc32PortDestPath + "/inc/", False, compilers["XC32"])
 
         #IAR port files

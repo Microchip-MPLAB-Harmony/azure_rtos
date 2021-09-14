@@ -28,4 +28,6 @@
     threadx_timer_intialize();
 <#elseif core.CoreArchitecture == "CORTEX-A5" >
     PIT_TimerStart();
+<#elseif core.CoreArchitecture == "CORTEX-A7" >
+    GENERIC_TIMER_Start();
 </#if>
