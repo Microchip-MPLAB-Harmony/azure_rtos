@@ -1,5 +1,5 @@
 ﻿---
-title: Harmony 3 Azure RTOS configurations and application examples
+title: MPLABÂ® Harmony 3 Azure RTOS Solutions
 has_children: true
 has_toc: false
 nav_order: 1
@@ -32,19 +32,10 @@ This content can also be downloaded using content manager by following these [in
 | apps       | Example applications for Azure RTOS components            |
 | config     | Azure RTOS module configuration files                     |
 | docs       | Azure RTOS help documentation                             |
+| third_party_adapter | NetX Duo glue code for Harmony integration       |
 | threadx    | Azure RTOS ThreadX files                                  |
 
 
-## Code Examples
-
-The following applications are provided to demonstrate the MPLAB® Harmony 3 Azure RTOS solutions.
-
-| Name     | Description|
-|:---------|:-----------|
-| [ThreadX - Basic ThreadX](apps/threadx/basic_threadx/readme.md) | This example application blinks an LED to show the Azure RTOS ThreadX threads that are running and to indicate status |
-|||
-
-____
 
 [![License](https://img.shields.io/badge/license-Harmony%20license-orange.svg)](https://github.com/Microchip-MPLAB-Harmony/azure_rtos/blob/master/mplab_harmony_license.md)
 [![Latest release](https://img.shields.io/github/release/Microchip-MPLAB-Harmony/azure_rtos.svg)](https://github.com/Microchip-MPLAB-Harmony/azure_rtos/releases/latest)
