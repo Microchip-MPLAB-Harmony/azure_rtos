@@ -1,5 +1,5 @@
 ﻿---
-title: MPLABÂ® Harmony 3 Azure RTOS Solutions
+title: MPLAB® Harmony 3 Azure RTOS Solutions
 has_children: true
 has_toc: false
 nav_order: 1

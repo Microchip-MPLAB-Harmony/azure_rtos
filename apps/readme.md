@@ -12,7 +12,7 @@ See the following repositories under [Microchip-MPLAB-Harmony](https://github.co
 
 ## Code Examples
 
-The following applications are provided to demonstrate the MPLAB® Harmony 3 Azure RTOS solutions.
+The following applications are provided to demonstrate the MPLAB Harmony 3 Azure RTOS solutions.
 
 | Name     | Description|
 |:---------|:-----------|
