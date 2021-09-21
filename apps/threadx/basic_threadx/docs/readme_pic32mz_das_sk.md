@@ -1,8 +1,10 @@
 ---
-grand_parent: Harmony 3 Azure RTOS ThreadX configurations and application examples
+grand_parent: Harmony 3 Azure RTOS configurations and application examples
 parent: Basic ThreadX
 title: Building and Running on PIC32MZ Embedded Graphics with Stacked DRAM (DA) Starter Kit (Crypto)
 has_toc: false
+has_children: false
+nav_order: 2
 ---
 
 [![MCHP](https://www.microchip.com/ResourcePackages/Microchip/assets/dist/images/logo.png)](https://www.microchip.com)

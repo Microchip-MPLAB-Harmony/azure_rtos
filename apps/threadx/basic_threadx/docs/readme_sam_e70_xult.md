@@ -1,8 +1,10 @@
 ---
-grand_parent: Harmony 3 Azure RTOS ThreadX configurations and application examples
+grand_parent: Harmony 3 Azure RTOS configurations and application examples
 parent: Basic ThreadX
 title: Building and Running on SAM E70 Xplained Ultra Evaluation Kit
 has_toc: false
+has_children: false
+nav_order: 8
 ---
 
 [![MCHP](https://www.microchip.com/ResourcePackages/Microchip/assets/dist/images/logo.png)](https://www.microchip.com)

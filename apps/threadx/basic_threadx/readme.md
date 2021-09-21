@@ -1,9 +1,10 @@
 ---
-parent: Harmony 3 Azure RTOS ThreadX configurations and application examples
+grand_parent: MPLAB® Harmony 3 Azure RTOS Solutions
+parent: Harmony 3 Azure RTOS configurations and application examples
 title: Basic ThreadX
-has_children: false
+has_children: true
 has_toc: false
-nav_order: 1
+nav_order: 5
 ---
 
 [![MCHP](https://www.microchip.com/ResourcePackages/Microchip/assets/dist/images/logo.png)](https://www.microchip.com)

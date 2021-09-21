@@ -1,5 +1,5 @@
 ---
-grand parent: Harmony 3 Azure RTOS configurations and application examples
+grand_parent: Harmony 3 Azure RTOS configurations and application examples
 parent: Azure IoT Demo Ethernet
 title: Building and Running on SAM E54 Xplained Pro Evaluation Kit
 has_toc: false

@@ -1,7 +1,6 @@
 ---
 parent: MPLAB® Harmony 3 Azure RTOS Solutions
 title: Harmony 3 Azure RTOS configurations and application examples
-nav_order: 1
 has_children: true
 has_toc: false
 ---

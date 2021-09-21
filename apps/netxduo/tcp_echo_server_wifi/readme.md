@@ -1,9 +1,10 @@
 ---
+grand_parent: MPLAB® Harmony 3 Azure RTOS Solutions
 parent: Harmony 3 Azure RTOS configurations and application examples
 title: Azure NetX Duo Demo Wi-Fi
-has_children: false
+has_children: true
 has_toc: false
-nav_order: 1
+nav_order: 4
 ---
 
 [![MCHP](https://www.microchip.com/ResourcePackages/Microchip/assets/dist/images/logo.png)](https://www.microchip.com)

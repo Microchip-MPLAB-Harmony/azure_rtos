@@ -1,8 +1,10 @@
 ---
-grand_parent: Harmony 3 Azure RTOS ThreadX configurations and application examples
+grand_parent: Harmony 3 Azure RTOS configurations and application examples
 parent: Basic ThreadX
 title: Building and Running on PIC32MK MCJ Curiosity Pro Development Board
 has_toc: false
+has_children: false
+nav_order: 1
 ---
 
 [![MCHP](https://www.microchip.com/ResourcePackages/Microchip/assets/dist/images/logo.png)](https://www.microchip.com)

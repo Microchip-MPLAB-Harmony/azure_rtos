@@ -1,4 +1,5 @@
 ---
+grand_parent: MPLAB® Harmony 3 Azure RTOS Solutions
 parent: Harmony 3 Azure RTOS configurations and application examples
 title: Azure IoT Demo Ethernet
 has_children: true
