@@ -65,7 +65,13 @@ If you are working with MPLAB X IDE 5.5, please follow the instructions as short
 2.	Copy "SAME54_DFP" directory  from  'C:\Program Files\Microchip\MPLABX\v5.50\packs\Microchip\' to 'C:\'
 3.	Open Azure demo project in MPLAB X. Go to project properties.
 4.	Select XC32 (Global Options) -> Override default device support -> set as 'Compiler Location'
-5.	At XC32 (Global Options) ->Additional options ->set the following option: -mdfp=C:/SAME54_DFP/3.6.99 -I "C:/Program Files/Microchip/MPLABX/v5.50/packs/arm/CMSIS/5.4.0/CMSIS/Core/Include"
+5.	At XC32 (Global Options) ->Additional options ->set the following option:
+
+    -mdfp=C:/SAME54_DFP/x.x.xx -I "C:/Program Files/Microchip/MPLABX/v5.50/packs/arm/CMSIS/5.4.0/CMSIS/Core/Include"
+    
+    For example, if SAME54 DFP is 3.6.99, the option is:
+   
+    -mdfp=C:/SAME54_DFP/3.6.99 -I "C:/Program Files/Microchip/MPLABX/v5.50/packs/arm/CMSIS/5.4.0/CMSIS/Core/Include"
 6.	Click 'Apply' and 'OK'. Then build the project.
 
 
