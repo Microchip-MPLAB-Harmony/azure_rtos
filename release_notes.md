@@ -9,6 +9,7 @@
 
 - **New Microsoft Azure-RTOS support** -This beta release introduces initial support for [Azure-RTOS](https://github.com/azure-rtos) a Microsoft RTOS for connecting deeply embedded IoT devices.
 
+- **New part support** -This release introduces initial Azure RTOS ThreadX support for [Cortex-A7]() family of 32-bit MPUs.
 
 - **New Applications**
 
@@ -20,6 +21,14 @@ The following table provides the list of the new applications included in the re
 | azure_iot_demo_wifi       | SAME54    | Azure IoT hub connection example using a Wi-Fi connection |
 | tcp_echo_server_ethernet  | SAME54    | NetX Duo TCP server example using an Ethernet connection |
 | tcp_echo_server_wifi      | SAME54    | NetX Duo TCP server example using a Wi-Fi connection |
+
+- **Updated Applications**
+
+The following table provides the list of the updated applications:
+
+| Application  | Platform     | Description  |
+| ------------ | ------------ | ------------ |
+| basic_threadx  | SAMA7G5  | Basic ThreadX demo showing threads and status  |
 
 ### TESTED WITH:
 
@@ -52,6 +61,10 @@ This release supports applications for the following development kits
 | Development Kits |
 | --- |
 | [SAM E54 Xplained Pro Evaluation Kit](https://www.microchip.com/developmenttools/ProductDetails/ATSAME54-XPRO) |
+| [SAM9X60-EK Evaluation Kit](https://www.microchip.com/developmenttools/ProductDetails/DT100126) |
+| [SAMA5D2 Xplained Ultra Evaluation Kit](https://www.microchip.com/DevelopmentTools/ProductDetails/ATSAMA5D2C-XULT) |
+| [SAMA7G5 Evaluation Kit]()  |
+
 
 ### KNOWN ISSUES
 
