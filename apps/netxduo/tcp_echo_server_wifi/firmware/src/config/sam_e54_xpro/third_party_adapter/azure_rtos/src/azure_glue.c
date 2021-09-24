@@ -1130,6 +1130,39 @@ const uint8_t* Azure_Glue_MACAddress(int ifIx)
 
     return 0;
 }
+
+#ifdef NX_ENABLE_INTERFACE_CAPABILITY
+uint32_t Azure_Glue_IfCapability(int ifIx)
+{
+    AZURE_GLUE_DCPT* pGDcpt = gAzureDcpt;
+
+    if(pGDcpt != 0)
+    {   // initialized
+        if(ifIx >= 0 && ifIx < AZURE_NET_INTERFACES)
+        {   // valid interface
+            AZURE_MAC_DCPT* pMDcpt = pGDcpt->macDcpt + ifIx;
+            if(pMDcpt->pMacObj != 0)
+            {   // something here
+                // manually coded for now
+                if(pMDcpt->pMacObj->macId == TCPIP_MODULE_MAC_PIC32C)
+                {   // GMAC supports checksum offload
+                    return (NX_INTERFACE_CAPABILITY_IPV4_TX_CHECKSUM | NX_INTERFACE_CAPABILITY_IPV4_RX_CHECKSUM |
+                            NX_INTERFACE_CAPABILITY_TCP_TX_CHECKSUM  | NX_INTERFACE_CAPABILITY_TCP_RX_CHECKSUM  |
+                            NX_INTERFACE_CAPABILITY_UDP_TX_CHECKSUM  | NX_INTERFACE_CAPABILITY_UDP_RX_CHECKSUM);
+                }
+            }
+        }
+    }
+
+    return 0;
+}
+#else
+uint32_t Azure_Glue_IfCapability(int ifIx)
+{
+    return 0;
+}
+#endif
+
 // ************************************************ 
 // Low Level
 //

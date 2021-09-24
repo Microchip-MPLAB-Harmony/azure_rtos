@@ -13,7 +13,7 @@
 
 //DOM-IGNORE-BEGIN
 /*******************************************************************************
-* Copyright (C) 2019 Microchip Technology Inc. and its subsidiaries.
+* Copyright (C) 2019-21 Microchip Technology Inc. and its subsidiaries.
 *
 * Subject to your compliance with these terms, you may use Microchip software
 * and any derivatives exclusively with Microchip products. It is your
@@ -35,58 +35,16 @@
 * THAT YOU HAVE PAID DIRECTLY TO MICROCHIP FOR THIS SOFTWARE.
 *******************************************************************************/
 
-// *****************************************************************************
-// *****************************************************************************
-// Section: Included Files
-// *****************************************************************************
-// *****************************************************************************
-
-#include "osal/osal.h"
 #include "wdrv_winc_common.h"
 
-// *****************************************************************************
-// *****************************************************************************
-// Section: Type Definitions
-// *****************************************************************************
-// *****************************************************************************
-
-/*******************************************************************************
-*   Depending upon the OSAL mode,
-*   a support level specific implementation file is included by this
-*   file to give the required level of compatibility. The available
-*   support levels include, OSAL_USE_NONE, OSAL_USE_BASIC, and
-*   OSAL_USE_RTOS.
-*******************************************************************************/
-#define OSAL_USE_NONE        0
-#define OSAL_USE_BASIC       0
-#define OSAL_USE_RTOS        0
-
-/* *****************************************************************************/
-
-/* Blocking delay using Harmony Timer Service */
-static void _harmony_blocking_delay(uint32_t ms)
-{
-  SYS_TIME_HANDLE tmrHandle = SYS_TIME_HANDLE_INVALID;
-
-  if (SYS_TIME_SUCCESS != SYS_TIME_DelayMS(ms, &tmrHandle))
-  {
-    return;
-  }
-
-  while (true != SYS_TIME_DelayIsComplete(tmrHandle))
-  {
-  }
-}
-
-/* Implement a Bare metal or RTOS specific delay */
 void WDRV_MSDelay(uint32_t ms)
 {
-    if ((ms / (TX_TICK_PERIOD_MS)) < 1)
+    if (!ms)
     {
-        _harmony_blocking_delay(ms);
+        ms = 1;
     }
-    else
-    {
-         tx_thread_sleep(ms / (TX_TICK_PERIOD_MS));
-    }
+
+    tx_thread_sleep(ms / (TX_TICK_PERIOD_MS));
 }
+
+//DOM-IGNORE-END

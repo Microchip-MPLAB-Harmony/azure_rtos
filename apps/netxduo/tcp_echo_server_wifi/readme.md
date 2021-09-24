@@ -20,4 +20,4 @@ The following table provides links to documentation on how to build and run Azur
 
 | Development Kit |
 |:----------------|
-|[SAM E54 Xplained Pro Evaluation Kit](docs/readme_sam_e54_xpro.md) |
+|[SAM E54 Xplained Pro Evaluation Kit with WINC1500 XPRO](docs/readme_sam_e54_winc1500_xpro.md) |

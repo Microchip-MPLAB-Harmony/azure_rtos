@@ -79,8 +79,6 @@
                 <itemPath>../src/config/sam_e54_xpro/driver/winc/include/wdrv_winc_systime.h</itemPath>
                 <itemPath>../src/config/sam_e54_xpro/driver/winc/include/wdrv_winc_wps.h</itemPath>
                 <itemPath>../src/config/sam_e54_xpro/driver/winc/include/wdrv_winc_mac.h</itemPath>
-                <itemPath>../src/config/sam_e54_xpro/driver/winc/include/wdrv_winc_helpers_private.h</itemPath>
-                <itemPath>../src/config/sam_e54_xpro/driver/winc/include/wdrv_winc_link_list.h</itemPath>
               </logicalFolder>
             </logicalFolder>
             <itemPath>../src/config/sam_e54_xpro/driver/driver.h</itemPath>
@@ -481,7 +479,6 @@
               <itemPath>../src/config/sam_e54_xpro/driver/winc/wdrv_winc_sta.c</itemPath>
               <itemPath>../src/config/sam_e54_xpro/driver/winc/wdrv_winc_systime.c</itemPath>
               <itemPath>../src/config/sam_e54_xpro/driver/winc/wdrv_winc_wps.c</itemPath>
-              <itemPath>../src/config/sam_e54_xpro/driver/winc/wdrv_winc_helpers.c</itemPath>
             </logicalFolder>
           </logicalFolder>
           <logicalFolder name="f5" displayName="osal" projectFiles="true">
@@ -1298,6 +1295,8 @@
                 <itemPath>../src/third_party/rtos/threadx/ports/cortex_m4/mplabx/src/tx_thread_system_return.S</itemPath>
                 <itemPath>../src/third_party/rtos/threadx/ports/cortex_m4/mplabx/src/tx_timer_interrupt.S</itemPath>
                 <itemPath>../src/third_party/rtos/threadx/ports/cortex_m4/mplabx/src/tx_initialize_low_level.S</itemPath>
+                <itemPath>../src/third_party/rtos/threadx/ports/cortex_m4/mplabx/src/tx_thread_interrupt_disable.S</itemPath>
+                <itemPath>../src/third_party/rtos/threadx/ports/cortex_m4/mplabx/src/tx_thread_interrupt_restore.S</itemPath>
               </logicalFolder>
             </logicalFolder>
           </logicalFolder>
@@ -1577,7 +1576,7 @@
         <property key="memories.rww" value="true"/>
         <property key="poweroptions.powerenable" value="false"/>
         <property key="programmerToGoFilePath"
-                  value="C:/AzureIoT/winc_netx/tcp_echo_server_wifi/firmware/sam_e54_xpro.X/debug/sam_e54_xpro/sam_e54_xpro_ptg"/>
+                  value="C:/microchip/harmony/trivia/azure_rtos/apps/netxduo/tcp_echo_server_wifi/firmware/sam_e54_xpro.X/debug/sam_e54_xpro/sam_e54_xpro_ptg"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.preservedataflash" value="false"/>
         <property key="programoptions.preservedataflash.ranges"

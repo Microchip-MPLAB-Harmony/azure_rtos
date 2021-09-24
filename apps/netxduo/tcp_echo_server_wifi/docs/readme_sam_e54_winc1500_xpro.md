@@ -29,22 +29,24 @@ To build the application, refer to the following table and open the project usin
 
 | Project Name      | Description                                    |
 | ----------------- | ---------------------------------------------- |
-| sam_e54_xpro.X  | MPLABX Project for [SAM E54 Xplained Pro Evaluation Kit](https://www.microchip.com/developmenttools/ProductDetails/atsame54-xpro) |
+| sam_e54_xpro.X  | MPLABX Project for [SAM E54 Xplained Pro Evaluation Kit](https://www.microchip.com/developmenttools/ProductDetails/atsame54-xpro) with [ATWINC1500 XPRO](https://www.microchip.com/en-us/development-tool/ATWINC1500-XPRO) |
 
 ## Setting up [SAM E54 Xplained Pro Evaluation Kit](https://www.microchip.com/developmenttools/ProductDetails/atsame54-xpro)
 
 - Connect the Debug USB port on the board to the computer using a micro USB cable
+- Connect the EXT1 extension port on the board to the WINC1500 XPRO
 
 ## Running the Application
 
-1. Build and program the application using the MPLAB X IDE
-2. The board has a SERCOM configuration:
+1. Update the file ***\apps\iot\tcp_echo_server_wifi\firmware\src\app_wifi.c*** with your AP credentials
+2. Build and program the application using the MPLAB X IDE
+3. The board has a SERCOM configuration:
     1. A virtual COM port will be detected on the computer, when the USB cable is connected to USB-UART connector.
     2. Open a standard terminal application on the computer (like Hyper-terminal or Tera Term) and configure the virtual COM port.
     3. Set the serial baud rate to 115200 baud in the terminal application.
     4. See that the initialization prints on the serial port terminal.
-3. Connect with a client TCP socket to the board IP address, using port 7
-4. Type a message to the server. The server will echo back the message to the client and close the connection.
-5. Another connection can then be started.
-6. Refer to the full Microsoft documentation for this application: TBD.
+4. Connect with a client TCP socket to the board IP address, using port 7
+5. Type a message to the server. The server will echo back the message to the client and close the connection.
+6. Another connection can then be started.
+7. Refer to the full Microsoft documentation for this application: TBD.
 

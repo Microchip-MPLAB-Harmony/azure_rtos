@@ -79,7 +79,6 @@
 #ifdef WDRV_WINC_NETWORK_USE_HARMONY_TCPIP
 #include "wdrv_winc_mac.h"
 #include "tcpip/tcpip_mac.h"
-#include "system/sys_time_h2_adapter.h"
 #endif
 
 // *****************************************************************************
@@ -89,6 +88,8 @@
 // *****************************************************************************
 
 #define ETHERNET_HDR_LEN                    14
+
+#define WDRV_WINC_PACKET_POOL_MIN_THRES     4
 
 // *****************************************************************************
 // *****************************************************************************
@@ -192,9 +193,6 @@ static WDRV_WINC_CTRLDCPT wincCtrlDescriptor;
 #ifdef WDRV_WINC_NETWORK_USE_HARMONY_TCPIP
 /* This is the driver instance descriptor. */
 static WDRV_WINC_MACDCPT wincMACDescriptor;
-
-/* This provides a managed list of packets. */
-static WDRV_WINC_PROTECTED_SINGLE_LIST packetPoolFreeList;
 #endif
 
 // *****************************************************************************
@@ -204,6 +202,194 @@ static WDRV_WINC_PROTECTED_SINGLE_LIST packetPoolFreeList;
 // *****************************************************************************
 
 #ifdef WDRV_WINC_NETWORK_USE_HARMONY_TCPIP
+
+//*******************************************************************************
+/*
+  Function:
+    static bool _WDRV_WINC_PacketQueueInit(WDRV_WINC_PACKET_QUEUE* pPktQueue)
+
+  Summary:
+    Packet queue initialization function.
+
+  Description:
+    Initializes the packet queue.
+
+  Precondition:
+    None.
+
+  Parameters:
+    pPktQueue - Pointer to packet queue management structure.
+
+  Returns:
+    true or false.
+
+  Remarks:
+    None.
+
+*/
+
+static bool _WDRV_WINC_PacketQueueInit(WDRV_WINC_PACKET_QUEUE *pPktQueue)
+{
+    if (NULL == pPktQueue)
+    {
+        return false;
+    }
+
+    pPktQueue->pHead  = NULL;
+    pPktQueue->pTail  = NULL;
+    pPktQueue->nNodes = 0;
+
+    if (OSAL_RESULT_TRUE == OSAL_SEM_Create(&pPktQueue->semaphore, OSAL_SEM_TYPE_BINARY, 1, 1))
+    {
+        pPktQueue->semValid = true;
+    }
+    else
+    {
+        pPktQueue->semValid = false;
+    }
+
+    return pPktQueue->semValid;
+}
+
+//*******************************************************************************
+/*
+  Function:
+    static void _WDRV_WINC_PacketQueueInsert
+    (
+        WDRV_WINC_PACKET_QUEUE *pPktQueue,
+        TCPIP_MAC_PACKET *pN
+    )
+
+  Summary:
+    Insert a packet into the queue.
+
+  Description:
+    Inserts a packet into the queue at the end of a linked list.
+
+  Precondition:
+    _WDRV_WINC_PacketQueueInit must have been called.
+
+  Parameters:
+    pPktQueue - Pointer to packet queue management structure.
+    pN        - Pointer to packet to insert into the queue.
+
+  Returns:
+    true or false.
+
+  Remarks:
+    None.
+
+*/
+
+static bool _WDRV_WINC_PacketQueueInsert
+(
+    WDRV_WINC_PACKET_QUEUE *pPktQueue,
+    TCPIP_MAC_PACKET *pN
+)
+{
+    if ((NULL == pPktQueue) || (NULL == pN))
+    {
+        return false;
+    }
+
+    if (false == pPktQueue->semValid)
+    {
+        return false;
+    }
+
+    if (OSAL_RESULT_TRUE != OSAL_SEM_Pend(&pPktQueue->semaphore, OSAL_WAIT_FOREVER))
+    {
+        return false;
+    }
+
+    pN->next = NULL;
+
+    if (NULL == pPktQueue->pTail)
+    {
+        pPktQueue->pHead = pN;
+    }
+    else
+    {
+        pPktQueue->pTail->next = pN;
+    }
+
+    pPktQueue->pTail = pN;
+    pPktQueue->nNodes++;
+
+    OSAL_SEM_Post(&pPktQueue->semaphore);
+
+    return true;
+}
+
+//*******************************************************************************
+/*
+  Function:
+static TCPIP_MAC_PACKET* _WDRV_WINC_PacketQueueRemove
+(
+    WDRV_WINC_PACKET_QUEUE *pPktQueue
+)
+
+  Summary:
+    Removes a packet from the queue.
+
+  Description:
+    Removes a packet from head of the queue linked list.
+
+  Precondition:
+    _WDRV_WINC_PacketQueueInit must have been called.
+
+  Parameters:
+    pPktQueue - Pointer to packet queue management structure.
+
+  Returns:
+    Pointer to packet removed.
+
+  Remarks:
+    None.
+
+*/
+
+static TCPIP_MAC_PACKET* _WDRV_WINC_PacketQueueRemove
+(
+    WDRV_WINC_PACKET_QUEUE *pPktQueue
+)
+{
+    TCPIP_MAC_PACKET *pPacket = NULL;
+
+    if (false == pPktQueue->semValid)
+    {
+        return NULL;
+    }
+
+    if (OSAL_RESULT_TRUE != OSAL_SEM_Pend(&pPktQueue->semaphore, OSAL_WAIT_FOREVER))
+    {
+        return NULL;
+    }
+
+    pPacket = pPktQueue->pHead;
+
+    if (NULL != pPacket)
+    {
+        if (pPktQueue->pHead == pPktQueue->pTail)
+        {
+            pPktQueue->pHead = NULL;
+            pPktQueue->pTail = NULL;
+        }
+        else
+        {
+            pPktQueue->pHead = pPacket->next;
+        }
+
+        pPktQueue->nNodes--;
+
+        pPacket->next = NULL;
+    }
+
+    OSAL_SEM_Post(&pPktQueue->semaphore);
+
+    return pPacket;
+}
+
 //*******************************************************************************
 /*
   Function:
@@ -241,43 +427,41 @@ static bool _WDRV_WINC_MACEthernetMsgStackCallback
     const void *ackParam
 )
 {
-    if (NULL == ptrPacket)
+    WDRV_WINC_MACDCPT *const pMac = (WDRV_WINC_MACDCPT *)ackParam;
+
+    if ((NULL == ptrPacket) || (NULL == pMac))
     {
         return false;
     }
 
-    WDRV_WINC_DCPT *const pDcpt = (WDRV_WINC_DCPT *)ackParam;
-    
-    if (NULL == pDcpt)
+    /* For dynamic packets(non-sticky):
+            if NO_SMART_ALLOC flag is set, free the packet else reuse by adding to the list */
+    if (0 != (pMac->controlFlags & TCPIP_MAC_CONTROL_NO_SMART_ALLOC))
     {
-        return false;
-    }
-
-    int i = 0;
-    TCPIP_MAC_PACKET *ptrNewPacket;
-    
-    // for dynamic packets(non-sticky):
-    // if NO_SMART_ALLOC flag is set free the packet else reuse by adding to the list
-    if ((pDcpt->pMac->controlFlags & TCPIP_MAC_CONTROL_NO_SMART_ALLOC) != 0)
-    {
-        pDcpt->pMac->pktFreeF(ptrPacket);
-
-        // refill the queue to the threshold of 4
-        for (i = packetPoolFreeList.list.nNodes; i <= 4; i++)
+        if (NULL != pMac->pktFreeF)
         {
-            ptrNewPacket = pDcpt->pMac->pktAllocF(sizeof(TCPIP_MAC_PACKET), MAX_RX_PACKET_SIZE, 0);
-            if (NULL == ptrNewPacket)
-            {
-                return false;
-            }
+            pMac->pktFreeF(ptrPacket);
 
-            ptrNewPacket->next = NULL;
-            WDRV_WINC_Helper_ProtectedSingleListTailAdd(&packetPoolFreeList, (WDRV_WINC_SGL_LIST_NODE*)ptrNewPacket);
+            if (NULL != pMac->pktAllocF)
+            {
+                /* Refill the queue to the threshold. */
+                while (pMac->packetPoolFreeList.nNodes < WDRV_WINC_PACKET_POOL_MIN_THRES)
+                {
+                    ptrPacket = pMac->pktAllocF(sizeof(TCPIP_MAC_PACKET), MAX_RX_PACKET_SIZE, 0);
+
+                    if (NULL == ptrPacket)
+                    {
+                        break;
+                    }
+
+                    _WDRV_WINC_PacketQueueInsert(&pMac->packetPoolFreeList, ptrPacket);
+                }
+            }
         }
     }
     else
     {
-      WDRV_WINC_Helper_ProtectedSingleListTailAdd(&packetPoolFreeList, (WDRV_WINC_SGL_LIST_NODE*)ptrPacket);
+        _WDRV_WINC_PacketQueueInsert(&pMac->packetPoolFreeList, ptrPacket);
     }
 
     return true;
@@ -343,16 +527,15 @@ static void _WDRV_WINC_MACEthernetMsgRecvCallback
 
     if (OSAL_RESULT_TRUE == OSAL_SEM_Pend(&pDcpt->pMac->curRxPacketSemaphore, OSAL_WAIT_FOREVER))
     {
-        ptrPacket->next     = NULL;
         ptrPacket->ackFunc  = _WDRV_WINC_MACEthernetMsgStackCallback;
-        ptrPacket->ackParam = pDcpt;
+        ptrPacket->ackParam = pDcpt->pMac;
 
-        ptrPacket->pDSeg->segLen = lengthEthMsg - ETHERNET_HDR_LEN;
+        ptrPacket->pDSeg->segLen  = lengthEthMsg - ETHERNET_HDR_LEN;
         ptrPacket->pDSeg->segSize = lengthEthMsg;
-        ptrPacket->pktFlags = TCPIP_MAC_PKT_FLAG_QUEUED;
-        ptrPacket->tStamp = SYS_TMR_TickCountGet();
+        ptrPacket->pktFlags       = TCPIP_MAC_PKT_FLAG_QUEUED;
+        ptrPacket->tStamp         = SYS_TMR_TickCountGet();
 
-        WDRV_WINC_Helper_ProtectedSingleListTailAdd(&pDcpt->pMac->ethRxPktList, (WDRV_WINC_SGL_LIST_NODE*)ptrPacket);
+        _WDRV_WINC_PacketQueueInsert(&pDcpt->pMac->ethRxPktList, ptrPacket);
         pDcpt->pMac->pCurRxPacket = NULL;
         OSAL_SEM_Post(&pDcpt->pMac->curRxPacketSemaphore);
 
@@ -415,11 +598,10 @@ static void _WDRV_WINC_MACCheckRecvPacket(WDRV_WINC_DCPT *const pDcpt)
     {
         if (NULL == pDcpt->pMac->pCurRxPacket)
         {
-            pDcpt->pMac->pCurRxPacket = (TCPIP_MAC_PACKET*)WDRV_WINC_Helper_ProtectedSingleListHeadRemove(&packetPoolFreeList);
+            pDcpt->pMac->pCurRxPacket = _WDRV_WINC_PacketQueueRemove(&pDcpt->pMac->packetPoolFreeList);
 
             if (NULL != pDcpt->pMac->pCurRxPacket)
             {
-                pDcpt->pMac->pCurRxPacket->next = NULL;
                 WDRV_WINC_EthernetRecvPacket((DRV_HANDLE)pDcpt,
                                         pDcpt->pMac->pCurRxPacket->pDSeg->segLoad,
                                         PACKET_BUFFER_SIZE,
@@ -905,7 +1087,7 @@ static void _WDRV_WINC_WifiCallback(uint8_t msgType, const void *const pMsgConte
             else
             {
 #ifdef WDRV_WINC_ENABLE_BLE
-            platform_interface_callback((uint8_t*)pBLEMsg->data, pBLEMsg->u16Len);
+                platform_interface_callback((uint8_t*)pBLEMsg->data, pBLEMsg->u16Len);
 #endif
             }
 
@@ -1295,7 +1477,7 @@ static void _WDRV_WINC_HostFileGetCallback
     void _WDRV_WINC_HostFileReadHIFCallback
     (
         uint8_t status,
-        void *pBuffer,
+        uint8_t *pBuffer,
         uint32_t size
     )
 
@@ -1672,23 +1854,21 @@ SYS_MODULE_OBJ WDRV_WINC_Initialize
             return (SYS_MODULE_OBJ)pDcpt;
         }
 
-        WDRV_WINC_Helper_ProtectedSingleListInitialize(&packetPoolFreeList);
+        _WDRV_WINC_PacketQueueInit(&wincMACDescriptor.packetPoolFreeList);
 
-        for (i=0; i<4; i++)
+        for (i=0; i<WDRV_WINC_PACKET_POOL_MIN_THRES; i++)
         {
             ptrPacket = pStackInitData->pktAllocF(sizeof(TCPIP_MAC_PACKET), MAX_RX_PACKET_SIZE, 0);
 
             if (NULL == ptrPacket)
             {
-                return false;
+                break;
             }
 
-            ptrPacket->next = NULL;
-
-            WDRV_WINC_Helper_ProtectedSingleListTailAdd(&packetPoolFreeList, (WDRV_WINC_SGL_LIST_NODE*)ptrPacket);
+            _WDRV_WINC_PacketQueueInsert(&wincMACDescriptor.packetPoolFreeList, ptrPacket);
         }
 
-        WDRV_WINC_Helper_ProtectedSingleListInitialize(&wincMACDescriptor.ethRxPktList);
+        _WDRV_WINC_PacketQueueInit(&wincMACDescriptor.ethRxPktList);
 
         for (i=0; i<MULTICAST_FILTER_SIZE; i++)
         {
@@ -1774,11 +1954,11 @@ void WDRV_WINC_Deinitialize(SYS_MODULE_OBJ object)
         wincMACDescriptor.pktFreeF      = NULL;
         wincMACDescriptor.pktAckF       = NULL;
 
-        while (NULL != WDRV_WINC_Helper_ProtectedSingleListHeadRemove(&wincMACDescriptor.ethRxPktList))
+        while (NULL != _WDRV_WINC_PacketQueueRemove(&wincMACDescriptor.ethRxPktList))
         {
         }
 
-        while (NULL != WDRV_WINC_Helper_ProtectedSingleListHeadRemove(&packetPoolFreeList))
+        while (NULL != _WDRV_WINC_PacketQueueRemove(&wincMACDescriptor.packetPoolFreeList))
         {
         }
     }
@@ -1815,7 +1995,7 @@ void WDRV_WINC_Reinitialize
     const SYS_MODULE_INIT *const init
 )
 {
-        }
+}
 
 //*******************************************************************************
 /*
@@ -2127,31 +2307,25 @@ void WDRV_WINC_Tasks(SYS_MODULE_OBJ object)
         /* Running steady state. */
         case SYS_STATUS_READY:
         {
-            if (pDcpt->isOpen == true)
+            if (OSAL_RESULT_TRUE == OSAL_SEM_Pend(&pDcpt->pCtrl->drvEventSemaphore, OSAL_WAIT_FOREVER))
             {
-                /* If driver instance is open the check HIF ISR semaphore and
-                   handle a pending event. */
-
-                if (OSAL_RESULT_TRUE == OSAL_SEM_Pend(&pDcpt->pCtrl->drvEventSemaphore, OSAL_WAIT_FOREVER))
+                if (SYS_STATUS_READY != pDcpt->sysStat)
                 {
-                    if (SYS_STATUS_READY != pDcpt->sysStat)
-                    {
-                        break;
-                    }
+                    break;
+                }
 
-                    if (0 != (pDcpt->pCtrl->intent & DRV_IO_INTENT_EXCLUSIVE))
-                    {
-                        break;
-                    }
+                if (0 != (pDcpt->pCtrl->intent & DRV_IO_INTENT_EXCLUSIVE))
+                {
+                    break;
+                }
 
 #ifdef WDRV_WINC_DEVICE_LITE_DRIVER
-                    if (M2M_SUCCESS != m2m_wifi_handle_events(NULL))
+                if (M2M_SUCCESS != m2m_wifi_handle_events(NULL))
 #else
-                    if (M2M_SUCCESS != m2m_wifi_handle_events())
+                if (M2M_SUCCESS != m2m_wifi_handle_events())
 #endif
-                    {
-                        OSAL_SEM_Post(&pDcpt->pCtrl->drvEventSemaphore);
-                    }
+                {
+                    OSAL_SEM_Post(&pDcpt->pCtrl->drvEventSemaphore);
                 }
             }
 
@@ -2670,14 +2844,13 @@ TCPIP_MAC_PACKET* WDRV_WINC_MACPacketRx
         return NULL;
     }
 
-    ptrPacket = (TCPIP_MAC_PACKET*)WDRV_WINC_Helper_ProtectedSingleListHeadRemove(&pDcpt->pMac->ethRxPktList);
+    ptrPacket = _WDRV_WINC_PacketQueueRemove(&pDcpt->pMac->ethRxPktList);
 
     if (NULL != ptrPacket)
     {
 #ifdef WDRV_WINC_MAC_RX_PKT_INSPECT_HOOK
         WDRV_WINC_MAC_RX_PKT_INSPECT_HOOK(ptrPacket);
 #endif
-        ptrPacket->next = NULL;
     }
 
     return ptrPacket;

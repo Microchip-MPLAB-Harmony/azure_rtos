@@ -26,7 +26,7 @@
 /*  PORT SPECIFIC C INFORMATION                            RELEASE        */
 /*                                                                        */
 /*    tx_user.h                                           PORTABLE C      */
-/*                                                           6.0          */
+/*                                                           6.1.5        */
 /*                                                                        */
 /*  AUTHOR                                                                */
 /*                                                                        */
@@ -44,7 +44,13 @@
 /*                                                                        */
 /*    DATE              NAME                      DESCRIPTION             */
 /*                                                                        */
-/*  05-19-2020     William E. Lamie         Initial Version 6.0           */
+/*  05-19-2020      William E. Lamie        Initial Version 6.0           */
+/*  09-30-2020      Yuxin Zhou              Modified comment(s),          */
+/*                                            resulting in version 6.1    */
+/*  03-02-2021      Scott Larson            Modified comment(s),          */
+/*                                            added option to remove      */
+/*                                            FileX pointer,              */
+/*                                            resulting in version 6.1.5  */
 /*                                                                        */
 /**************************************************************************/
 
@@ -53,9 +59,9 @@
 
 
 /* Define various build options for the ThreadX port.  The application should either make changes
-   here by commenting or un-commenting the conditional compilation defined OR supply the defines
-   though the compiler's equivalent of the -D option.
-
+   here by commenting or un-commenting the conditional compilation defined OR supply the defines 
+   though the compiler's equivalent of the -D option.  
+   
    For maximum speed, the following should be defined:
 
         TX_MAX_PRIORITIES                       32
@@ -67,21 +73,22 @@
         TX_REACTIVATE_INLINE
         TX_DISABLE_STACK_FILLING
         TX_INLINE_THREAD_RESUME_SUSPEND
-
+   
    For minimum size, the following should be defined:
-
+   
         TX_MAX_PRIORITIES                       32
         TX_DISABLE_PREEMPTION_THRESHOLD
         TX_DISABLE_REDUNDANT_CLEARING
         TX_DISABLE_NOTIFY_CALLBACKS
+        TX_NO_FILEX_POINTER
         TX_NOT_INTERRUPTABLE
         TX_TIMER_PROCESS_IN_ISR
-
+   
    Of course, many of these defines reduce functionality and/or change the behavior of the
    system in ways that may not be worth the trade-off. For example, the TX_TIMER_PROCESS_IN_ISR
    results in faster and smaller code, however, it increases the amount of processing in the ISR.
    In addition, some services that are available in timers are not available from ISRs and will
-   therefore return an error if this option is used. This may or may not be desirable for a
+   therefore return an error if this option is used. This may or may not be desirable for a 
    given application.  */
 
 
@@ -103,6 +110,15 @@
 #define TX_DISABLE_ERROR_CHECKING
 */
 
+/* Determine if there is a FileX pointer in the thread control block.
+   By default, the pointer is there for legacy/backwards compatibility. 
+   The pointer must also be there for applications using FileX.
+   Define this to save space in the thread control block. 
+*/
+
+/*
+#define TX_NO_FILEX_POINTER
+*/
 
 /* Determine if timer expirations (application timers, timeouts, and tx_thread_sleep calls
    should be processed within the a system timer thread or directly in the timer ISR.
