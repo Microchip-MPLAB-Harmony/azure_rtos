@@ -44,7 +44,7 @@ var myVariable = `
   },"7": {
     "doc": "Azure IoT Demo Wi-Fi",
     "title": "Development Kits",
-    "content": "The following table provides links to documentation on how to build and run Azure IoT Demo Wi-Fi application example on different development kits . | Development Kit | . | SAM E54 Xplained Pro Evaluation Kit | . ",
+    "content": "The following table provides links to documentation on how to build and run Azure IoT Demo Wi-Fi application example on different development kits . | Development Kit | . | SAM E54 Xplained Pro Evaluation Kit with WINC1500 XPRO | . ",
     "url": "http://localhost:4000/azure_rtos/apps/iot/azure_iot_demo_wifi/readme.html#development-kits",
     "relUrl": "/apps/iot/azure_iot_demo_wifi/readme.html#development-kits"
   },"8": {
@@ -62,7 +62,7 @@ var myVariable = `
   },"10": {
     "doc": "Azure NetX Duo Demo Wi-Fi",
     "title": "Development Kits",
-    "content": "The following table provides links to documentation on how to build and run Azure NetX Duo Demo Wi-Fi application example on different development kits . | Development Kit | . | SAM E54 Xplained Pro Evaluation Kit | . ",
+    "content": "The following table provides links to documentation on how to build and run Azure NetX Duo Demo Wi-Fi application example on different development kits . | Development Kit | . | SAM E54 Xplained Pro Evaluation Kit with WINC1500 XPRO | . ",
     "url": "http://localhost:4000/azure_rtos/apps/netxduo/tcp_echo_server_wifi/readme.html#development-kits",
     "relUrl": "/apps/netxduo/tcp_echo_server_wifi/readme.html#development-kits"
   },"11": {
@@ -331,184 +331,184 @@ var myVariable = `
     "relUrl": "/apps/threadx/basic_threadx/docs/readme_sam_c21n_xpro.html"
   },"55": {
     "doc": "Building and Running on SAM E54 Xplained Pro Evaluation Kit",
-    "title": "Azure  NetX Duo Demo Ethernet",
-    "content": "This example application implements a TCP echo server using an Ethernet connection . ",
-    "url": "http://localhost:4000/azure_rtos/apps/netxduo/tcp_echo_server_ethernet/docs/readme_sam_e54_xpro.html#azure--netx-duo-demo-ethernet",
-    "relUrl": "/apps/netxduo/tcp_echo_server_ethernet/docs/readme_sam_e54_xpro.html#azure--netx-duo-demo-ethernet"
+    "title": "Azure IoT Demo Wi-Fi",
+    "content": "This example application connects to the Azure Hub using a Wi-Fi connection . ",
+    "url": "http://localhost:4000/azure_rtos/apps/iot/azure_iot_demo_wifi/docs/readme_sam_e54_winc1500_xpro.html#azure-iot-demo-wi-fi",
+    "relUrl": "/apps/iot/azure_iot_demo_wifi/docs/readme_sam_e54_winc1500_xpro.html#azure-iot-demo-wi-fi"
   },"56": {
     "doc": "Building and Running on SAM E54 Xplained Pro Evaluation Kit",
     "title": "Description",
-    "content": "This demonstration implements a TCP echo server using an Ethernet connection. Refer to the full Microsoft documentation for this application: TBD. ",
-    "url": "http://localhost:4000/azure_rtos/apps/netxduo/tcp_echo_server_ethernet/docs/readme_sam_e54_xpro.html#description",
-    "relUrl": "/apps/netxduo/tcp_echo_server_ethernet/docs/readme_sam_e54_xpro.html#description"
+    "content": "This demonstration connects to the Azure IoT Hub and performs publish/subscribe tasks. Refer to the full Microsoft documentation for this application: TBD. ",
+    "url": "http://localhost:4000/azure_rtos/apps/iot/azure_iot_demo_wifi/docs/readme_sam_e54_winc1500_xpro.html#description",
+    "relUrl": "/apps/iot/azure_iot_demo_wifi/docs/readme_sam_e54_winc1500_xpro.html#description"
   },"57": {
     "doc": "Building and Running on SAM E54 Xplained Pro Evaluation Kit",
     "title": "Downloading and building the application",
-    "content": "To clone or download these applications from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions . Path of the application within the repository is apps/netxduo/tcp_echo_server_ethernet/firmware/ . To build the application, refer to the following table and open the project using its IDE. Azure NetX Duo Demo Ethernet Application . | Project Name | Description | . | sam_e54_xpro.X | MPLABX Project for SAM E54 Xplained Pro Evaluation Kit | . ",
-    "url": "http://localhost:4000/azure_rtos/apps/netxduo/tcp_echo_server_ethernet/docs/readme_sam_e54_xpro.html#downloading-and-building-the-application",
-    "relUrl": "/apps/netxduo/tcp_echo_server_ethernet/docs/readme_sam_e54_xpro.html#downloading-and-building-the-application"
+    "content": "To clone or download these applications from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions . Path of the application within the repository is apps/iot/azure_iot_demo_wifi/firmware/ . To build the application, refer to the following table and open the project using its IDE. Azure IoT Demo Wi-Fi Application . | Project Name | Description | . | sam_e54_xpro.X | MPLABX Project for SAM E54 Xplained Pro Evaluation Kit with ATWINC1500 XPRO | . ",
+    "url": "http://localhost:4000/azure_rtos/apps/iot/azure_iot_demo_wifi/docs/readme_sam_e54_winc1500_xpro.html#downloading-and-building-the-application",
+    "relUrl": "/apps/iot/azure_iot_demo_wifi/docs/readme_sam_e54_winc1500_xpro.html#downloading-and-building-the-application"
   },"58": {
     "doc": "Building and Running on SAM E54 Xplained Pro Evaluation Kit",
     "title": "Setting up SAM E54 Xplained Pro Evaluation Kit",
-    "content": ". | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
-    "url": "http://localhost:4000/azure_rtos/apps/netxduo/tcp_echo_server_ethernet/docs/readme_sam_e54_xpro.html#setting-up-sam-e54-xplained-pro-evaluation-kit",
-    "relUrl": "/apps/netxduo/tcp_echo_server_ethernet/docs/readme_sam_e54_xpro.html#setting-up-sam-e54-xplained-pro-evaluation-kit"
+    "content": ". | Connect the Debug USB port on the board to the computer using a micro USB cable | Connect the EXT1 extension port on the board to the WINC1500 XPRO | . ",
+    "url": "http://localhost:4000/azure_rtos/apps/iot/azure_iot_demo_wifi/docs/readme_sam_e54_winc1500_xpro.html#setting-up-sam-e54-xplained-pro-evaluation-kit",
+    "relUrl": "/apps/iot/azure_iot_demo_wifi/docs/readme_sam_e54_winc1500_xpro.html#setting-up-sam-e54-xplained-pro-evaluation-kit"
   },"59": {
     "doc": "Building and Running on SAM E54 Xplained Pro Evaluation Kit",
     "title": "Running the Application",
-    "content": ". | Build and program the application using the MPLAB X IDE | The board has a SERCOM configuration: . | A virtual COM port will be detected on the computer, when the USB cable is connected to USB-UART connector. | Open a standard terminal application on the computer (like Hyper-terminal or Tera Term) and configure the virtual COM port. | Set the serial baud rate to 115200 baud in the terminal application. | See that the initialization prints on the serial port terminal. | . | Connect with a client TCP socket to the board IP address, using port 7 | Type a message to the server. The server will echo back the message to the client and close the connection. | Another connection can then be started. | Refer to the full Microsoft documentation for this application: TBD. | . ",
-    "url": "http://localhost:4000/azure_rtos/apps/netxduo/tcp_echo_server_ethernet/docs/readme_sam_e54_xpro.html#running-the-application",
-    "relUrl": "/apps/netxduo/tcp_echo_server_ethernet/docs/readme_sam_e54_xpro.html#running-the-application"
+    "content": ". | Update the files: . | /apps/iot/azure_iot_demo_wifi/firmware/src/azure_rtos_demo/sample_azure_iot_embedded_sdk/sample_config.h with your Azure credentials | \\\\apps\\iot\\\\azure_iot_demo_wifi\\firmware\\\\src\\\\app_wifi.c with your AP credentials | . | Build and program the application using the MPLAB X IDE | The board has a SERCOM configuration: . | A virtual COM port will be detected on the computer, when the USB cable is connected to USB-UART connector. | Open a standard terminal application on the computer (like Hyper-terminal or Tera Term) and configure the virtual COM port. | Set the serial baud rate to 115200 baud in the terminal application. | See that the initialization prints on the serial port terminal. | . | The application will output messages to the console showing connection to the Azure IoT Hub | Refer to the full Microsoft documentation for this application: TBD. | . ",
+    "url": "http://localhost:4000/azure_rtos/apps/iot/azure_iot_demo_wifi/docs/readme_sam_e54_winc1500_xpro.html#running-the-application",
+    "relUrl": "/apps/iot/azure_iot_demo_wifi/docs/readme_sam_e54_winc1500_xpro.html#running-the-application"
   },"60": {
     "doc": "Building and Running on SAM E54 Xplained Pro Evaluation Kit",
     "title": "Building and Running on SAM E54 Xplained Pro Evaluation Kit",
     "content": ". ",
-    "url": "http://localhost:4000/azure_rtos/apps/netxduo/tcp_echo_server_ethernet/docs/readme_sam_e54_xpro.html",
-    "relUrl": "/apps/netxduo/tcp_echo_server_ethernet/docs/readme_sam_e54_xpro.html"
+    "url": "http://localhost:4000/azure_rtos/apps/iot/azure_iot_demo_wifi/docs/readme_sam_e54_winc1500_xpro.html",
+    "relUrl": "/apps/iot/azure_iot_demo_wifi/docs/readme_sam_e54_winc1500_xpro.html"
   },"61": {
     "doc": "Building and Running on SAM E54 Xplained Pro Evaluation Kit",
     "title": "Azure NetX Duo Demo Wi-Fi",
     "content": "This example implements a TCP echo server using a Wi-Fi connection. ",
-    "url": "http://localhost:4000/azure_rtos/apps/netxduo/tcp_echo_server_wifi/docs/readme_sam_e54_xpro.html#azure-netx-duo-demo-wi-fi",
-    "relUrl": "/apps/netxduo/tcp_echo_server_wifi/docs/readme_sam_e54_xpro.html#azure-netx-duo-demo-wi-fi"
+    "url": "http://localhost:4000/azure_rtos/apps/netxduo/tcp_echo_server_wifi/docs/readme_sam_e54_winc1500_xpro.html#azure-netx-duo-demo-wi-fi",
+    "relUrl": "/apps/netxduo/tcp_echo_server_wifi/docs/readme_sam_e54_winc1500_xpro.html#azure-netx-duo-demo-wi-fi"
   },"62": {
     "doc": "Building and Running on SAM E54 Xplained Pro Evaluation Kit",
     "title": "Description",
     "content": "This demonstration implements a TCP echo server using a Wi-Fi connection. Refer to the full Microsoft documentation for this application: TBD. ",
-    "url": "http://localhost:4000/azure_rtos/apps/netxduo/tcp_echo_server_wifi/docs/readme_sam_e54_xpro.html#description",
-    "relUrl": "/apps/netxduo/tcp_echo_server_wifi/docs/readme_sam_e54_xpro.html#description"
+    "url": "http://localhost:4000/azure_rtos/apps/netxduo/tcp_echo_server_wifi/docs/readme_sam_e54_winc1500_xpro.html#description",
+    "relUrl": "/apps/netxduo/tcp_echo_server_wifi/docs/readme_sam_e54_winc1500_xpro.html#description"
   },"63": {
     "doc": "Building and Running on SAM E54 Xplained Pro Evaluation Kit",
     "title": "Downloading and building the application",
-    "content": "To clone or download these applications from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions . Path of the application within the repository is apps/netxduo/tcp_echo_server_wifi/firmware/ . To build the application, refer to the following table and open the project using its IDE. Azure NetX Duo Demo Wi-Fi Application . | Project Name | Description | . | sam_e54_xpro.X | MPLABX Project for SAM E54 Xplained Pro Evaluation Kit | . ",
-    "url": "http://localhost:4000/azure_rtos/apps/netxduo/tcp_echo_server_wifi/docs/readme_sam_e54_xpro.html#downloading-and-building-the-application",
-    "relUrl": "/apps/netxduo/tcp_echo_server_wifi/docs/readme_sam_e54_xpro.html#downloading-and-building-the-application"
+    "content": "To clone or download these applications from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions . Path of the application within the repository is apps/netxduo/tcp_echo_server_wifi/firmware/ . To build the application, refer to the following table and open the project using its IDE. Azure NetX Duo Demo Wi-Fi Application . | Project Name | Description | . | sam_e54_xpro.X | MPLABX Project for SAM E54 Xplained Pro Evaluation Kit with ATWINC1500 XPRO | . ",
+    "url": "http://localhost:4000/azure_rtos/apps/netxduo/tcp_echo_server_wifi/docs/readme_sam_e54_winc1500_xpro.html#downloading-and-building-the-application",
+    "relUrl": "/apps/netxduo/tcp_echo_server_wifi/docs/readme_sam_e54_winc1500_xpro.html#downloading-and-building-the-application"
   },"64": {
     "doc": "Building and Running on SAM E54 Xplained Pro Evaluation Kit",
     "title": "Setting up SAM E54 Xplained Pro Evaluation Kit",
-    "content": ". | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
-    "url": "http://localhost:4000/azure_rtos/apps/netxduo/tcp_echo_server_wifi/docs/readme_sam_e54_xpro.html#setting-up-sam-e54-xplained-pro-evaluation-kit",
-    "relUrl": "/apps/netxduo/tcp_echo_server_wifi/docs/readme_sam_e54_xpro.html#setting-up-sam-e54-xplained-pro-evaluation-kit"
+    "content": ". | Connect the Debug USB port on the board to the computer using a micro USB cable | Connect the EXT1 extension port on the board to the WINC1500 XPRO | . ",
+    "url": "http://localhost:4000/azure_rtos/apps/netxduo/tcp_echo_server_wifi/docs/readme_sam_e54_winc1500_xpro.html#setting-up-sam-e54-xplained-pro-evaluation-kit",
+    "relUrl": "/apps/netxduo/tcp_echo_server_wifi/docs/readme_sam_e54_winc1500_xpro.html#setting-up-sam-e54-xplained-pro-evaluation-kit"
   },"65": {
     "doc": "Building and Running on SAM E54 Xplained Pro Evaluation Kit",
     "title": "Running the Application",
-    "content": ". | Build and program the application using the MPLAB X IDE | The board has a SERCOM configuration: . | A virtual COM port will be detected on the computer, when the USB cable is connected to USB-UART connector. | Open a standard terminal application on the computer (like Hyper-terminal or Tera Term) and configure the virtual COM port. | Set the serial baud rate to 115200 baud in the terminal application. | See that the initialization prints on the serial port terminal. | . | Connect with a client TCP socket to the board IP address, using port 7 | Type a message to the server. The server will echo back the message to the client and close the connection. | Another connection can then be started. | Refer to the full Microsoft documentation for this application: TBD. | . ",
-    "url": "http://localhost:4000/azure_rtos/apps/netxduo/tcp_echo_server_wifi/docs/readme_sam_e54_xpro.html#running-the-application",
-    "relUrl": "/apps/netxduo/tcp_echo_server_wifi/docs/readme_sam_e54_xpro.html#running-the-application"
+    "content": ". | Update the file \\\\apps\\iot\\tcp_echo_server_wifi\\firmware\\\\src\\\\app_wifi.c with your AP credentials | Build and program the application using the MPLAB X IDE | The board has a SERCOM configuration: . | A virtual COM port will be detected on the computer, when the USB cable is connected to USB-UART connector. | Open a standard terminal application on the computer (like Hyper-terminal or Tera Term) and configure the virtual COM port. | Set the serial baud rate to 115200 baud in the terminal application. | See that the initialization prints on the serial port terminal. | . | Connect with a client TCP socket to the board IP address, using port 7 | Type a message to the server. The server will echo back the message to the client and close the connection. | Another connection can then be started. | Refer to the full Microsoft documentation for this application: TBD. | . ",
+    "url": "http://localhost:4000/azure_rtos/apps/netxduo/tcp_echo_server_wifi/docs/readme_sam_e54_winc1500_xpro.html#running-the-application",
+    "relUrl": "/apps/netxduo/tcp_echo_server_wifi/docs/readme_sam_e54_winc1500_xpro.html#running-the-application"
   },"66": {
     "doc": "Building and Running on SAM E54 Xplained Pro Evaluation Kit",
     "title": "Building and Running on SAM E54 Xplained Pro Evaluation Kit",
     "content": ". ",
-    "url": "http://localhost:4000/azure_rtos/apps/netxduo/tcp_echo_server_wifi/docs/readme_sam_e54_xpro.html",
-    "relUrl": "/apps/netxduo/tcp_echo_server_wifi/docs/readme_sam_e54_xpro.html"
+    "url": "http://localhost:4000/azure_rtos/apps/netxduo/tcp_echo_server_wifi/docs/readme_sam_e54_winc1500_xpro.html",
+    "relUrl": "/apps/netxduo/tcp_echo_server_wifi/docs/readme_sam_e54_winc1500_xpro.html"
   },"67": {
-    "doc": "Building and Running on SAM E54 Xplained Pro Evaluation Kit",
-    "title": "Basic ThreadX",
-    "content": "This example application blinks an LED to show the Azure RTOS ThreadX threads that are running and to indicate status . ",
-    "url": "http://localhost:4000/azure_rtos/apps/threadx/basic_threadx/docs/readme_sam_e54_xpro.html#basic-threadx",
-    "relUrl": "/apps/threadx/basic_threadx/docs/readme_sam_e54_xpro.html#basic-threadx"
-  },"68": {
-    "doc": "Building and Running on SAM E54 Xplained Pro Evaluation Kit",
-    "title": "Description",
-    "content": "This demonstration creates a task which toggle an LED for every 500ms. ",
-    "url": "http://localhost:4000/azure_rtos/apps/threadx/basic_threadx/docs/readme_sam_e54_xpro.html#description",
-    "relUrl": "/apps/threadx/basic_threadx/docs/readme_sam_e54_xpro.html#description"
-  },"69": {
-    "doc": "Building and Running on SAM E54 Xplained Pro Evaluation Kit",
-    "title": "Downloading and building the application",
-    "content": "To clone or download these applications from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions . Path of the application within the repository is apps/threadx/basic_threadx/firmware/ . To build the application, refer to the following table and open the project using its IDE. Azure RTOS ThreadX Application . | Project Name | Description | . | sam_e54_xpro.X | MPLABX Project for SAM E54 Xplained Pro Evaluation Kit | . ",
-    "url": "http://localhost:4000/azure_rtos/apps/threadx/basic_threadx/docs/readme_sam_e54_xpro.html#downloading-and-building-the-application",
-    "relUrl": "/apps/threadx/basic_threadx/docs/readme_sam_e54_xpro.html#downloading-and-building-the-application"
-  },"70": {
-    "doc": "Building and Running on SAM E54 Xplained Pro Evaluation Kit",
-    "title": "Setting up SAM E54 Xplained Pro Evaluation Kit",
-    "content": ". | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
-    "url": "http://localhost:4000/azure_rtos/apps/threadx/basic_threadx/docs/readme_sam_e54_xpro.html#setting-up-sam-e54-xplained-pro-evaluation-kit",
-    "relUrl": "/apps/threadx/basic_threadx/docs/readme_sam_e54_xpro.html#setting-up-sam-e54-xplained-pro-evaluation-kit"
-  },"71": {
-    "doc": "Building and Running on SAM E54 Xplained Pro Evaluation Kit",
-    "title": "Running the Application",
-    "content": ". | Build and program the application using the MPLAB X IDE | The LED indicates the success or failure. | The LED toggles on success i.e. for every 500 ms. | . | . Refer to the following table for LED name: . | Board | LED Name | . | SAM E54 Xplained Pro Evaluation Kit | LED0 | . |   |   | . ",
-    "url": "http://localhost:4000/azure_rtos/apps/threadx/basic_threadx/docs/readme_sam_e54_xpro.html#running-the-application",
-    "relUrl": "/apps/threadx/basic_threadx/docs/readme_sam_e54_xpro.html#running-the-application"
-  },"72": {
-    "doc": "Building and Running on SAM E54 Xplained Pro Evaluation Kit",
-    "title": "Building and Running on SAM E54 Xplained Pro Evaluation Kit",
-    "content": ". ",
-    "url": "http://localhost:4000/azure_rtos/apps/threadx/basic_threadx/docs/readme_sam_e54_xpro.html",
-    "relUrl": "/apps/threadx/basic_threadx/docs/readme_sam_e54_xpro.html"
-  },"73": {
-    "doc": "Building and Running on SAM E54 Xplained Pro Evaluation Kit",
-    "title": "Azure IoT Demo Wi-Fi",
-    "content": "This example application connects to the Azure Hub using a Wi-Fi connection . ",
-    "url": "http://localhost:4000/azure_rtos/apps/iot/azure_iot_demo_wifi/docs/readme_sam_e54_xpro.html#azure-iot-demo-wi-fi",
-    "relUrl": "/apps/iot/azure_iot_demo_wifi/docs/readme_sam_e54_xpro.html#azure-iot-demo-wi-fi"
-  },"74": {
-    "doc": "Building and Running on SAM E54 Xplained Pro Evaluation Kit",
-    "title": "Description",
-    "content": "This demonstration connects to the Azure IoT Hub and performs publish/subscribe tasks. Refer to the full Microsoft documentation for this application: TBD. ",
-    "url": "http://localhost:4000/azure_rtos/apps/iot/azure_iot_demo_wifi/docs/readme_sam_e54_xpro.html#description",
-    "relUrl": "/apps/iot/azure_iot_demo_wifi/docs/readme_sam_e54_xpro.html#description"
-  },"75": {
-    "doc": "Building and Running on SAM E54 Xplained Pro Evaluation Kit",
-    "title": "Downloading and building the application",
-    "content": "To clone or download these applications from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions . Path of the application within the repository is apps/iot/azure_iot_demo_ethernet/firmware/ . To build the application, refer to the following table and open the project using its IDE. Azure IoT Demo Wi-Fi Application . | Project Name | Description | . | sam_e54_xpro.X | MPLABX Project for SAM E54 Xplained Pro Evaluation Kit | . ",
-    "url": "http://localhost:4000/azure_rtos/apps/iot/azure_iot_demo_wifi/docs/readme_sam_e54_xpro.html#downloading-and-building-the-application",
-    "relUrl": "/apps/iot/azure_iot_demo_wifi/docs/readme_sam_e54_xpro.html#downloading-and-building-the-application"
-  },"76": {
-    "doc": "Building and Running on SAM E54 Xplained Pro Evaluation Kit",
-    "title": "Setting up SAM E54 Xplained Pro Evaluation Kit",
-    "content": ". | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
-    "url": "http://localhost:4000/azure_rtos/apps/iot/azure_iot_demo_wifi/docs/readme_sam_e54_xpro.html#setting-up-sam-e54-xplained-pro-evaluation-kit",
-    "relUrl": "/apps/iot/azure_iot_demo_wifi/docs/readme_sam_e54_xpro.html#setting-up-sam-e54-xplained-pro-evaluation-kit"
-  },"77": {
-    "doc": "Building and Running on SAM E54 Xplained Pro Evaluation Kit",
-    "title": "Running the Application",
-    "content": ". | Update the file /apps/iot/azure_iot_demo_ethernet/firmware/src/azure_rtos_demo/sample_azure_iot_embedded_sdk/sample_config.h with your Azure credentials | Build and program the application using the MPLAB X IDE | The board has a SERCOM configuration: . | A virtual COM port will be detected on the computer, when the USB cable is connected to USB-UART connector. | Open a standard terminal application on the computer (like Hyper-terminal or Tera Term) and configure the virtual COM port. | Set the serial baud rate to 115200 baud in the terminal application. | See that the initialization prints on the serial port terminal. | . | The application will output messages to the console showing connection to the Azure IoT Hub | Refer to the full Microsoft documentation for this application: TBD. | . ",
-    "url": "http://localhost:4000/azure_rtos/apps/iot/azure_iot_demo_wifi/docs/readme_sam_e54_xpro.html#running-the-application",
-    "relUrl": "/apps/iot/azure_iot_demo_wifi/docs/readme_sam_e54_xpro.html#running-the-application"
-  },"78": {
-    "doc": "Building and Running on SAM E54 Xplained Pro Evaluation Kit",
-    "title": "Building and Running on SAM E54 Xplained Pro Evaluation Kit",
-    "content": ". ",
-    "url": "http://localhost:4000/azure_rtos/apps/iot/azure_iot_demo_wifi/docs/readme_sam_e54_xpro.html",
-    "relUrl": "/apps/iot/azure_iot_demo_wifi/docs/readme_sam_e54_xpro.html"
-  },"79": {
     "doc": "Building and Running on SAM E54 Xplained Pro Evaluation Kit",
     "title": "Azure IoT Demo Ethernet",
     "content": "This example application connects to the Azure Hub using an Ethernet connection . ",
     "url": "http://localhost:4000/azure_rtos/apps/iot/azure_iot_demo_ethernet/docs/readme_sam_e54_xpro.html#azure-iot-demo-ethernet",
     "relUrl": "/apps/iot/azure_iot_demo_ethernet/docs/readme_sam_e54_xpro.html#azure-iot-demo-ethernet"
-  },"80": {
+  },"68": {
     "doc": "Building and Running on SAM E54 Xplained Pro Evaluation Kit",
     "title": "Description",
     "content": "This demonstration connects to the Azure IoT Hub and performs publish/subscribe tasks. Refer to the full Microsoft documentation for this application: TBD. ",
     "url": "http://localhost:4000/azure_rtos/apps/iot/azure_iot_demo_ethernet/docs/readme_sam_e54_xpro.html#description",
     "relUrl": "/apps/iot/azure_iot_demo_ethernet/docs/readme_sam_e54_xpro.html#description"
-  },"81": {
+  },"69": {
     "doc": "Building and Running on SAM E54 Xplained Pro Evaluation Kit",
     "title": "Downloading and building the application",
     "content": "To clone or download these applications from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions . Path of the application within the repository is apps/iot/azure_iot_demo_ethernet/firmware/ . To build the application, refer to the following table and open the project using its IDE. Azure IoT Demo Ethernet Application . | Project Name | Description | . | sam_e54_xpro.X | MPLABX Project for SAM E54 Xplained Pro Evaluation Kit | . ",
     "url": "http://localhost:4000/azure_rtos/apps/iot/azure_iot_demo_ethernet/docs/readme_sam_e54_xpro.html#downloading-and-building-the-application",
     "relUrl": "/apps/iot/azure_iot_demo_ethernet/docs/readme_sam_e54_xpro.html#downloading-and-building-the-application"
-  },"82": {
+  },"70": {
     "doc": "Building and Running on SAM E54 Xplained Pro Evaluation Kit",
     "title": "Setting up SAM E54 Xplained Pro Evaluation Kit",
     "content": ". | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
     "url": "http://localhost:4000/azure_rtos/apps/iot/azure_iot_demo_ethernet/docs/readme_sam_e54_xpro.html#setting-up-sam-e54-xplained-pro-evaluation-kit",
     "relUrl": "/apps/iot/azure_iot_demo_ethernet/docs/readme_sam_e54_xpro.html#setting-up-sam-e54-xplained-pro-evaluation-kit"
-  },"83": {
+  },"71": {
     "doc": "Building and Running on SAM E54 Xplained Pro Evaluation Kit",
     "title": "Running the Application",
     "content": ". | Update the file /apps/iot/azure_iot_demo_ethernet/firmware/src/azure_rtos_demo/sample_azure_iot_embedded_sdk/sample_config.h with your Azure credentials | Build and program the application using the MPLAB X IDE | The board has a SERCOM configuration: . | A virtual COM port will be detected on the computer, when the USB cable is connected to USB-UART connector. | Open a standard terminal application on the computer (like Hyper-terminal or Tera Term) and configure the virtual COM port. | Set the serial baud rate to 115200 baud in the terminal application. | See that the initialization prints on the serial port terminal. | . | The application will output messages to the console showing connection to the Azure IoT Hub | Refer to the full Microsoft documentation for this application: TBD. | . ",
     "url": "http://localhost:4000/azure_rtos/apps/iot/azure_iot_demo_ethernet/docs/readme_sam_e54_xpro.html#running-the-application",
     "relUrl": "/apps/iot/azure_iot_demo_ethernet/docs/readme_sam_e54_xpro.html#running-the-application"
-  },"84": {
+  },"72": {
     "doc": "Building and Running on SAM E54 Xplained Pro Evaluation Kit",
     "title": "Building and Running on SAM E54 Xplained Pro Evaluation Kit",
     "content": ". ",
     "url": "http://localhost:4000/azure_rtos/apps/iot/azure_iot_demo_ethernet/docs/readme_sam_e54_xpro.html",
     "relUrl": "/apps/iot/azure_iot_demo_ethernet/docs/readme_sam_e54_xpro.html"
+  },"73": {
+    "doc": "Building and Running on SAM E54 Xplained Pro Evaluation Kit",
+    "title": "Azure  NetX Duo Demo Ethernet",
+    "content": "This example application implements a TCP echo server using an Ethernet connection . ",
+    "url": "http://localhost:4000/azure_rtos/apps/netxduo/tcp_echo_server_ethernet/docs/readme_sam_e54_xpro.html#azure--netx-duo-demo-ethernet",
+    "relUrl": "/apps/netxduo/tcp_echo_server_ethernet/docs/readme_sam_e54_xpro.html#azure--netx-duo-demo-ethernet"
+  },"74": {
+    "doc": "Building and Running on SAM E54 Xplained Pro Evaluation Kit",
+    "title": "Description",
+    "content": "This demonstration implements a TCP echo server using an Ethernet connection. Refer to the full Microsoft documentation for this application: TBD. ",
+    "url": "http://localhost:4000/azure_rtos/apps/netxduo/tcp_echo_server_ethernet/docs/readme_sam_e54_xpro.html#description",
+    "relUrl": "/apps/netxduo/tcp_echo_server_ethernet/docs/readme_sam_e54_xpro.html#description"
+  },"75": {
+    "doc": "Building and Running on SAM E54 Xplained Pro Evaluation Kit",
+    "title": "Downloading and building the application",
+    "content": "To clone or download these applications from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions . Path of the application within the repository is apps/netxduo/tcp_echo_server_ethernet/firmware/ . To build the application, refer to the following table and open the project using its IDE. Azure NetX Duo Demo Ethernet Application . | Project Name | Description | . | sam_e54_xpro.X | MPLABX Project for SAM E54 Xplained Pro Evaluation Kit | . ",
+    "url": "http://localhost:4000/azure_rtos/apps/netxduo/tcp_echo_server_ethernet/docs/readme_sam_e54_xpro.html#downloading-and-building-the-application",
+    "relUrl": "/apps/netxduo/tcp_echo_server_ethernet/docs/readme_sam_e54_xpro.html#downloading-and-building-the-application"
+  },"76": {
+    "doc": "Building and Running on SAM E54 Xplained Pro Evaluation Kit",
+    "title": "Setting up SAM E54 Xplained Pro Evaluation Kit",
+    "content": ". | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
+    "url": "http://localhost:4000/azure_rtos/apps/netxduo/tcp_echo_server_ethernet/docs/readme_sam_e54_xpro.html#setting-up-sam-e54-xplained-pro-evaluation-kit",
+    "relUrl": "/apps/netxduo/tcp_echo_server_ethernet/docs/readme_sam_e54_xpro.html#setting-up-sam-e54-xplained-pro-evaluation-kit"
+  },"77": {
+    "doc": "Building and Running on SAM E54 Xplained Pro Evaluation Kit",
+    "title": "Running the Application",
+    "content": ". | Build and program the application using the MPLAB X IDE | The board has a SERCOM configuration: . | A virtual COM port will be detected on the computer, when the USB cable is connected to USB-UART connector. | Open a standard terminal application on the computer (like Hyper-terminal or Tera Term) and configure the virtual COM port. | Set the serial baud rate to 115200 baud in the terminal application. | See that the initialization prints on the serial port terminal. | . | Connect with a client TCP socket to the board IP address, using port 7 | Type a message to the server. The server will echo back the message to the client and close the connection. | Another connection can then be started. | Refer to the full Microsoft documentation for this application: TBD. | . ",
+    "url": "http://localhost:4000/azure_rtos/apps/netxduo/tcp_echo_server_ethernet/docs/readme_sam_e54_xpro.html#running-the-application",
+    "relUrl": "/apps/netxduo/tcp_echo_server_ethernet/docs/readme_sam_e54_xpro.html#running-the-application"
+  },"78": {
+    "doc": "Building and Running on SAM E54 Xplained Pro Evaluation Kit",
+    "title": "Building and Running on SAM E54 Xplained Pro Evaluation Kit",
+    "content": ". ",
+    "url": "http://localhost:4000/azure_rtos/apps/netxduo/tcp_echo_server_ethernet/docs/readme_sam_e54_xpro.html",
+    "relUrl": "/apps/netxduo/tcp_echo_server_ethernet/docs/readme_sam_e54_xpro.html"
+  },"79": {
+    "doc": "Building and Running on SAM E54 Xplained Pro Evaluation Kit",
+    "title": "Basic ThreadX",
+    "content": "This example application blinks an LED to show the Azure RTOS ThreadX threads that are running and to indicate status . ",
+    "url": "http://localhost:4000/azure_rtos/apps/threadx/basic_threadx/docs/readme_sam_e54_xpro.html#basic-threadx",
+    "relUrl": "/apps/threadx/basic_threadx/docs/readme_sam_e54_xpro.html#basic-threadx"
+  },"80": {
+    "doc": "Building and Running on SAM E54 Xplained Pro Evaluation Kit",
+    "title": "Description",
+    "content": "This demonstration creates a task which toggle an LED for every 500ms. ",
+    "url": "http://localhost:4000/azure_rtos/apps/threadx/basic_threadx/docs/readme_sam_e54_xpro.html#description",
+    "relUrl": "/apps/threadx/basic_threadx/docs/readme_sam_e54_xpro.html#description"
+  },"81": {
+    "doc": "Building and Running on SAM E54 Xplained Pro Evaluation Kit",
+    "title": "Downloading and building the application",
+    "content": "To clone or download these applications from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions . Path of the application within the repository is apps/threadx/basic_threadx/firmware/ . To build the application, refer to the following table and open the project using its IDE. Azure RTOS ThreadX Application . | Project Name | Description | . | sam_e54_xpro.X | MPLABX Project for SAM E54 Xplained Pro Evaluation Kit | . ",
+    "url": "http://localhost:4000/azure_rtos/apps/threadx/basic_threadx/docs/readme_sam_e54_xpro.html#downloading-and-building-the-application",
+    "relUrl": "/apps/threadx/basic_threadx/docs/readme_sam_e54_xpro.html#downloading-and-building-the-application"
+  },"82": {
+    "doc": "Building and Running on SAM E54 Xplained Pro Evaluation Kit",
+    "title": "Setting up SAM E54 Xplained Pro Evaluation Kit",
+    "content": ". | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
+    "url": "http://localhost:4000/azure_rtos/apps/threadx/basic_threadx/docs/readme_sam_e54_xpro.html#setting-up-sam-e54-xplained-pro-evaluation-kit",
+    "relUrl": "/apps/threadx/basic_threadx/docs/readme_sam_e54_xpro.html#setting-up-sam-e54-xplained-pro-evaluation-kit"
+  },"83": {
+    "doc": "Building and Running on SAM E54 Xplained Pro Evaluation Kit",
+    "title": "Running the Application",
+    "content": ". | Build and program the application using the MPLAB X IDE | The LED indicates the success or failure. | The LED toggles on success i.e. for every 500 ms. | . | . Refer to the following table for LED name: . | Board | LED Name | . | SAM E54 Xplained Pro Evaluation Kit | LED0 | . |   |   | . ",
+    "url": "http://localhost:4000/azure_rtos/apps/threadx/basic_threadx/docs/readme_sam_e54_xpro.html#running-the-application",
+    "relUrl": "/apps/threadx/basic_threadx/docs/readme_sam_e54_xpro.html#running-the-application"
+  },"84": {
+    "doc": "Building and Running on SAM E54 Xplained Pro Evaluation Kit",
+    "title": "Building and Running on SAM E54 Xplained Pro Evaluation Kit",
+    "content": ". ",
+    "url": "http://localhost:4000/azure_rtos/apps/threadx/basic_threadx/docs/readme_sam_e54_xpro.html",
+    "relUrl": "/apps/threadx/basic_threadx/docs/readme_sam_e54_xpro.html"
   },"85": {
     "doc": "Building and Running on SAM E70 Xplained Ultra Evaluation Kit",
     "title": "Basic ThreadX",
@@ -548,7 +548,7 @@ var myVariable = `
   },"91": {
     "doc": "MPLAB® Harmony 3 Azure RTOS Solutions",
     "title": "MPLAB® Harmony 3 Azure RTOS Solutions",
-    "content": "![Microchip logo](https://raw.githubusercontent.com/wiki/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/images/microchip_logo.png) ![Harmony logo small](https://raw.githubusercontent.com/wiki/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/images/microchip_mplab_harmony_logo_small.png) # MPLAB® Harmony 3 Azure RTOS configurations and application examples MPLAB® Harmony 3 is an extension of the MPLAB® ecosystem for creating embedded firmware solutions for Microchip 32-bit SAM and PIC® microcontroller and microprocessor devices. Refer to the following links for more information. - [Microchip 32-bit MCUs](https://www.microchip.com/design-centers/32-bit) - [Microchip 32-bit MPUs](https://www.microchip.com/design-centers/32-bit-mpus) - [Microchip MPLAB X IDE](https://www.microchip.com/mplab/mplab-x-ide) - [Microchip MPLAB® Harmony](https://www.microchip.com/mplab/mplab-harmony) - [Microchip MPLAB® Harmony Pages](https://microchip-mplab-harmony.github.io/) This repository contains the MPLAB® Harmony 3 Azure RTOS solutions and example applications. Refer to the following links for Release Notes and MPLAB® Harmony License. - [Release Notes](./release_notes.md) - [MPLAB® Harmony License](/azure_rtos/mplab_harmony_license.html) To clone or download these applications from Github, go to the [main page of this repository](https://github.com/Microchip-MPLAB-Harmony/azure_rtos) and then click **Clone** button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these [instructions](https://github.com/Microchip-MPLAB-Harmony/contentmanager/wiki) # Contents Summary | Folder | Description | --- | --- | apps | Example applications for Azure RTOS components | config | Azure RTOS module configuration files | docs | Azure RTOS help documentation | third_party_adapter | NetX Duo glue code for Harmony integration | threadx | Azure RTOS ThreadX files | [![License](https://img.shields.io/badge/license-Harmony%20license-orange.svg)](https://github.com/Microchip-MPLAB-Harmony/azure_rtos/blob/master/mplab_harmony_license.md) [![Latest release](https://img.shields.io/github/release/Microchip-MPLAB-Harmony/azure_rtos.svg)](https://github.com/Microchip-MPLAB-Harmony/azure_rtos/releases/latest) [![Latest release date](https://img.shields.io/github/release-date/Microchip-MPLAB-Harmony/azure_rtos.svg)](https://github.com/Microchip-MPLAB-Harmony/azure_rtos/releases/latest) [![Commit activity](https://img.shields.io/github/commit-activity/y/Microchip-MPLAB-Harmony/azure_rtos.svg)](https://github.com/Microchip-MPLAB-Harmony/azure_rtos/graphs/commit-activity) [![Contributors](https://img.shields.io/github/contributors-anon/Microchip-MPLAB-Harmony/azure_rtos.svg)]() ____ [![Follow us on Youtube](https://img.shields.io/badge/Youtube-Follow%20us%20on%20Youtube-red.svg)](https://www.youtube.com/user/MicrochipTechnology) [![Follow us on LinkedIn](https://img.shields.io/badge/LinkedIn-Follow%20us%20on%20LinkedIn-blue.svg)](https://www.linkedin.com/company/microchip-technology) [![Follow us on Facebook](https://img.shields.io/badge/Facebook-Follow%20us%20on%20Facebook-blue.svg)](https://www.facebook.com/microchiptechnology/) [![Follow us on Twitter](https://img.shields.io/twitter/follow/MicrochipTech.svg?style=social)](https://twitter.com/MicrochipTech) [![](https://img.shields.io/github/stars/Microchip-MPLAB-Harmony/azure_rtos.svg?style=social)]() [![](https://img.shields.io/github/watchers/Microchip-MPLAB-Harmony/azure_rtos.svg?style=social)]() ",
+    "content": "![Microchip logo](https://raw.githubusercontent.com/wiki/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/images/microchip_logo.png) ![Harmony logo small](https://raw.githubusercontent.com/wiki/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/images/microchip_mplab_harmony_logo_small.png) # MPLAB® Harmony 3 Azure RTOS configurations and application examples MPLAB® Harmony 3 is an extension of the MPLAB® ecosystem for creating embedded firmware solutions for Microchip 32-bit SAM and PIC® microcontroller and microprocessor devices. Refer to the following links for more information. - [Microchip 32-bit MCUs](https://www.microchip.com/design-centers/32-bit) - [Microchip 32-bit MPUs](https://www.microchip.com/design-centers/32-bit-mpus) - [Microchip MPLAB X IDE](https://www.microchip.com/mplab/mplab-x-ide) - [Microchip MPLAB® Harmony](https://www.microchip.com/mplab/mplab-harmony) - [Microchip MPLAB® Harmony Pages](https://microchip-mplab-harmony.github.io/) This repository contains the MPLAB® Harmony 3 Azure RTOS solutions and example applications. Refer to the following links for Release Notes and MPLAB® Harmony License. - [Release Notes](/azure_rtos/release_notes.html) - [MPLAB® Harmony License](/azure_rtos/mplab_harmony_license.html) To clone or download these applications from Github, go to the [main page of this repository](https://github.com/Microchip-MPLAB-Harmony/azure_rtos) and then click **Clone** button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these [instructions](https://github.com/Microchip-MPLAB-Harmony/contentmanager/wiki) # Contents Summary | Folder | Description | --- | --- | apps | Example applications for Azure RTOS components | config | Azure RTOS module configuration files | docs | Azure RTOS help documentation | third_party_adapter | NetX Duo glue code for Harmony integration | threadx | Azure RTOS ThreadX files | [![License](https://img.shields.io/badge/license-Harmony%20license-orange.svg)](https://github.com/Microchip-MPLAB-Harmony/azure_rtos/blob/master/mplab_harmony_license.md) [![Latest release](https://img.shields.io/github/release/Microchip-MPLAB-Harmony/azure_rtos.svg)](https://github.com/Microchip-MPLAB-Harmony/azure_rtos/releases/latest) [![Latest release date](https://img.shields.io/github/release-date/Microchip-MPLAB-Harmony/azure_rtos.svg)](https://github.com/Microchip-MPLAB-Harmony/azure_rtos/releases/latest) [![Commit activity](https://img.shields.io/github/commit-activity/y/Microchip-MPLAB-Harmony/azure_rtos.svg)](https://github.com/Microchip-MPLAB-Harmony/azure_rtos/graphs/commit-activity) [![Contributors](https://img.shields.io/github/contributors-anon/Microchip-MPLAB-Harmony/azure_rtos.svg)]() ____ [![Follow us on Youtube](https://img.shields.io/badge/Youtube-Follow%20us%20on%20Youtube-red.svg)](https://www.youtube.com/user/MicrochipTechnology) [![Follow us on LinkedIn](https://img.shields.io/badge/LinkedIn-Follow%20us%20on%20LinkedIn-blue.svg)](https://www.linkedin.com/company/microchip-technology) [![Follow us on Facebook](https://img.shields.io/badge/Facebook-Follow%20us%20on%20Facebook-blue.svg)](https://www.facebook.com/microchiptechnology/) [![Follow us on Twitter](https://img.shields.io/twitter/follow/MicrochipTech.svg?style=social)](https://twitter.com/MicrochipTech) [![](https://img.shields.io/github/stars/Microchip-MPLAB-Harmony/azure_rtos.svg?style=social)]() [![](https://img.shields.io/github/watchers/Microchip-MPLAB-Harmony/azure_rtos.svg?style=social)]() ",
     "url": "http://localhost:4000/azure_rtos/",
     "relUrl": "/"
   }
