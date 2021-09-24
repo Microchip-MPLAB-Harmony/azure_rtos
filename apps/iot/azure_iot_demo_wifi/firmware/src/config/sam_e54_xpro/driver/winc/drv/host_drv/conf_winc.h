@@ -70,6 +70,10 @@
 /* Define if _Static_assert/static_assert is not supported on this tool chain */
 //#define CONF_WINC_HIF_STRUCT_SIZE_CHECK(STRUCTNAME)
 
+/* Map malloc/free onto OSAL */
+#define CONF_WINC_LARGE_MEMORY_ALLOC_FUNC           OSAL_Malloc
+#define CONF_WINC_LARGE_MEMORY_FREE_FUNC            OSAL_Free
+
 /* Define if the socket API is exposed or not to the application */
 #define CONF_WINC_DISABLE_SOCKET_API
 

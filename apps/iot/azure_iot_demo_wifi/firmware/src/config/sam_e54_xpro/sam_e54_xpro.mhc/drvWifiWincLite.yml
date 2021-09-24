@@ -225,24 +225,6 @@ children:
         children:
         - {type: Value, value: 'true'}
   - type: File
-    attributes: {id: WDRV_WINC_HELPERS_C}
-    children:
-    - type: Attributes
-      children:
-      - type: Boolean
-        attributes: {id: enabled}
-        children:
-        - {type: Value, value: 'true'}
-  - type: File
-    attributes: {id: WDRV_WINC_HELPERS_PRIVATE_H}
-    children:
-    - type: Attributes
-      children:
-      - type: Boolean
-        attributes: {id: enabled}
-        children:
-        - {type: Value, value: 'true'}
-  - type: File
     attributes: {id: WDRV_WINC_HOST_FILE_C}
     children:
     - type: Attributes
@@ -278,15 +260,6 @@ children:
         attributes: {id: enabled}
         children:
         - {type: Value, value: 'false'}
-  - type: File
-    attributes: {id: WDRV_WINC_LINK_LIST_H}
-    children:
-    - type: Attributes
-      children:
-      - type: Boolean
-        attributes: {id: enabled}
-        children:
-        - {type: Value, value: 'true'}
   - type: File
     attributes: {id: WDRV_WINC_MAC_H}
     children:

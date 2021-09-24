@@ -5,7 +5,7 @@ frameworkPath: D:\11_Repo\01_H3\h3
 processor: ATSAME54P20A
 projectName: azure_iot_demo
 settings:
-  PackageFilter: azure-rtos-threadx;azure_rtos;bsp;core;crypto;cryptoauthlib;csp;gfx_aria;net;quick_docs;touch;usb;wireless_apps_pic32mzw1_wfi32e01;wireless_apps_winc1500;wireless_apps_winc3400;wireless_system_pic32mzw1_wfi32e01;wireless_wifi
+  PackageFilter: azure_rtos;bsp;core;crypto;cryptoauthlib;csp;gfx_aria;net;quick_docs;touch;usb;wireless_apps_pic32mzw1_wfi32e01;wireless_apps_winc1500;wireless_apps_winc3400;wireless_system_pic32mzw1_wfi32e01;wireless_wifi
   FORCE_OPTIMIZATION: 'false'
   GENERATE_BACKUP: 'true'
   TRUSTZONE: 'false'

@@ -21,7 +21,7 @@ Refer to the full Microsoft documentation for this application: TBD.
 
 To clone or download these applications from Github, go to the [main page of this repository](https://github.com/Microchip-MPLAB-Harmony/azure_rtos) and then click **Clone** button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these [instructions](https://github.com/Microchip-MPLAB-Harmony/contentmanager/wiki)
 
-Path of the application within the repository is **apps/iot/azure_iot_demo_ethernet/firmware/**
+Path of the application within the repository is **apps/iot/azure_iot_demo_wifi/firmware/**
 
 To build the application, refer to the following table and open the project using its IDE.
 
@@ -29,15 +29,18 @@ To build the application, refer to the following table and open the project usin
 
 | Project Name      | Description                                    |
 | ----------------- | ---------------------------------------------- |
-| sam_e54_xpro.X  | MPLABX Project for [SAM E54 Xplained Pro Evaluation Kit](https://www.microchip.com/developmenttools/ProductDetails/atsame54-xpro) |
+| sam_e54_xpro.X  | MPLABX Project for [SAM E54 Xplained Pro Evaluation Kit](https://www.microchip.com/developmenttools/ProductDetails/atsame54-xpro) with [ATWINC1500 XPRO](https://www.microchip.com/en-us/development-tool/ATWINC1500-XPRO) |
 
 ## Setting up [SAM E54 Xplained Pro Evaluation Kit](https://www.microchip.com/developmenttools/ProductDetails/atsame54-xpro)
 
 - Connect the Debug USB port on the board to the computer using a micro USB cable
+- Connect the EXT1 extension port on the board to the WINC1500 XPRO
 
 ## Running the Application
 
-1. Update the file ***/apps/iot/azure_iot_demo_ethernet/firmware/src/azure_rtos_demo/sample_azure_iot_embedded_sdk/sample_config.h*** with your Azure credentials
+1. Update the files:
+-  ***/apps/iot/azure_iot_demo_wifi/firmware/src/azure_rtos_demo/sample_azure_iot_embedded_sdk/sample_config.h*** with your Azure credentials
+- ***\apps\iot\azure_iot_demo_wifi\firmware\src\app_wifi.c*** with your AP credentials
 2. Build and program the application using the MPLAB X IDE
 3. The board has a SERCOM configuration:
     1. A virtual COM port will be detected on the computer, when the USB cable is connected to USB-UART connector.

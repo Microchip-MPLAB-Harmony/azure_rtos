@@ -4,24 +4,23 @@
 
 
 project: azure_iot_demo_wifi
-creation_date: 2021-09-03T16:38:24.165+05:30[Asia/Calcutta]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
+creation_date: 2021-09-23T16:58:16.228+05:30[Asia/Calcutta]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
 operating_system: Windows 10
 mhc_mode: IDE            # [IDE|Standalone|Headless]
 mhc_version: v3.7.2
-mplabx_version: v5.45        # if MPLAB X plugin only
+mplabx_version: v5.50        # if MPLAB X plugin only
 plugin_version: v3.6.4        # if MPLAB X plugin only
 compiler: XC32 (2.50)
 
 modules:
     - {name: "csp", version: "v3.9.1"}
     - {name: "core", version: "v3.9.2"}
-    - {name: "wireless_wifi", version: "unknown"}
+    - {name: "wireless_wifi", version: "v3.6.0-rc1"}
     - {name: "netxduo", version: "unknown"}
     - {name: "filex", version: "unknown"}
     - {name: "dev_packs", version: "v3.9.0"}
     - {name: "azure_rtos", version: "unknown"}
     - {name: "net", version: "v3.7.3"}
     - {name: "azure-sdk-for-c", version: "unknown"}
-    - {name: "azure-rtos-threadx", version: "v3.2.0"}
-    - {name: "threadx", version: "v6.0.2"}
+    - {name: "threadx", version: "unknown"}
 

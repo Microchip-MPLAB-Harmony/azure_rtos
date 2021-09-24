@@ -114,10 +114,10 @@ static void _APP_WIFI_Tasks( ULONG thread_input )
 }
 
 
-TX_THREAD      _WDRV_WINC_Task_TCB;
-uint8_t*       _WDRV_WINC_Task_Stk_Ptr;
-    
-static void _WDRV_WINC_Tasks(  ULONG thread_input  )
+TX_THREAD   _WDRV_WINC_Task_TCB;
+uint8_t*    _WDRV_WINC_Task_Stk_Ptr;
+
+static void _WDRV_WINC_Tasks(ULONG thread_input)
 {
     while(1)
     {
@@ -176,7 +176,7 @@ void tx_application_define(void* first_unused_memory)
 
     /* create the _WDRV_WINC_Tasks thread */
     tx_thread_create(&_WDRV_WINC_Task_TCB,
-        "_WDRV_WINC_Tasks",
+        (char*)"_WDRV_WINC_Tasks",
         _WDRV_WINC_Tasks,
         0,
         _WDRV_WINC_Task_Stk_Ptr,
