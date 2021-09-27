@@ -705,16 +705,8 @@ def instantiateComponent(azureIOTComponent):
     netxDuoAddonLicenseFile.setType("HEADER")
     netxDuoAddonLicenseFile.setEnabled(False)
     netxDuoAddonLicenseFile.setDependencies(azureNetXAddonFileEnable, ["AZURE_IOT_ENABLE"])
-                    
-                    # netxDuoAddonHeaderPathInclude = azureIOTComponent.createSettingSymbol(None, None)
-                    # netxDuoAddonHeaderPathInclude.setValue("../src/third_party/azure_rtos/netxduo/" + relpath)
-                    # netxDuoAddonHeaderPathInclude.setCategory("C32")
-                    # netxDuoAddonHeaderPathInclude.setKey("extra-include-directories")
-                    # netxDuoAddonHeaderPathInclude.setAppend(True, ";")
-                    # netxDuoAddonHeaderPathInclude.setEnabled(False)
-                    # netxDuoAddonHeaderPathInclude.setDependencies(azureNetXPathEnable, [dependency])                    
-    
-    azureSdkC_dir = os.path.join(h3_dir, "azure-sdk-for-c")
+                
+    azureSdkC_dir = os.path.join(netxDuoAddonSourcePath, "azure_iot", "azure-sdk-for-c")
     # Add C files from azure-sdk-for-c/sdk/src
     azureSdkCSourcePath = os.path.join(azureSdkC_dir, "sdk", "src")
     supportedExtension = ["c"]
