@@ -633,7 +633,7 @@ def instantiateComponent(azureIOTComponent):
        
     # Add C files from netxduo/addons to the project
     supportedExtension = ["c"]
-    excludePath = ["addons/azure_iot/samples"]
+    excludePath = ["addons/azure_iot/samples", "addons/azure_iot/azure-sdk-for-c"]
     for root,dir,files in os.walk(netxDuoAddonSourcePath):          
         for sourceFileName in files:
             if sourceFileName.split(".")[-1].lower() in supportedExtension:
