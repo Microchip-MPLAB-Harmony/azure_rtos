@@ -4,7 +4,7 @@
 
 
 project: azure_iot_demo_ethernet
-creation_date: 2021-09-10T10:42:37.852-07:00[America/Phoenix]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
+creation_date: 2021-09-27T07:22:46.518-07:00[America/Phoenix]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
 operating_system: Windows 10
 mhc_mode: IDE            # [IDE|Standalone|Headless]
 mhc_version: v3.8.0
@@ -20,6 +20,5 @@ modules:
     - {name: "dev_packs", version: "v3.9.0"}
     - {name: "azure_rtos", version: "unknown"}
     - {name: "net", version: "v3.7.3"}
-    - {name: "azure-sdk-for-c", version: "unknown"}
     - {name: "threadx", version: "unknown"}
 
