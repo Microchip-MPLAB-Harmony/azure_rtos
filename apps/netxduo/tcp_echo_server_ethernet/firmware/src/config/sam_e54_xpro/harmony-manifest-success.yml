@@ -4,7 +4,7 @@
 
 
 project: tcp_echo_server_ethernet
-creation_date: 2021-09-10T09:54:05.445-07:00[America/Phoenix]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
+creation_date: 2021-09-27T08:24:45.077-07:00[America/Phoenix]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
 operating_system: Windows 10
 mhc_mode: IDE            # [IDE|Standalone|Headless]
 mhc_version: v3.8.0
@@ -20,6 +20,5 @@ modules:
     - {name: "dev_packs", version: "v3.9.0"}
     - {name: "azure_rtos", version: "unknown"}
     - {name: "net", version: "v3.7.3"}
-    - {name: "azure-sdk-for-c", version: "unknown"}
     - {name: "threadx", version: "unknown"}
 

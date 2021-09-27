@@ -1237,12 +1237,12 @@
         <targetPluginBoard></targetPluginBoard>
         <platformTool>EdbgTool</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>3.00</languageToolchainVersion>
+        <languageToolchainVersion>2.50</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
-        <pack name="SAME54_DFP" vendor="Microchip" version="3.5.87"/>
         <pack name="CMSIS" vendor="ARM" version="5.4.0"/>
+        <pack name="SAME54_DFP" vendor="Microchip" version="3.5.87"/>
       </packs>
       <ScriptingSettings>
       </ScriptingSettings>
@@ -1304,7 +1304,7 @@
         <property key="enable-unroll-loops" value="false"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value=" ../src/config/sam_e54_xpro/third_party_adapter/azure_rtos/src/tcpip;../src;../src/config/sam_e54_xpro;../src/config/sam_e54_xpro/third_party_adapter/azure_rtos;../src/config/sam_e54_xpro/third_party_adapter/azure_rtos/src;../src/config/sam_e54_xpro/third_party_adapter/azure_rtos/src/tcpip;../src/config/sam_e54_xpro/threadx_config;../src/packs/ATSAME54P20A_DFP;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include;../src/third_party/azure_rtos/netxduo;../src/third_party/azure_rtos/netxduo/addons;../src/third_party/azure_rtos/netxduo/addons/dhcp;../src/third_party/azure_rtos/netxduo/addons/dns;../src/third_party/azure_rtos/netxduo/common/inc;../src/third_party/azure_rtos/netxduo/ports/cortex_m4/gnu/inc;../src/third_party/rtos/threadx/common/inc;../src/third_party/rtos/threadx/ports/cortex_m4/mplabx/inc"/>
+                  value="../src/config/sam_e54_xpro/third_party_adapter/azure_rtos/src/tcpip;../src;../src/config/sam_e54_xpro;../src/config/sam_e54_xpro/third_party_adapter/azure_rtos;../src/config/sam_e54_xpro/third_party_adapter/azure_rtos/src;../src/config/sam_e54_xpro/third_party_adapter/azure_rtos/src/tcpip;../src/config/sam_e54_xpro/threadx_config;../src/packs/ATSAME54P20A_DFP;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include;../src/third_party/azure_rtos/netxduo;../src/third_party/azure_rtos/netxduo/addons;../src/third_party/azure_rtos/netxduo/addons/dhcp;../src/third_party/azure_rtos/netxduo/addons/dns;../src/third_party/azure_rtos/netxduo/common/inc;../src/third_party/azure_rtos/netxduo/ports/cortex_m4/gnu/inc;../src/third_party/rtos/threadx/common/inc;../src/third_party/rtos/threadx/ports/cortex_m4/mplabx/inc"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>

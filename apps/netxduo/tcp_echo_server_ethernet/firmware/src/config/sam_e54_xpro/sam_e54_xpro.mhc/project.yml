@@ -6,13 +6,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: null
-- generatedChecksum: F0411FF72BDFD015373BA2543B0B08E0
+- generatedChecksum: 92F85CC2CBD2E33F9D9813699F9F8A36
   logicalPath: config/sam_e54_xpro/third_party_adapter/azure_rtos/src
   name: azure_glue.c
   physicalPath: third_party_adapter/azure_rtos/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: F0411FF72BDFD015373BA2543B0B08E0
+  userChecksum: 92F85CC2CBD2E33F9D9813699F9F8A36
 - generatedChecksum: 7F46F93CFAAD75CACB249017911CE218
   logicalPath: config/sam_e54_xpro/third_party_adapter/azure_rtos/src
   name: azure_glue_private.c

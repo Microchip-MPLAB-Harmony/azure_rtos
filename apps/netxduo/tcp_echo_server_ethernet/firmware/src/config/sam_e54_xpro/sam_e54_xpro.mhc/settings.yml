@@ -5,10 +5,10 @@ frameworkPath: D:\11_Repo\01_H3\h3
 processor: ATSAME54P20A
 projectName: tcp_echo_server
 settings:
-  PackageFilter: audio;azure_rtos;bsp;bt;core;crypto;cryptoauthlib;csp;csp_apps_sam_9x60;gfx;motor_control;net;net_apps_pic32mx;net_apps_pic32mz;net_apps_sam_9x60;net_apps_sam_a5d2;net_apps_sam_e5x;net_apps_sam_e70_v71;net_apps_sam_rh71;usb;wireless;wireless_wifi;zzz_expresslogic_threadx
+  PackageFilter: audio;azure_rtos;bsp;bt;core;crypto;cryptoauthlib;csp;csp_apps_sam_9x60;gfx;motor_control;net;net_apps_pic32mx;net_apps_pic32mz;net_apps_sam_9x60;net_apps_sam_a5d2;net_apps_sam_e5x;net_apps_sam_e70_v71;net_apps_sam_rh71;quick_docs;usb;wireless;wireless_wifi;zzz_expresslogic_threadx
   FORCE_OPTIMIZATION: 'false'
   GENERATE_BACKUP: 'true'
   TRUSTZONE: 'false'
   CMSISPath: .\dev_packs\arm\CMSIS\5.7.0
-  MERGE_STRATEGY: ALL
+  MERGE_STRATEGY: OVERWRITE
   DFPPath: .\dev_packs\Microchip\SAME54_DFP\3.5.87\atdf\ATSAME54P20A.atdf
