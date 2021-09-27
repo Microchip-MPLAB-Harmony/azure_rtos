@@ -87,6 +87,7 @@ If you are working with MPLAB X IDE 5.5, please follow the instructions as short
     -mdfp=C:/SAME54_DFP/3.6.99 -I "C:/Program Files/Microchip/MPLABX/v5.50/packs/arm/CMSIS/5.4.0/CMSIS/Core/Include"
 6.	Click 'Apply' and 'OK'. Then build the project.
 
+* The demo project builds fine with XC32 v2.50. Using XC32 v3.1 can cause run time errors. This issue will be fixed in future MPLAB X releases.
 
 ### RELEASE CONTENTS
 
