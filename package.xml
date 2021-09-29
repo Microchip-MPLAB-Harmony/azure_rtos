@@ -7,7 +7,6 @@
         <Dependency name="dev_packs" version="v3.9.0"/>
         <Dependency name="net" version="v3.7.3"/>
         <Dependency name="threadx" version="v6.1.8_rel"/>
-        <Dependency name="azure-sdk-for-c" version="1.0.0"/>
         <Dependency name="netxduo" version="v6.1.7_rel"/>
         <Dependency name="filex" version="v6.1.7_rel"/>
     </Dependencies>
